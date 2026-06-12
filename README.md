@@ -34,7 +34,7 @@ Services carousel · Culture (values) · Discovery-call CTA · Insights · FAQ �
 
 ## Positioning
 
-AI-first ("AI Development & Product Engineering"), modeled on imaginaryspace.ai's
+AI-first ("AI-Enabled Development & Product Engineering"), modeled on imaginaryspace.ai's
 language and section structure. Hero: "Engineered to last. Designed to lead."
 Stats (`8+ years` / `6 weeks avg AI MVP` / `10x faster`) approved as-is.
 
