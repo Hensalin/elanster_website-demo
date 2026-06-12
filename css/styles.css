@@ -695,13 +695,19 @@ ul[role="list"] { list-style: none; }
   margin-bottom: 72px;
 }
 .footer__col--location {
-  justify-self: end;
+  justify-self: stretch;
   text-align: right;
 }
 .footer__col--location p {
   font-size: 15px;
   line-height: 1.7;
   opacity: 0.8;
+}
+.footer__map {
+  width: 100%;
+  max-width: 470px;
+  margin-top: 14px;
+  margin-left: auto;
 }
 .footer__col { display: grid; gap: 10px; align-content: start; }
 .footer__col h4 {
