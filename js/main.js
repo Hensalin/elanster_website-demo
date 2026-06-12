@@ -56,6 +56,29 @@
   next.addEventListener("click", () => viewport.scrollBy({ left: cardStep(), behavior: "smooth" }));
   update();
 
+  /* ---------- Hero: mouse parallax on the arc pattern ---------- */
+  const hero = document.querySelector(".hero");
+  const pattern = document.querySelector(".hero__pattern svg");
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (hero && pattern && !reducedMotion) {
+    let tx = 0, ty = 0, cx = 0, cy = 0, raf = null;
+    const step = () => {
+      cx += (tx - cx) * 0.08;
+      cy += (ty - cy) * 0.08;
+      pattern.style.transform = `translate(${-cx}px, ${-cy}px)`;
+      if (Math.abs(tx - cx) > 0.1 || Math.abs(ty - cy) > 0.1) {
+        raf = requestAnimationFrame(step);
+      } else {
+        raf = null;
+      }
+    };
+    hero.addEventListener("mousemove", (e) => {
+      tx = (e.clientX / window.innerWidth - 0.5) * 26;
+      ty = (e.clientY / window.innerHeight - 0.5) * 18;
+      if (!raf) raf = requestAnimationFrame(step);
+    });
+  }
+
   /* ---------- Reveal on scroll ---------- */
   const revealEls = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window) {
