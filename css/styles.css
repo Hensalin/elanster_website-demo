@@ -723,6 +723,12 @@ ul[role="list"] { list-style: none; }
   color: var(--blue);
   font-weight: 500;
 }
+.footer__location {
+  margin-top: 10px;
+  font-size: 13.5px;
+  letter-spacing: 0.04em;
+  color: rgba(240, 240, 249, 0.6);
+}
 .footer__legal {
   display: flex;
   flex-wrap: wrap;
