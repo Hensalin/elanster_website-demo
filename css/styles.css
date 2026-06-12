@@ -594,13 +594,6 @@ ul[role="list"] { list-style: none; }
   background: var(--orange);
 }
 .cta__actions { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; }
-.cta__mail {
-  font-size: 16px;
-  font-weight: 500;
-  border-bottom: 1.5px solid var(--lime);
-  padding-bottom: 2px;
-}
-.cta__mail:hover { color: var(--lime); }
 
 /* ---------- Insights ---------- */
 .insights { padding-block: 0 112px; }

@@ -41,5 +41,6 @@ Stats (`8+ years` / `6 weeks avg AI MVP` / `10x faster`) approved as-is.
 ## Placeholder content to review before launch
 
 - Work marquee cards are **representative engagements**, not named case studies.
-- Insights articles are placeholder titles.
-- Contact email `hello@elanster.com` and LinkedIn URL — confirm.
+- Insights articles are placeholder titles (first card links to the Notion article).
+- No email on the page by request; both contact CTAs point to LinkedIn — swap in
+  a booking link (e.g. Calendly) when available, and confirm the LinkedIn URL.
