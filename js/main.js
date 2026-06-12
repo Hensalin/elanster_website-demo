@@ -107,6 +107,18 @@
     counters.forEach((el) => (el.textContent = el.dataset.count + (el.dataset.suffix || "")));
   }
 
+  /* ---------- External links: never silently blocked ---------- */
+  /* Webviews and embedded previews can swallow target="_blank" popups.
+     Try the new tab first; if the environment refuses, navigate in place. */
+  document.querySelectorAll('a[href^="http"]').forEach((a) => {
+    if (a.host === window.location.host) return;
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      const w = window.open(a.href, "_blank", "noopener");
+      if (!w) window.location.assign(a.href);
+    });
+  });
+
   /* ---------- FAQ: close others on open ---------- */
   const items = document.querySelectorAll(".faq__item");
   items.forEach((item) =>
