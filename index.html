@@ -1,433 +1,265 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elanster Technologies — AI-Enabled Development &amp; Product Engineering</title>
-  <meta name="description" content="Elanster Technologies is an AI-enabled development and product engineering company. Eight years of building web, mobile, and cloud products — now delivering full-stack AI solutions, from RAG pipelines to autonomous agents, in weeks, not quarters.">
-  <link rel="icon" type="image/png" href="assets/img/logo-mark.png">
-  <script>document.documentElement.classList.add("js");</script>
-  <link rel="stylesheet" href="css/styles.css?v=3">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Elanster Technologies | AI-Enabled Product Engineering</title>
+<meta name="description" content="Elanster Technologies — AI-enabled development and product engineering. Engineered to last. Designed to lead.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martian+Mono:wdth,wght@75..112.5,200..800&display=swap">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- ============ NAV ============ -->
-  <header class="nav" id="nav">
-    <div class="nav__inner container">
-      <a class="nav__brand" href="#top" aria-label="Elanster Technologies — home">
-        <svg class="nav__mark" viewBox="0 0 235 330" aria-hidden="true" focusable="false">
-          <rect x="0" y="0" width="235" height="68"/>
-          <path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z"/>
-          <path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/>
-        </svg>
-        <span class="nav__wordmark">Elanster<br>Technologies</span>
-      </a>
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="stage" aria-hidden="true"></canvas>
+<div class="pre" id="pre" aria-hidden="true"><div class="pre-dots"></div><svg class="pre-logo" viewBox="0 0 235 330"><rect width="235" height="68"/><path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z"/><path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/></svg></div>
+<div class="scrollbar" id="scrollbar" aria-hidden="true"></div>
 
-      <nav class="nav__links" id="navLinks" aria-label="Primary">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#culture">Culture</a>
-        <a href="#insights">Insights</a>
-        <a href="#faq">FAQ</a>
-        <a class="btn btn--primary nav__cta" href="#contact">Discovery Call</a>
-      </nav>
-
-      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
-        <span></span><span></span>
+<header class="nav">
+  <div class="wrap" style="position:relative">
+    <div class="nav-links"><a href="work.html">Work</a><a href="services.html">Services</a><a href="process.html">Process</a><a href="blog.html">Blog</a><a href="careers.html">Careers</a></div>
+    <div class="nav-l">
+      <button class="brandpill" id="menuBtn" aria-expanded="false" aria-controls="menu">
+        <svg class="mark" viewBox="0 0 235 330" aria-hidden="true"><rect width="235" height="68"/><path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z"/><path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/></svg>
+        <span>Elanster</span>
+        <svg class="chev" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5 5 7l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+        <span class="sr">— open menu</span>
       </button>
+      <nav class="menu" id="menu" aria-label="Primary">
+        <a href="#about">About <span>01</span></a>
+        <a href="work.html">Work <span>02</span></a>
+        <a href="services.html">Services <span>03</span></a>
+        <a href="#manifesto">Manifesto <span>04</span></a>
+        <a href="#tech">Capabilities <span>05</span></a>
+                <a href="process.html">Process <span>07</span></a>
+        <a href="#culture">Culture <span>08</span></a>
+        <a href="blog.html">Blog <span>09</span></a>
+        <a href="careers.html">Careers <span>10</span></a>
+        <a href="#faq">FAQ <span>11</span></a>
+        <div class="menu-foot">Chennai · serving the world</div>
+      </nav>
     </div>
-  </header>
+    <div class="nav-r"><a class="pill pill-w mag" href="https://meete.be"><span>Discovery Call</span></a></div>
+  </div>
+</header>
 
-  <main id="main">
-
-    <!-- ============ HERO ============ -->
-    <section class="hero" id="top">
-      <div class="hero__pattern" aria-hidden="true">
-        <svg viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice">
-          <g class="hero__arcs">
-            <path d="M 0 600 A 600 600 0 0 1 600 0 L 600 160 A 440 440 0 0 0 160 600 Z" fill="var(--navy)"/>
-            <path d="M 240 600 A 360 360 0 0 1 600 240 L 600 360 A 240 240 0 0 0 360 600 Z" fill="var(--blue)"/>
-            <path d="M 440 600 A 160 160 0 0 1 600 440 L 600 600 Z" fill="var(--lime)"/>
-          </g>
-        </svg>
+<nav class="sidenav" id="sidenav" aria-label="Page sections">
+  <a href="#top" data-t="Home"><i></i></a><a href="#about" data-t="About"><i></i></a><a href="#work" data-t="Work"><i></i></a><a href="#services" data-t="Services"><i></i></a><a href="#why" data-t="Why us"><i></i></a><a href="#process" data-t="Process"><i></i></a><a href="#culture" data-t="Culture"><i></i></a><a href="#blog" data-t="Blog"><i></i></a><a href="#faq" data-t="FAQ"><i></i></a><a href="#contact" data-t="Contact"><i></i></a>
+</nav>
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-h">
+    <div class="glow" aria-hidden="true">
+      
+            <div class="arcs"><svg viewBox="0 0 600 600"><path d="M 0 600 A 600 600 0 0 1 600 0 L 600 160 A 440 440 0 0 0 160 600 Z" fill="#4b46e0"/><path d="M 240 600 A 360 360 0 0 1 600 240 L 600 360 A 240 240 0 0 0 360 600 Z" fill="#9ABFF5"/><path d="M 440 600 A 160 160 0 0 1 600 440 L 600 600 Z" fill="#E2F8AC"/></svg></div>
+      <div class="bands" id="bands"></div>
+      <div class="fab"><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="fade"></div>
+      <svg class="hero-logo" viewBox="0 0 235 330" aria-hidden="true"><defs><linearGradient id="hl1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0F0F9"/><stop offset="1" stop-color="#9a99b8"/></linearGradient></defs><rect width="235" height="68" fill="url(#hl1)"/><path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z" fill="#4b46e0"/><path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z" fill="#9ABFF5"/></svg>
+    </div>
+    <div class="wrap">
+      <div>
+        <p class="label scr" data-in>/ AI-enabled development &amp; product engineering</p>
+        <h1 class="d1" id="hero-h"><span class="ln"><span class="split">Engineered to last.</span></span><span class="ln"><span class="ghost split">Designed to lead.</span></span></h1>
       </div>
-
-      <div class="container hero__inner">
-        <p class="eyebrow reveal">AI-Enabled Development &amp; Product Engineering · 8 Years Strong</p>
-        <h1 class="hero__title">
-          <span class="hero__line"><span class="hero__line-inner">Engineered to last.</span></span>
-          <span class="hero__line"><span class="hero__line-inner hero__line-inner--outline">Designed to lead.</span></span>
-        </h1>
-        <p class="hero__sub reveal">Mission-critical AI that powers today's enterprises and tomorrow's breakthroughs — built on eight years of engineering products that solve real business problems.</p>
-        <div class="hero__actions reveal">
-          <a class="btn btn--primary btn--lg" href="#contact">Book a Strategy Call</a>
-          <a class="btn btn--ghost btn--lg" href="#work">Explore our work</a>
-          <p class="hero__golive">
-            <span class="hero__golive-dot" aria-hidden="true"></span>
-            <span><strong>6 weeks</strong>&nbsp;— average go-live</span>
-          </p>
+      <div class="hero-bottom">
+        <p class="body" data-in>Mission-critical AI that powers today's enterprises and tomorrow's breakthroughs, built on eight years of engineering products that solve real business problems.</p>
+        <div class="hero-actions" data-in>
+          <a class="pill pill-w mag" href="https://meete.be" target="_blank" rel="noopener"><span>Book a Strategy Call</span> <span class="arr" aria-hidden="true">→</span></a>
+          <a class="pill pill-o mag" href="work.html"><span>Explore our work</span></a>
         </div>
+        <span class="golive" data-in><i aria-hidden="true"></i><span><b>6 weeks</b> — average go-live</span></span>
       </div>
-    </section>
+    </div>
+    <div class="hero-meta" aria-hidden="true"><span>8 years strong</span><span class="mouse"></span></div>
+  </section>
 
-    <!-- ============ WORK MARQUEE ============ -->
-    <section class="work" id="work">
-      <div class="marquee" data-marquee>
-        <div class="marquee__track">
-          <!-- set A -->
-          <article class="work-card work-card--navy">
-            <h3>Document Intelligence</h3>
-            <p>AI pipeline that classifies, extracts, and routes business documents. 80% less manual review.</p>
-            <span class="work-card__tag">AI Agents</span>
-          </article>
-          <article class="work-card work-card--blue">
-            <h3>Support Copilot</h3>
-            <p>LLM-powered assistant resolving customer queries end to end. Faster answers, lighter queues.</p>
-            <span class="work-card__tag">LLM Apps</span>
-          </article>
-          <article class="work-card work-card--lime">
-            <h3>Knowledge Search</h3>
-            <p>RAG search across years of internal documents — answers with sources, in seconds.</p>
-            <span class="work-card__tag">RAG Pipelines</span>
-          </article>
-          <article class="work-card work-card--orange">
-            <h3>Proposal Automation</h3>
-            <p>AI agents drafting bids and RFP responses from past wins. Days of turnaround cut to hours.</p>
-            <span class="work-card__tag">Autonomous Agents</span>
-          </article>
-          <article class="work-card work-card--pink">
-            <h3>Demand Forecasting</h3>
-            <p>ML forecasting wired into retail operations — smarter stock decisions every morning.</p>
-            <span class="work-card__tag">Machine Learning</span>
-          </article>
-          <article class="work-card work-card--navy">
-            <h3>Back-Office Automation</h3>
-            <p>AI-driven workflow automation across finance and ops — hours of manual work removed daily.</p>
-            <span class="work-card__tag">Automation</span>
-          </article>
+  <section class="solid about2" id="about" aria-labelledby="about-h">
+    <div class="wrap">
+      <div class="a2-split">
+        <div class="a2-left">
+          <p class="label scr" style="margin:0">/ About</p>
+          <h2 class="a2-statement reveal-words" id="about-h">We embed senior AI engineers into ambitious teams to deliver production-ready AI products. We build full-stack systems, from RAG pipelines to autonomous agents, and stay accountable through launch and beyond.</h2>
+          <a class="pill pill-o mag" href="services.html"><span>Learn more about us</span> <span class="arr" aria-hidden="true">→</span></a>
         </div>
+        <div class="ind" id="ind" aria-label="Industries we serve"></div>
       </div>
-      <p class="work__note container">Representative engagements across our practice areas.</p>
-    </section>
+    </div>
+  </section>
 
-    <!-- ============ TRUSTED BY ============ -->
-    <section class="trusted">
-      <div class="container">
-        <p class="eyebrow">Trusted by innovative companies across industries</p>
-        <ul class="trusted__chips" role="list">
-          <li>E-commerce</li>
-          <li>Healthcare</li>
-          <li>Faith-Based Organizations</li>
-          <li>Human Resources</li>
-          <li>Education</li>
-          <li>Professional Services</li>
-          <li>Retail &amp; Commerce</li>
+
+  <section class="work solid" id="work" aria-labelledby="work-h">
+    <div class="work-head">
+      <div class="wrap head-c" style="margin-bottom:0">
+        <p class="label scr" style="margin:0">/ Work</p>
+        <h2 class="d2 reveal-words" id="work-h">Representative engagements</h2>
+        <p class="body">What we build across our practice areas.</p>
+        <p class="hint">Six example projects. Hover a card to see it come alive.</p>
+      </div>
+    </div>
+    <div id="films"></div>
+  </section>
+
+  <section class="solid svc" id="services" aria-labelledby="svc-h" style="border-top:1px solid var(--line)">
+    <div class="svc-glow" aria-hidden="true"><i class="gl a"></i><i class="gl b"></i></div>
+    <div class="wrap sec">
+      <div class="head-c">
+        <p class="label scr" style="margin:0">/ Services</p>
+        <h2 class="d2" id="svc-h">Five ways we ship AI,<br>end to end</h2>
+        <p class="body">From first prototype to production, one senior team covers every layer.</p>
+      </div>
+      <div class="hub" id="svcGrid"></div>
+    </div>
+  </section>
+
+  <section class="solid manifesto" id="manifesto" aria-label="Elanster in two lines">
+    <div class="mf-glow" aria-hidden="true"></div>
+    <div class="mf-line a"><span class="mf-track"><span class="mf-t">Engineered to last.</span><i class="mf-dot"></i><span class="mf-t">Engineered to last.</span><i class="mf-dot"></i><span class="mf-t">Engineered to last.</span><i class="mf-dot"></i><span class="mf-t">Engineered to last.</span><i class="mf-dot"></i></span></div>
+    <div class="mf-line b"><span class="mf-track"><span class="mf-t">Designed to lead.</span><i class="mf-dot"></i><span class="mf-t">Designed to lead.</span><i class="mf-dot"></i><span class="mf-t">Designed to lead.</span><i class="mf-dot"></i><span class="mf-t">Designed to lead.</span><i class="mf-dot"></i></span></div>
+    <p class="mf-sub"><span>/ AI-enabled development &amp; product engineering</span><span>Eight years · Weeks, not quarters</span></p>
+  </section>
+
+  <section class="solid why" id="why" aria-labelledby="why-h" style="border-top:1px solid var(--line)">
+    <div class="wrap">
+      <div class="ppanel wpanel">
+        <div class="pp-lines" aria-hidden="true"><i></i><i></i><i></i></div>
+        <span class="pp-chip"><i></i>Why Elanster</span>
+        <h2 class="pp-h" id="why-h">Why enterprises choose <em>Elanster</em></h2>
+        <p class="wp-sub">Senior engineers amplified by AI. Roadmaps delivered in weeks, not 12-month cycles.</p>
+        <div class="wcards" id="stack"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="solid tech" id="tech" aria-labelledby="tech-h" style="border-top:1px solid var(--line)">
+    <div class="wrap sec">
+      <div class="head-c">
+        <p class="label scr" style="margin:0">/ Capabilities</p>
+        <h2 class="d2 reveal-words" id="tech-h">One team. Every layer of the AI stack.</h2>
+        <p class="body">From the first prototype to the production system, everything is designed, built and shipped in-house.</p>
+      </div>
+    </div>
+    <div class="mq" aria-hidden="true">
+      <div class="mq-row" data-dir="-1"><div class="mq-in"></div></div>
+      <div class="mq-row" data-dir="1"><div class="mq-in"></div></div>
+    </div>
+    <div class="wrap">
+      <ul class="tcards">
+        <li><b>01</b><h3 class="h4">Ideate</h3><p class="body">Strategy calls and AI readiness reviews that find where AI actually pays off.</p></li>
+        <li><b>02</b><h3 class="h4">Build</h3><p class="body">LLM apps, RAG pipelines and autonomous agents shipped on real infrastructure.</p></li>
+        <li><b>03</b><h3 class="h4">Integrate</h3><p class="body">Plugged into the products, data and workflows you already run.</p></li>
+        <li><b>04</b><h3 class="h4">Scale</h3><p class="body">Enterprise-grade security, review discipline and cloud delivery.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="solid process" id="process" aria-labelledby="proc-h">
+    <div class="wrap">
+      <div class="ppanel">
+        <div class="pp-lines" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="pp-head">
+          <div><span class="pp-chip"><i></i>Process</span><h2 class="pp-h" id="proc-h">Two meetings a week. <em>Full</em> visibility.</h2></div>
+          <p>Monday planning. Friday sprint review. Between them, we're in your Slack and repos shipping code, with the same security protocols and code review standards on every project.</p>
+        </div>
+        <div class="pp-pills">
+          <svg class="pp-flow" aria-hidden="true"></svg>
+          <span class="ppill" style="--o:0"><b>Strategy call</b><em>Start</em></span>
+          <span class="ppill" style="--o:12"><b>The right model</b><em>Shape</em></span>
+          <span class="ppill" style="--o:30"><b>Sprint planning</b><em>Every Monday</em></span>
+          <span class="ppill" style="--o:50"><b>Sprint review</b><em>Every Friday</em></span>
+          <span class="ppill" style="--o:68"><b>In production</b><em>4 – 12 weeks</em></span>
+        </div>
+        <p class="pp-foot">A deployed AI product on real infrastructure, not a prototype, and accountable long after launch.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="solid" id="culture" aria-labelledby="cul-h" style="border-top:1px solid var(--line)">
+    <div class="wrap sec">
+      <div class="head-c">
+        <p class="label scr" style="margin:0">/ The people</p>
+        <h2 class="d2 reveal-words" id="cul-h">A culture built for the long run</h2>
+        <a class="pill pill-o mag" href="careers.html"><span>We're hiring</span> <span class="arr" aria-hidden="true">→</span></a>
+      </div>
+      <div class="values" id="values"></div>
+    </div>
+  </section>
+
+    <section class="solid hblog" id="blog" aria-labelledby="blog-h" style="border-top:1px solid var(--line)">
+    <div class="wrap sec">
+      <div class="hb-head"><div><p class="label" style="margin:0">/ Blog</p><h2 class="d2" id="blog-h">Our thoughts</h2></div><a class="pill pill-o mag" href="blog.html"><span>View all posts</span> <span class="arr" aria-hidden="true">→</span></a></div>
+      <div class="hb-grid"><a class="hb-card" href="blog-two-meetings-a-week.html"><span>Process</span><h3>Why we hold just two meetings a week</h3><p>Monday planning, Friday sprint review, and everything in between is shipping.</p></a><a class="hb-card" href="blog-ai-mvp-in-weeks.html"><span>AI</span><h3>Production AI in 4 to 12 weeks</h3><p>What it takes to launch a deployed AI product, not a prototype.</p></a><a class="hb-card" href="blog-humans-in-the-loop.html"><span>Engineering</span><h3>Humans in the loop, by design</h3><p>Why our agents draft and route, and people decide where it matters.</p></a></div>
+    </div>
+  </section>
+<section class="solid faq" id="faq" aria-labelledby="faq-h" style="border-top:1px solid var(--line)">
+    <div class="wrap sec faq-in">
+      <div>
+        <p class="label scr">/ FAQ</p>
+        <h2 class="d2 reveal-words" id="faq-h">Common questions</h2>
+      </div>
+      <div id="faqList"></div>
+    </div>
+  </section>
+
+  <section class="contact over" id="contact" aria-labelledby="cta-h">
+    <div class="glow2" aria-hidden="true"><div class="planet"></div></div>
+    <div class="wrap">
+      <p class="label scr" style="margin:0">/ Executive strategy call</p>
+      <h2 class="d2 reveal-words" id="cta-h" style="max-width:15ch">Build a board-ready AI roadmap in 30 minutes.</h2>
+      <p class="body">Bring your product goals, operational constraints, and timeline. We'll pressure-test the plan and map the quickest route from concept to production.</p>
+      <div class="cta-panel">
+        <ul class="checks">
+          <li>Architecture and delivery sequence aligned to your business goals.</li>
+          <li>Clear trade-offs across speed, quality, and budget.</li>
+          <li>A concrete first milestone your team can execute immediately.</li>
         </ul>
-      </div>
-    </section>
-
-    <!-- ============ ABOUT + STATS ============ -->
-    <section class="about" id="about">
-      <div class="container">
-        <p class="eyebrow reveal">About us</p>
-        <h2 class="about__lede reveal">Elanster Technologies is an AI-enabled development and product engineering company. We build full-stack AI products — from RAG pipelines to autonomous agents — on eight years of solution architecture, user-centered design, and reliable delivery. And we deliver in weeks, not quarters.</h2>
-
-        <div class="stats">
-          <div class="stat reveal">
-            <span class="stat__num" data-count="8" data-suffix="+">0</span>
-            <span class="stat__label">Years of delivery</span>
-            <p>Eight years of designing, building, and scaling production software.</p>
-          </div>
-          <div class="stat reveal">
-            <span class="stat__num" data-count="6" data-suffix="">0</span>
-            <span class="stat__label">Weeks — average AI MVP</span>
-            <p>From kickoff to production-ready AI MVP, in weeks rather than quarters.</p>
-          </div>
-          <div class="stat reveal">
-            <span class="stat__num" data-count="10" data-suffix="x">0</span>
-            <span class="stat__label">Faster than traditional cycles</span>
-            <p>Senior engineers amplified by AI compress 12-month roadmaps into sprint-length delivery.</p>
-          </div>
+        <div class="cta-side">
+          <div class="facts"><div class="fact"><b>30 min</b><span>Session</span></div><div class="fact"><b>1:1</b><span>With a lead architect</span></div><div class="fact"><b>24h</b><span>Follow-up notes</span></div></div>
+          <a class="pill pill-w mag cta-btn" href="https://meete.be" target="_blank" rel="noopener" style="height:56px;padding:0 26px;font-size:16px"><span>Book a Strategy Call</span> <span class="arr" aria-hidden="true">→</span></a>
         </div>
-      </div>
-    </section>
-
-    <!-- ============ WHY ELANSTER ============ -->
-    <section class="why">
-      <div class="container">
-        <p class="eyebrow reveal">Why enterprises choose Elanster</p>
-        <h2 class="section-title reveal">Senior engineers amplified by&nbsp;AI. Roadmaps delivered in weeks, not 12-month cycles.</h2>
-
-        <div class="why__grid">
-          <article class="why-card reveal">
-            <span class="why-card__index">01</span>
-            <h3>Two Meetings a Week</h3>
-            <p>Monday planning, Friday sprint review. Between meetings we're embedded in your Slack and repos, shipping code — not slide decks. Full visibility, zero surprises.</p>
-          </article>
-          <article class="why-card reveal">
-            <span class="why-card__index">02</span>
-            <h3>AI-Amplified Engineering</h3>
-            <p>Our human-in-the-loop workflow pairs senior engineers with production-grade LLMs. The result: enterprise roadmaps compressed into sprint-length delivery.</p>
-          </article>
-          <article class="why-card reveal">
-            <span class="why-card__index">03</span>
-            <h3>Enterprise-Grade Standards</h3>
-            <p>Eight years of architecture-first delivery across web, mobile, and cloud. Every AI project inherits the same security protocols and code review standards.</p>
-          </article>
-          <article class="why-card reveal">
-            <span class="why-card__index">04</span>
-            <h3>Weeks, Not Quarters</h3>
-            <p>AI MVPs in 4 to 12 weeks. Full-stack AI products — from RAG pipelines to autonomous agents — production-ready and deployed, not prototyped.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ SERVICES ============ -->
-    <section class="services" id="services">
-      <div class="container">
-        <div class="services__head">
-          <div>
-            <p class="eyebrow reveal">Enterprise AI delivery</p>
-            <h2 class="section-title reveal">Full-stack AI, end to end</h2>
-          </div>
-          <div class="services__controls">
-            <span class="services__counter"><span id="svcCurrent">01</span>/<span id="svcTotal">05</span></span>
-            <button class="services__btn" id="svcPrev" aria-label="Previous service">&larr;</button>
-            <button class="services__btn" id="svcNext" aria-label="Next service">&rarr;</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="services__viewport container" id="svcViewport">
-        <div class="services__track">
-          <article class="svc-card svc-card--navy">
-            <span class="svc-card__kicker">Launch Fast</span>
-            <h3>AI-Enabled Development</h3>
-            <p>From concept to production-ready AI product in weeks. Validate with real users on real infrastructure — not a prototype that dies after the demo.</p>
-          </article>
-          <article class="svc-card svc-card--orange">
-            <span class="svc-card__kicker">Smart Solutions</span>
-            <h3>AI Integration</h3>
-            <p>Bring LLMs, RAG pipelines, and machine learning into the products and workflows you already run — applied where they create measurable value.</p>
-          </article>
-          <article class="svc-card svc-card--lime">
-            <span class="svc-card__kicker">Autonomous Workflows</span>
-            <h3>AI Agents &amp; Automation</h3>
-            <p>Agents that draft, classify, route, and resolve — removing hours of manual work daily, with humans in the loop where it matters.</p>
-          </article>
-          <article class="svc-card svc-card--blue">
-            <span class="svc-card__kicker">End to End</span>
-            <h3>Full-Stack App Development</h3>
-            <p>Web, mobile, and cloud products built on eight years of engineering craft — the foundation every great AI product still stands on.</p>
-          </article>
-          <article class="svc-card svc-card--pink">
-            <span class="svc-card__kicker">Expert Guidance</span>
-            <h3>AI Consulting</h3>
-            <p>AI readiness reviews, architecture audits, and technology roadmaps that separate the genuine opportunities from the hype.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ CULTURE / PEOPLE ============ -->
-    <section class="culture" id="culture">
-      <div class="container">
-        <p class="eyebrow reveal">The people</p>
-        <div class="culture__head">
-          <h2 class="section-title reveal">A culture built for the long run</h2>
-          <a class="btn btn--ghost" href="#contact">We're hiring &rarr;</a>
-        </div>
-
-        <div class="culture__list">
-          <article class="culture-row reveal">
-            <span class="culture-row__num">01</span>
-            <h3>Excellence</h3>
-            <p>We hold our work to a high bar — in code, in design, and in every conversation with a client.</p>
-          </article>
-          <article class="culture-row reveal">
-            <span class="culture-row__num">02</span>
-            <h3>Integrity</h3>
-            <p>We say what we'll do and do what we say. Honest estimates, honest trade-offs, honest outcomes.</p>
-          </article>
-          <article class="culture-row reveal">
-            <span class="culture-row__num">03</span>
-            <h3>Continuous Learning</h3>
-            <p>Technology moves fast. So do we — every engineer invests in learning as part of the job, not after it.</p>
-          </article>
-          <article class="culture-row reveal">
-            <span class="culture-row__num">04</span>
-            <h3>Ownership</h3>
-            <p>No hand-offs into the void. The people who design and build your product stay accountable for it.</p>
-          </article>
-          <article class="culture-row reveal">
-            <span class="culture-row__num">05</span>
-            <h3>Collaboration</h3>
-            <p>We work as an extension of your team — shared tools, shared rituals, shared definition of done.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ DISCOVERY CALL ============ -->
-    <section class="cta" id="contact">
-      <div class="cta__pattern" aria-hidden="true">
-        <svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
-          <path d="M 0 400 A 400 400 0 0 1 400 0 L 400 110 A 290 290 0 0 0 110 400 Z" fill="var(--blue)" opacity="0.35"/>
-          <path d="M 170 400 A 230 230 0 0 1 400 170 L 400 260 A 140 140 0 0 0 260 400 Z" fill="var(--lime)" opacity="0.5"/>
-        </svg>
-      </div>
-      <div class="container cta__inner">
-        <div class="cta__copy">
-          <p class="eyebrow eyebrow--light reveal">Executive strategy call</p>
-          <h2 class="cta__title reveal">Build a board-ready AI roadmap in 30 minutes.</h2>
-          <p class="cta__sub reveal">Bring your product goals, operational constraints, and timeline. We'll pressure-test the plan and map the quickest route from concept to production.</p>
-
-          <div class="cta__chips reveal">
-            <div class="chip"><strong>30 min</strong><span>Session</span></div>
-            <div class="chip"><strong>1:1</strong><span>With a lead architect</span></div>
-            <div class="chip"><strong>24h</strong><span>Follow-up notes</span></div>
-          </div>
-
-          <ul class="cta__list reveal" role="list">
-            <li>Architecture and delivery sequence aligned to your business goals.</li>
-            <li>Clear trade-offs across speed, quality, and budget.</li>
-            <li>A concrete first milestone your team can execute immediately.</li>
-          </ul>
-
-          <div class="cta__actions reveal">
-            <a class="btn btn--invert btn--lg" href="https://www.linkedin.com/company/elanster" target="_blank" rel="noopener">Book a Strategy Call</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ INSIGHTS ============ -->
-    <section class="insights" id="insights">
-      <div class="container">
-        <div class="insights__head">
-          <div>
-            <p class="eyebrow reveal">Latest updates</p>
-            <h2 class="section-title reveal">Insights &amp; News</h2>
-          </div>
-          <a class="btn btn--ghost" href="#insights">View all articles &rarr;</a>
-        </div>
-
-        <div class="insights__grid">
-          <a class="post reveal" href="https://www.notion.so/edraj/Why-Most-AI-Products-Fail-After-Launch-and-What-Production-Ready-Actually-Means-37d925456b56804f8115e23c33e5e242?source=copy_link" target="_blank" rel="noopener">
-            <span class="post__tag post__tag--orange">AI Strategy</span>
-            <h3>Why most AI products fail after launch — and what production-ready actually means</h3>
-            <p>Most AI projects stall after the demo. What separates products that survive production from prototypes that don't — and the decisions that make the difference.</p>
-            <span class="post__link">Read article &rarr;</span>
-          </a>
-          <article class="post reveal">
-            <span class="post__tag post__tag--blue">AI Economics</span>
-            <h3>How much does it cost to build an AI product? A real breakdown</h3>
-            <p>Cost breakdowns are useless without context. What actually determines where your build lands — and where budgets quietly leak before anyone notices.</p>
-            <span class="post__link">Read article &rarr;</span>
-          </article>
-          <article class="post reveal">
-            <span class="post__tag post__tag--lime">AI Engineering</span>
-            <h3>Vibe coding technical debt: what happens to your codebase at month six</h3>
-            <p>AI-assisted coding ships fast — until debugging eats the gains. What the debt looks like, and when to bring in engineers who own the outcome.</p>
-            <span class="post__link">Read article &rarr;</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ FAQ ============ -->
-    <section class="faq" id="faq">
-      <div class="container faq__inner">
-        <div class="faq__head">
-          <p class="eyebrow reveal">FAQ</p>
-          <h2 class="section-title reveal">Common questions</h2>
-        </div>
-
-        <div class="faq__list">
-          <details class="faq__item reveal">
-            <summary>How fast can you deliver an AI MVP?</summary>
-            <p>Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we'll give you an honest estimate on the strategy call.</p>
-          </details>
-          <details class="faq__item reveal">
-            <summary>What AI-enabled development services do you offer?</summary>
-            <p>Full-stack AI products end to end: AI-enabled development, AI integration into existing products, autonomous agents and workflow automation, RAG pipelines, and AI consulting — all backed by eight years of web, mobile, and cloud engineering.</p>
-          </details>
-          <details class="faq__item reveal">
-            <summary>Which industries do you work with?</summary>
-            <p>We've delivered across e-commerce, healthcare, faith-based organizations, human resources, education, professional services, and retail. Strong engineering fundamentals travel well between domains.</p>
-          </details>
-          <details class="faq__item reveal">
-            <summary>What makes you different from other AI development agencies?</summary>
-            <p>We're not an AI shop that learned engineering last year — we're an eight-year product engineering company that builds AI properly. Architecture first, humans in the loop, production-ready from day one, and accountable long after launch.</p>
-          </details>
-          <details class="faq__item reveal">
-            <summary>How do your engagements work?</summary>
-            <p>We start with a strategy call to understand your goals, constraints, and timeline. From there we map the right model — a fixed-scope build, an embedded product team, or ongoing partnership — with two meetings a week and full visibility throughout.</p>
-          </details>
-          <details class="faq__item reveal">
-            <summary>Do you work with enterprise clients?</summary>
-            <p>Yes. Enterprise delivery is our default standard — security protocols, code review discipline, and compliance-aware architecture apply to every project, whatever its size.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ============ FOOTER ============ -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__cols">
-        <nav class="footer__col" aria-label="Explore">
-          <h4>Explore</h4>
-          <a href="#work">Work</a>
-          <a href="#services">Services</a>
-          <a href="#insights">Insights</a>
-          <a href="#faq">FAQ</a>
-        </nav>
-        <nav class="footer__col" aria-label="Company">
-          <h4>Company</h4>
-          <a href="#about">About</a>
-          <a href="#culture">Culture</a>
-          <a href="#contact">Careers</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <nav class="footer__col" aria-label="Connect">
-          <h4>Connect</h4>
-          <a href="https://www.linkedin.com/company/elanster" target="_blank" rel="noopener">LinkedIn</a>
-        </nav>
-        <div class="footer__col footer__col--location">
-          <img class="footer__map" src="assets/img/world-map.svg" alt="World map highlighting Chennai, India" loading="lazy">
-          <p>Based in Chennai, serving the world.</p>
-        </div>
-      </div>
-
-      <div class="footer__brand">
-        <svg class="footer__mark" viewBox="0 0 235 330" aria-hidden="true" focusable="false">
-          <rect x="0" y="0" width="235" height="68"/>
-          <path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z"/>
-          <path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/>
-        </svg>
-        <div>
-          <p class="footer__name">Elanster Technologies</p>
-          <p class="footer__tagline">AI-Enabled Development &amp; Product Engineering</p>
-        </div>
-      </div>
-
-      <div class="footer__legal">
-        <span>&copy; 2026 Elanster Technologies — A unit of ED Creative Group</span>
-        <span class="footer__legal-links">
-          <a href="#top">Terms of Service</a>
-          <a href="#top">Privacy Notice</a>
-        </span>
       </div>
     </div>
-  </footer>
+  </section>
+</main>
 
-  <script src="js/main.js?v=3"></script>
+<footer>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="markGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#9ABFF5"/><stop offset="1" stop-color="#2b2790"/></linearGradient></defs></svg>
+  <div class="wrap">
+    <div class="f-cta">
+      <div>
+        <h3>Have an AI idea? <em>Let’s ship it in weeks.</em></h3>
+        <p>Bring your goals and constraints. Leave with a board-ready roadmap and a first milestone your team can execute.</p>
+      </div>
+      <a class="pill pill-w mag" href="https://meete.be" target="_blank" rel="noopener" style="height:54px;padding:0 28px;font-size:16px"><span>Book a Strategy Call</span> <span class="arr" aria-hidden="true">→</span></a>
+    </div>
+    <div class="foot">
+      <div class="brand">
+        <span class="mark-tile"><svg class="mark" viewBox="0 0 235 330" aria-hidden="true"><rect width="235" height="68"/><path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z"/><path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/></svg></span>
+        <p class="tag">AI-Enabled Development &amp; Product Engineering. Based in Chennai, serving the world.</p>
+        <span class="loc"><i aria-hidden="true"></i>Chennai, India · <span id="ist">--:--</span> IST</span>
+      </div>
+      <div><h4>Explore</h4><ul><li><a href="work.html">Work</a></li><li><a href="services.html">Services</a></li><li><a href="process.html">Process</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="#about">About</a></li><li><a href="#culture">Culture</a></li><li><a href="careers.html">Careers</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div><h4>Connect</h4><div class="soc"><a href="https://www.linkedin.com/company/elanster" target="_blank" rel="noopener" aria-label="Elanster on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4V21H3V9.75Zm6.5 0h3.83v1.54h.06c.53-1 1.84-2.07 3.78-2.07 4.04 0 4.78 2.66 4.78 6.1V21h-4v-4.97c0-1.19-.02-2.71-1.65-2.71-1.65 0-1.9 1.29-1.9 2.62V21h-4V9.75Z"/></svg></a></div></div>
+    </div>
+    <div class="wordmark" aria-hidden="true" id="wordmark">Elanster</div>
+    <div class="foot-bot">
+      <span>© 2026 Elanster Technologies — A unit of ED Creative Group</span>
+      <span class="ok"><i aria-hidden="true"></i>Engineered to last</span>
+      <nav aria-label="Legal"><a href="#top">Terms of Service</a><a href="#top">Privacy Notice</a></nav>
+      <a class="top" href="#top" aria-label="Back to top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/vendor/three.min.js"></script>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
