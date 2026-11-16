@@ -117,15 +117,9 @@ $('#values').innerHTML=VALUES.map((v,i)=>`<div style="--c:${v[2]}"><svg viewBox=
 $('#faqList').innerHTML=FAQ.map((f,i)=>`<details${i===0?' open':''}><summary>${f[0]}<span class="pm" aria-hidden="true"></span></summary><div class="ans"><p>${f[1]}</p></div></details>`).join('');
 $$('.reveal-words').forEach(el=>{el.innerHTML=el.textContent.trim().split(/\s+/).map(w=>`<span class="w">${w}</span>`).join(' ')});
 $$('.hero h1 .split').forEach(el=>{el.innerHTML=el.textContent.split(' ').map(w=>`<span style="display:inline-block;white-space:nowrap">${[...w].map(c=>`<span class="ch">${c}</span>`).join('')}</span>`).join(' ')});
-$('#wordmark').innerHTML=[...'Elanster'].map(c=>`<span>${c}</span>`).join('');
+{const wm=$('#wordmark');if(wm)wm.innerHTML=[...'Elanster'].map(c=>`<span>${c}</span>`).join('')};
 
 /* ---------- nav ---------- */
-const btn=$('#menuBtn'),menu=$('#menu');
-function setMenu(o){btn.setAttribute('aria-expanded',o);menu.classList.toggle('open',o);if(o)menu.querySelector('a').focus({preventScroll:true})}
-btn.addEventListener('click',e=>{e.stopPropagation();setMenu(btn.getAttribute('aria-expanded')!=='true')});
-menu.addEventListener('click',e=>{if(e.target.closest('a'))setMenu(false)});
-document.addEventListener('click',e=>{if(!e.target.closest('.nav-l'))setMenu(false)});
-addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.classList.contains('open')){setMenu(false);btn.focus()}});
 
 /* ============ 3D (metallic logo) ============ */
 function webglOK(){try{const c=document.createElement('canvas');return !!(window.WebGLRenderingContext&&(c.getContext('webgl2')||c.getContext('webgl')))}catch(e){return false}}
@@ -255,7 +249,7 @@ if(FINE){
   addEventListener('pointermove',e=>{sx(e.clientX);sy(e.clientY);spot.style.opacity=1},{passive:true});
   /* magnetic buttons */
   $$('.mag').forEach(b=>{const xT=gsap.quickTo(b,'x',{duration:.5,ease:'power3'}),yT=gsap.quickTo(b,'y',{duration:.5,ease:'power3'});
-    b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();xT((e.clientX-r.left-r.width/2)*.22);yT((e.clientY-r.top-r.height/2)*.32)});
+    b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();xT((e.clientX-r.left-r.width/2)*.1);yT((e.clientY-r.top-r.height/2)*.18)});
     b.addEventListener('pointerleave',()=>{xT(0);yT(0)})});
   /* tilt cards */
   $$('.values>div').forEach(c=>{const rx=gsap.quickTo(c,'rotationX',{duration:.6,ease:'power3'}),ry=gsap.quickTo(c,'rotationY',{duration:.6,ease:'power3'});
@@ -427,8 +421,7 @@ $$('.pcard').forEach(c=>gsap.from(c,{y:60,opacity:0,duration:1,ease:'expo.out',s
 
   // headings rise in
   $$('.pp-h,#svc-h,.pp-chip').forEach(el=>gsap.from(el,{y:36,opacity:0,duration:1.1,ease:'expo.out',scrollTrigger:{trigger:el,start:'top 90%',once:true}}));
-  // dividers draw across
-  $$('section.solid').forEach(s=>{const l=document.createElement('i');l.className='sec-line';l.setAttribute('aria-hidden','true');s.prepend(l);gsap.fromTo(l,{scaleX:0},{scaleX:1,duration:1.4,ease:'expo.out',scrollTrigger:{trigger:s,start:'top 85%',once:true}})});
+  // (section divider lines removed)
 
   // card tilt
   if(FINE)$$('.pcard,.wcard').forEach(c=>{const rx=gsap.quickTo(c,'rotationX',{duration:.6,ease:'power3'}),ry=gsap.quickTo(c,'rotationY',{duration:.6,ease:'power3'}),yy=gsap.quickTo(c,'y',{duration:.5,ease:'power3'});

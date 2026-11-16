@@ -1,0 +1,20 @@
+/* motion layer: no top progress line, pointer glow/tilt, cursor ring, button shine */
+.scrollbar{display:none!important}
+/* no divider lines between home sections */
+main>section,footer{border-top:0!important}
+.sec-line,footer::before{display:none!important}
+.fx-glow{position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .35s;background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(154,191,245,.20),rgba(75,70,224,.10) 35%,transparent 65%);z-index:3;mix-blend-mode:screen}
+.fx-on:hover>.fx-glow{opacity:1}
+.fx-on{position:relative;transition:translate .5s cubic-bezier(.2,.8,.2,1),rotate .5s cubic-bezier(.2,.8,.2,1),box-shadow .5s,border-color .4s;will-change:rotate,translate}
+.fx-on:hover{translate:0 -6px;box-shadow:0 30px 70px -30px rgba(75,70,224,.65);border-color:rgba(154,191,245,.45)}
+.fx-ring{position:fixed;left:0;top:0;width:34px;height:34px;margin:-17px 0 0 -17px;border:1.5px solid rgba(154,191,245,.7);border-radius:50%;pointer-events:none;z-index:9999;opacity:0;transition:opacity .3s,width .25s,height .25s,margin .25s,background .25s,border-color .25s;mix-blend-mode:screen}
+.fx-ring.on{opacity:1}
+.fx-ring.big{width:64px;height:64px;margin:-32px 0 0 -32px;background:rgba(154,191,245,.12);border-color:rgba(226,248,172,.8)}
+.fx-dot{position:fixed;left:0;top:0;width:6px;height:6px;margin:-3px 0 0 -3px;border-radius:50%;background:var(--lime);pointer-events:none;z-index:9999;opacity:0}
+.fx-dot.on{opacity:1}
+.pill{position:relative;overflow:hidden}
+.pill::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-20deg);transition:left .7s cubic-bezier(.2,.8,.2,1);pointer-events:none}
+.pill:hover::after{left:130%}
+.fx-skew{will-change:transform}
+@media (hover:none),(pointer:coarse){.fx-ring,.fx-dot{display:none}}
+@media (prefers-reduced-motion:reduce){.fx-on,.fx-on:hover{translate:none;rotate:none}.fx-ring,.fx-dot{display:none}.pill::after{display:none}}
