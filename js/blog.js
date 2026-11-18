@@ -1,4 +1,6 @@
 /* Blog: reads articles from the Elanster CMS when it is set up, otherwise shows the built-in articles.
+   Built-in articles stay on the page and fill in any detail (image, category, text) the CMS leaves empty,
+   so the cards always look like the original design. Articles you publish in the CMS replace the built-in ones and new ones are added on top.
    To connect the CMS, fill CMS_URL (your CMS web address, no slash at the end) and KEY (the website's read-only key). */
 (function () {
   "use strict";
@@ -26,17 +28,31 @@
       image: b.image || (b.featuredImage && b.featuredImage.url) || "", alt: b.alt || (b.featuredImage && b.featuredImage.alt) || "",
       seo: b.seo || null };
   };
+  var builtIn = function () { return FALLBACK.map(norm); };
+  var builtInFor = function (slug) { return builtIn().filter(function (b) { return b.slug === slug; })[0] || null; };
+  // A CMS article on top of its built-in twin: the CMS wins wherever it has something, the built-in fills the gaps.
+  var blend = function (c, f) {
+    if (!f) return c;
+    var hasCat = c.category && c.category.slug && c.category.slug !== "insights";
+    return { slug: c.slug, title: c.title || f.title, excerpt: c.excerpt || f.excerpt, content: c.content || f.content, date: c.date || f.date,
+      category: hasCat ? c.category : f.category, author: c.author || f.author, image: c.image || f.image, alt: c.alt || f.alt, seo: c.seo || f.seo };
+  };
+  var mergeList = function (cms) {
+    var fb = builtIn(), by = {}, extra = [];
+    cms.forEach(function (p) { by[p.slug] = p; if (!fb.some(function (f) { return f.slug === p.slug; })) extra.push(p); });
+    return extra.concat(fb.map(function (f) { return by[f.slug] ? blend(by[f.slug], f) : f; }));
+  };
   var api = function (path) {
     return fetch(CMS_URL + "/api/v1/websites/" + SITE + path, { headers: { "X-API-Key": KEY } }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
   };
   var useCms = function () { return !!(CMS_URL && KEY); };
   var loadList = function () {
-    if (!useCms()) return Promise.resolve(FALLBACK.map(norm));
-    return api("/blogs?limit=50").then(function (d) { return d.items.map(norm); }).catch(function () { return FALLBACK.map(norm); });
+    if (!useCms()) return Promise.resolve(builtIn());
+    return api("/blogs?limit=50").then(function (d) { return mergeList(d.items.map(norm)); }).catch(function () { return builtIn(); });
   };
   var loadOne = function (slug) {
-    if (!useCms()) return Promise.resolve(FALLBACK.map(norm).filter(function (b) { return b.slug === slug; })[0] || null);
-    return api("/blogs/" + encodeURIComponent(slug)).then(norm).catch(function () { return FALLBACK.map(norm).filter(function (b) { return b.slug === slug; })[0] || null; });
+    if (!useCms()) return Promise.resolve(builtInFor(slug));
+    return api("/blogs/" + encodeURIComponent(slug)).then(function (b) { return blend(norm(b), builtInFor(slug)); }).catch(function () { return builtInFor(slug); });
   };
 
   var cats = [];
@@ -45,17 +61,11 @@
   var meta = function (b) { var m = [fmt(b.date), mins(b.content), b.author].filter(Boolean); return m.length ? '<div class="bl-meta">' + m.map(function (x) { return "<span>" + esc(x) + "</span>"; }).join("<span>·</span>") + "</div>" : ""; };
   var href = function (b) { return "article.html?slug=" + encodeURIComponent(b.slug); };
   var TAGS = ["orange", "blue", "lime"];
+  var TAGMAP = { "ai-strategy": "orange", "ai-economics": "blue", "ai-engineering": "lime" };   // the original label colours
   var postHtml = function (b) {
-    var t = TAGS[Math.max(0, cats.indexOf(b.category.slug)) % 3];
+    var t = TAGMAP[b.category.slug] || TAGS[Math.max(0, cats.indexOf(b.category.slug)) % 3];
     return '<a class="post" href="' + href(b) + '">' + (b.image ? '<img class="post__photo" src="' + esc(b.image) + '" alt="' + esc(b.alt || b.title) + '" loading="lazy" width="800" height="480">' : "") +
       '<span class="post__tag post__tag--' + t + '">' + esc(b.category.name) + "</span><h3>" + esc(b.title) + "</h3><p>" + esc(b.excerpt) + '</p><span class="post__link">Read article &rarr;</span></a>';
-  };
-  var featHtml = function (b) {
-    return '<a class="bl-feat" href="' + href(b) + '">' + cover(b, "bl-feat__img") + '<div class="bl-feat__body">' + badge(b) +
-      "<h2>" + esc(b.title) + "</h2><p>" + esc(b.excerpt) + "</p>" + meta(b) + '<span class="bl-more">Read article &rarr;</span></div></a>';
-  };
-  var cardHtml = function (b) {
-    return '<a class="bl-card" href="' + href(b) + '">' + cover(b, "bl-card__img") + badge(b) + "<h3>" + esc(b.title) + "</h3><p>" + esc(b.excerpt) + "</p>" + meta(b) + '<span class="bl-more">Read article &rarr;</span></a>';
   };
 
   function initList() {
