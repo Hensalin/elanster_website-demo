@@ -23,7 +23,8 @@ assets/img/         # brand logo PNGs (favicon + fallback)
 | Orange | `#E65A33` |
 | Pink   | `#F5DFE3` |
 | Paper  | `#F0F0F9` |
-| Ink    | `#191919` |
+| Ink    | `#191919` | 
+
 
 Typeface: **Sharp Grotesk** (licensed OTFs copied from `~/Library/Fonts`).
 
