@@ -132,9 +132,10 @@
   <link rel="stylesheet" href="css/footer.css?v=4">
   <link rel="stylesheet" href="css/pages.css?v=17">
   <link rel="stylesheet" href="css/rich.css?v=144">
+  <script src="js/cms-config.js"></script>
 </head>
 <body class="page page--process">
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-cms="process.page.1">Skip to content</a>
   <header class="nav" id="nav">
     <div class="nav__inner container">
       <a class="nav__brand" href="index.html" aria-label="Elanster Technologies — home">
@@ -147,12 +148,12 @@
       </a>
 
       <nav class="nav__links" id="navLinks" aria-label="Primary">
-        <a href="work.html">Products</a>
-        <a href="services.html">Services</a>
-        <a href="careers.html">Culture</a>
-        <a href="blog.html">Insights</a>
-        <a href="index.html#faq">FAQ</a>
-        <a class="btn btn--primary nav__cta" href="https://meete.be" target="_blank" rel="noopener">Discovery Call</a>
+        <a href="work.html" data-cms="global.nav.1">Products</a>
+        <a href="services.html" data-cms="global.nav.2">Services</a>
+        <a href="careers.html" data-cms="global.nav.3">Culture</a>
+        <a href="blog.html" data-cms="global.nav.4">Insights</a>
+        <a href="index.html#faq" data-cms="global.nav.5">FAQ</a>
+        <a class="btn btn--primary nav__cta" href="https://meete.be" target="_blank" rel="noopener" data-cms="global.nav.6">Discovery Call</a>
       </nav>
 
       <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
@@ -173,77 +174,77 @@
         </svg>
       </div>
       <div class="container hero__inner">
-        <p class="eyebrow">Process</p>
+        <p class="eyebrow" data-cms="process.top.1">Process</p>
         <h1 class="hero__title">
-          <span class="hero__line"><span class="hero__line-inner">A curated process:</span></span>
-          <span class="hero__line"><span class="hero__line-inner hero__line-inner--outline">two meetings a week.</span></span>
+          <span class="hero__line"><span class="hero__line-inner" data-cms="process.top.2">A curated process:</span></span>
+          <span class="hero__line"><span class="hero__line-inner hero__line-inner--outline" data-cms="process.top.3">two meetings a week.</span></span>
         </h1>
-        <p class="hero__sub">Monday planning. Friday sprint review. Between them, we’re in your Slack and repos shipping code, with the same security protocols and code review standards on every project.</p>
-        <div class="hero__actions"><a class="btn btn--primary btn--lg" href="https://meete.be" target="_blank" rel="noopener">Schedule a Discovery Call</a><a class="btn btn--ghost btn--lg" href="services.html">View services</a></div>
+        <p class="hero__sub" data-cms="process.top.4">Monday planning. Friday sprint review. Between them, we’re in your Slack and repos shipping code, with the same security protocols and code review standards on every project.</p>
+        <div class="hero__actions"><a class="btn btn--primary btn--lg" href="https://meete.be" target="_blank" rel="noopener" data-cms="process.top.5" data-cms-link="process.top.5.link">Schedule a Discovery Call</a><a class="btn btn--ghost btn--lg" href="services.html" data-cms="process.top.6" data-cms-link="process.top.6.link">View services</a></div>
       </div>
       <div class="hero-ribbon" aria-label="What we build"><div class="hero-ribbon__track"><span>AI Agents</span><span>RAG Pipelines</span><span>LLM Apps</span><span>Machine Learning</span><span>Document Intelligence</span><span>Workflow Automation</span><span>AI Integration</span><span>Full-Stack Development</span><span>Cloud Deployment</span><span>AI Consulting</span><span>AI Agents</span><span>RAG Pipelines</span><span>LLM Apps</span><span>Machine Learning</span><span>Document Intelligence</span><span>Workflow Automation</span><span>AI Integration</span><span>Full-Stack Development</span><span>Cloud Deployment</span><span>AI Consulting</span></div></div>
     </section>
     <section class="culture pg-culture">
       <div class="container">
-        <p class="eyebrow reveal">How we work</p>
-        <h2 class="section-title reveal">From first call to production</h2>
+        <p class="eyebrow reveal" data-cms="process.culture.1">How we work</p>
+        <h2 class="section-title reveal" data-cms="process.culture.2">From first call to production</h2>
         <div class="culture__list">
           <article class="culture-row reveal">
-            <span class="culture-row__num">01</span>
-            <h3>Strategy call <small>Start</small></h3>
-            <div class="pg-row__body"><p>We learn your goals, constraints, and timeline. You leave with a clear read on what’s worth building.</p></div>
+            <span class="culture-row__num" data-cms="process.culture.3">01</span>
+            <h3><span data-cms="process.culture.4" data-cms-wrap>Strategy call</span> <small data-cms="process.culture.5">Start</small></h3>
+            <div class="pg-row__body"><p data-cms="process.culture.6">We learn your goals, constraints, and timeline. You leave with a clear read on what’s worth building.</p></div>
           </article>
           <article class="culture-row reveal">
-            <span class="culture-row__num">02</span>
-            <h3>The right model <small>Shape</small></h3>
-            <div class="pg-row__body"><p>We map how we’ll work together: a fixed-scope build, an embedded product team, or an ongoing partnership.</p></div>
+            <span class="culture-row__num" data-cms="process.culture.7">02</span>
+            <h3><span data-cms="process.culture.8" data-cms-wrap>The right model</span> <small data-cms="process.culture.9">Shape</small></h3>
+            <div class="pg-row__body"><p data-cms="process.culture.10">We map how we’ll work together: a fixed-scope build, an embedded product team, or an ongoing partnership.</p></div>
           </article>
           <article class="culture-row reveal">
-            <span class="culture-row__num">03</span>
-            <h3>Sprint planning <small>Every Monday</small></h3>
-            <div class="pg-row__body"><p>We agree what ships this week. Priorities are explicit, so nothing surprises you on Friday.</p></div>
+            <span class="culture-row__num" data-cms="process.culture.11">03</span>
+            <h3><span data-cms="process.culture.12" data-cms-wrap>Sprint planning</span> <small data-cms="process.culture.13">Every Monday</small></h3>
+            <div class="pg-row__body"><p data-cms="process.culture.14">We agree what ships this week. Priorities are explicit, so nothing surprises you on Friday.</p></div>
           </article>
           <article class="culture-row reveal">
-            <span class="culture-row__num">04</span>
-            <h3>Sprint review <small>Every Friday</small></h3>
-            <div class="pg-row__body"><p>You see working software, not slides. We review what shipped and set up the week ahead.</p></div>
+            <span class="culture-row__num" data-cms="process.culture.15">04</span>
+            <h3><span data-cms="process.culture.16" data-cms-wrap>Sprint review</span> <small data-cms="process.culture.17">Every Friday</small></h3>
+            <div class="pg-row__body"><p data-cms="process.culture.18">You see working software, not slides. We review what shipped and set up the week ahead.</p></div>
           </article>
           <article class="culture-row reveal">
-            <span class="culture-row__num">05</span>
-            <h3>In production <small>4 – 12 weeks</small></h3>
-            <div class="pg-row__body"><p>A deployed AI product on real infrastructure, not a prototype, and accountable long after launch.</p></div>
+            <span class="culture-row__num" data-cms="process.culture.19">05</span>
+            <h3><span data-cms="process.culture.20" data-cms-wrap>In production</span> <small data-cms="process.culture.21">4 – 12 weeks</small></h3>
+            <div class="pg-row__body"><p data-cms="process.culture.22">A deployed AI product on real infrastructure, not a prototype, and accountable long after launch.</p></div>
           </article>
         </div>
       </div>
     </section>
     <section class="pg-cardsec">
       <div class="container">
-        <p class="eyebrow reveal">Engagement models</p>
-        <h2 class="section-title reveal">Pick the shape that fits</h2>
+        <p class="eyebrow reveal" data-cms="process.pg-cardsec.1">Engagement models</p>
+        <h2 class="section-title reveal" data-cms="process.pg-cardsec.2">Pick the shape that fits</h2>
         <div class="pg-cards pg-cols-3">
           <article class="pg-card reveal">
-            <span class="pg-card__idx">01</span>
-            <h3>Fixed-scope build</h3>
-            <p>A defined product, a defined outcome, shipped to production.</p>
+            <span class="pg-card__idx" data-cms="process.pg-cardsec.3">01</span>
+            <h3 data-cms="process.pg-cardsec.4">Fixed-scope build</h3>
+            <p data-cms="process.pg-cardsec.5">A defined product, a defined outcome, shipped to production.</p>
           </article>
           <article class="pg-card reveal">
-            <span class="pg-card__idx">02</span>
-            <h3>Embedded product team</h3>
-            <p>Senior engineers inside your Slack and repos, working as an extension of your team.</p>
+            <span class="pg-card__idx" data-cms="process.pg-cardsec.6">02</span>
+            <h3 data-cms="process.pg-cardsec.7">Embedded product team</h3>
+            <p data-cms="process.pg-cardsec.8">Senior engineers inside your Slack and repos, working as an extension of your team.</p>
           </article>
           <article class="pg-card reveal">
-            <span class="pg-card__idx">03</span>
-            <h3>Ongoing partnership</h3>
-            <p>We stay accountable after launch, improving the product as your needs grow.</p>
+            <span class="pg-card__idx" data-cms="process.pg-cardsec.9">03</span>
+            <h3 data-cms="process.pg-cardsec.10">Ongoing partnership</h3>
+            <p data-cms="process.pg-cardsec.11">We stay accountable after launch, improving the product as your needs grow.</p>
           </article>
         </div>
       </div>
     </section>
     <section class="pg-result">
       <div class="container">
-        <p class="eyebrow reveal">The result</p>
-        <h2 class="section-title reveal">What you can count on</h2>
-        <div class="pg-stats"><div class="pg-stat pg-stat--navy reveal"><b>2</b><span>Meetings a week</span></div><div class="pg-stat pg-stat--lime reveal"><b>4–12</b><span>Weeks to production</span></div><div class="pg-stat pg-stat--pink reveal"><b>8</b><span>Years of craft</span></div><div class="pg-stat pg-stat--blue reveal"><b>Weekly</b><span>Working builds</span></div></div>
+        <p class="eyebrow reveal" data-cms="process.pg-result.1">The result</p>
+        <h2 class="section-title reveal" data-cms="process.pg-result.2">What you can count on</h2>
+        <div class="pg-stats"><div class="pg-stat pg-stat--navy reveal"><b data-cms="process.pg-result.3">2</b><span data-cms="process.pg-result.4">Meetings a week</span></div><div class="pg-stat pg-stat--lime reveal"><b data-cms="process.pg-result.5">4–12</b><span data-cms="process.pg-result.6">Weeks to production</span></div><div class="pg-stat pg-stat--pink reveal"><b data-cms="process.pg-result.7">8</b><span data-cms="process.pg-result.8">Years of craft</span></div><div class="pg-stat pg-stat--blue reveal"><b data-cms="process.pg-result.9">Weekly</b><span data-cms="process.pg-result.10">Working builds</span></div></div>
       </div>
     </section>
     <section class="cta" id="contact">
@@ -255,31 +256,31 @@
       </div>
       <div class="container cta__inner">
         <div class="cta__copy">
-          <p class="eyebrow eyebrow--light reveal">Ready to start?</p>
-          <h2 class="cta__title reveal">Start with a strategy call.</h2>
-          <p class="cta__sub reveal">Tell us what you are building and we will map the right way to ship it.</p>
-          <div class="cta__actions reveal"><a class="btn btn--invert btn--lg" href="https://meete.be" target="_blank" rel="noopener">Schedule a Discovery Call</a></div>
+          <p class="eyebrow eyebrow--light reveal" data-cms="process.contact.1">Ready to start?</p>
+          <h2 class="cta__title reveal" data-cms="process.contact.2">Start with a strategy call.</h2>
+          <p class="cta__sub reveal" data-cms="process.contact.3">Tell us what you are building and we will map the right way to ship it.</p>
+          <div class="cta__actions reveal"><a class="btn btn--invert btn--lg" href="https://meete.be" target="_blank" rel="noopener" data-cms="process.contact.4" data-cms-link="process.contact.4.link">Schedule a Discovery Call</a></div>
         </div>
       </div>
     </section>
     <section class="faq">
       <div class="container faq__inner">
         <div class="faq__head">
-          <p class="eyebrow reveal">FAQ</p>
-          <h2 class="section-title reveal">About how we work</h2>
+          <p class="eyebrow reveal" data-cms="process.faq.1">FAQ</p>
+          <h2 class="section-title reveal" data-cms="process.faq.2">About how we work</h2>
         </div>
         <div class="faq__list">
           <details class="faq__item reveal">
-            <summary>How fast can you deliver an AI MVP?</summary>
-            <p>Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we’ll give you an honest estimate on the strategy call.</p>
+            <summary data-cms="process.faq.3">How fast can you deliver an AI MVP?</summary>
+            <p data-cms="process.faq.4">Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we’ll give you an honest estimate on the strategy call.</p>
           </details>
           <details class="faq__item reveal">
-            <summary>How do your engagements work?</summary>
-            <p>We start with a strategy call to understand your goals, constraints, and timeline. From there we map the right model — a fixed-scope build, an embedded product team, or ongoing partnership — with full visibility throughout.</p>
+            <summary data-cms="process.faq.5">How do your engagements work?</summary>
+            <p data-cms="process.faq.6">We start with a strategy call to understand your goals, constraints, and timeline. From there we map the right model — a fixed-scope build, an embedded product team, or ongoing partnership — with full visibility throughout.</p>
           </details>
           <details class="faq__item reveal">
-            <summary>Do you work with larger companies?</summary>
-            <p>Yes, and smaller ones too. Company-grade delivery is our default standard — security protocols, code review discipline, and compliance-aware architecture apply to every project, whatever its size.</p>
+            <summary data-cms="process.faq.7">Do you work with larger companies?</summary>
+            <p data-cms="process.faq.8">Yes, and smaller ones too. Company-grade delivery is our default standard — security protocols, code review discipline, and compliance-aware architecture apply to every project, whatever its size.</p>
           </details>
         </div>
       </div>
@@ -291,24 +292,24 @@
     <div class="container">
       <div class="footer__cols">
         <nav class="footer__col" aria-label="Explore">
-          <h4>Explore</h4>
-          <a href="work.html">Products</a>
-          <a href="services.html">Services</a>
-          <a href="blog.html">Insights</a>
-          <a href="index.html#faq">FAQ</a>
+          <h4 data-cms="global.footer.1">Explore</h4>
+          <a href="work.html" data-cms="global.footer.2">Products</a>
+          <a href="services.html" data-cms="global.footer.3">Services</a>
+          <a href="blog.html" data-cms="global.footer.4">Insights</a>
+          <a href="index.html#faq" data-cms="global.footer.5">FAQ</a>
         </nav>
         <nav class="footer__col" aria-label="Company">
-          <h4>Company</h4>
-          <a href="careers.html">Culture</a>
-          <a href="https://meete.be" target="_blank" rel="noopener">Contact</a>
+          <h4 data-cms="global.footer.6">Company</h4>
+          <a href="careers.html" data-cms="global.footer.7">Culture</a>
+          <a href="https://meete.be" target="_blank" rel="noopener" data-cms="global.footer.8">Contact</a>
         </nav>
         <nav class="footer__col" aria-label="Connect">
-          <h4>Connect</h4>
-          <a href="https://www.linkedin.com/company/elanster" target="_blank" rel="noopener">LinkedIn</a>
+          <h4 data-cms="global.footer.9">Connect</h4>
+          <a href="https://www.linkedin.com/company/elanster" target="_blank" rel="noopener" data-cms="global.footer.10">LinkedIn</a>
         </nav>
         <div class="footer__col footer__col--location">
-          <img class="footer__map" src="assets/img/world-map.svg" alt="World map highlighting Chennai, India" loading="lazy">
-          <p>Based in Chennai, serving the world.</p>
+          <img class="footer__map" src="assets/img/world-map.svg" alt="World map highlighting Chennai, India" loading="lazy" data-cms-img="global.footer.img.1">
+          <p data-cms="global.footer.11">Based in Chennai, serving the world.</p>
         </div>
       </div>
       <div class="footer__brand">
@@ -318,14 +319,14 @@
           <path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/>
         </svg>
         <div>
-          <p class="footer__name">Elanster Technologies</p>
-          <p class="footer__tagline">AI Research &amp; Product Engineering</p>
+          <p class="footer__name" data-cms="global.footer.12">Elanster Technologies</p>
+          <p class="footer__tagline" data-cms="global.footer.13">AI Research &amp; Product Engineering</p>
         </div>
       </div>
       <img class="footer__float" src="assets/img/chat-3d.png" alt="" aria-hidden="true">
       <div class="footer__legal">
-        <span>&copy; 2026 Elanster Technologies — A unit of ED Creative Group</span>
-        <span class="footer__legal-links"><a href="#top">Terms of Service</a><a href="#top">Privacy Notice</a></span>
+        <span data-cms="global.footer.14">&copy; 2026 Elanster Technologies — A unit of ED Creative Group</span>
+        <span class="footer__legal-links"><a href="#top" data-cms="global.footer.15">Terms of Service</a><a href="#top" data-cms="global.footer.16">Privacy Notice</a></span>
       </div>
     </div>
   </footer>
@@ -335,5 +336,6 @@
   <script src="js/pages.js?v=2"></script>
   <script src="js/footer.js?v=5"></script>
   <script src="js/rich.js?v=8"></script>
+  <script src="js/cms-content.js?v=2"></script>
 </body>
 </html>

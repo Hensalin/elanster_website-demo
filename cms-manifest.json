@@ -1,0 +1,4806 @@
+{
+ "pages": [
+  {
+   "slug": "home",
+   "file": "index.html",
+   "title": "Home",
+   "fields": [
+    {
+     "key": "home.seo.title",
+     "label": "Page title (Google)",
+     "group": "SEO",
+     "tag": "seo-title",
+     "text": "Elanster Technologies — AI Research & Product Engineering in Chennai"
+    },
+    {
+     "key": "home.seo.description",
+     "label": "Meta description (Google)",
+     "group": "SEO",
+     "tag": "seo-description",
+     "text": "Elanster Technologies is an AI research and product engineering company in Chennai. Full-stack AI products, agents and RAG, shipped in 4 to 12 weeks by a senior team."
+    },
+    {
+     "key": "home.page.1",
+     "label": "Skip to content",
+     "group": "Page",
+     "tag": "a",
+     "text": "Skip to content"
+    },
+    {
+     "key": "home.top.1",
+     "label": "AI Research & Product Engineering · 8 Years St…",
+     "group": "top",
+     "tag": "p",
+     "text": "AI Research & Product Engineering · 8 Years Strong"
+    },
+    {
+     "key": "home.top.2",
+     "label": "Engineered to last.",
+     "group": "top",
+     "tag": "span",
+     "text": "Engineered to last."
+    },
+    {
+     "key": "home.top.3",
+     "label": "Designed to lead.",
+     "group": "top",
+     "tag": "span",
+     "text": "Designed to lead."
+    },
+    {
+     "key": "home.top.4",
+     "label": "Mission-critical AI that powers today’s compan…",
+     "group": "top",
+     "tag": "p",
+     "text": "Mission-critical AI that powers today’s companies and tomorrow’s breakthroughs — built on eight years of engineering products that solve real business problems."
+    },
+    {
+     "key": "home.top.5",
+     "label": "Book a Strategy Call",
+     "group": "top",
+     "tag": "a",
+     "text": "Book a Strategy Call"
+    },
+    {
+     "key": "home.top.5.link",
+     "label": "Link of: Book a Strategy Call",
+     "group": "top",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "home.top.6",
+     "label": "Explore our products",
+     "group": "top",
+     "tag": "a",
+     "text": "Explore our products"
+    },
+    {
+     "key": "home.top.7",
+     "label": "— average go-live",
+     "group": "top",
+     "tag": "span",
+     "text": "— average go-live"
+    },
+    {
+     "key": "home.top.8",
+     "label": "6 weeks",
+     "group": "top",
+     "tag": "strong",
+     "text": "6 weeks"
+    },
+    {
+     "key": "home.work.1",
+     "label": "Illustrative examples",
+     "group": "work",
+     "tag": "p",
+     "text": "Illustrative examples"
+    },
+    {
+     "key": "home.work.2",
+     "label": "AI products we build",
+     "group": "work",
+     "tag": "h2",
+     "text": "AI products we build"
+    },
+    {
+     "key": "home.work.3",
+     "label": "for clients",
+     "group": "work",
+     "tag": "span",
+     "text": "for clients"
+    },
+    {
+     "key": "home.work.img.1",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-resume-3d.png"
+    },
+    {
+     "key": "home.work.img.1.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "home.work.4",
+     "label": "Document Intelligence",
+     "group": "work",
+     "tag": "h3",
+     "text": "Document Intelligence"
+    },
+    {
+     "key": "home.work.5",
+     "label": "AI pipeline that classifies, extracts, and rou…",
+     "group": "work",
+     "tag": "p",
+     "text": "AI pipeline that classifies, extracts, and routes business documents. 80% less manual review."
+    },
+    {
+     "key": "home.work.6",
+     "label": "AI Agents",
+     "group": "work",
+     "tag": "span",
+     "text": "AI Agents"
+    },
+    {
+     "key": "home.work.img.2",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-idcard-3d.png"
+    },
+    {
+     "key": "home.work.img.2.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "home.work.7",
+     "label": "Support Copilot",
+     "group": "work",
+     "tag": "h3",
+     "text": "Support Copilot"
+    },
+    {
+     "key": "home.work.8",
+     "label": "LLM-powered assistant resolving customer queri…",
+     "group": "work",
+     "tag": "p",
+     "text": "LLM-powered assistant resolving customer queries end to end. Faster answers, lighter queues."
+    },
+    {
+     "key": "home.work.9",
+     "label": "LLM Apps",
+     "group": "work",
+     "tag": "span",
+     "text": "LLM Apps"
+    },
+    {
+     "key": "home.work.img.3",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-diploma-3d.png"
+    },
+    {
+     "key": "home.work.img.3.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "home.work.10",
+     "label": "Knowledge Search",
+     "group": "work",
+     "tag": "h3",
+     "text": "Knowledge Search"
+    },
+    {
+     "key": "home.work.11",
+     "label": "RAG search across years of internal documents …",
+     "group": "work",
+     "tag": "p",
+     "text": "RAG search across years of internal documents — answers with sources, in seconds."
+    },
+    {
+     "key": "home.work.12",
+     "label": "RAG Pipelines",
+     "group": "work",
+     "tag": "span",
+     "text": "RAG Pipelines"
+    },
+    {
+     "key": "home.work.img.4",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-report-3d.png"
+    },
+    {
+     "key": "home.work.img.4.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "home.work.13",
+     "label": "Proposal Automation",
+     "group": "work",
+     "tag": "h3",
+     "text": "Proposal Automation"
+    },
+    {
+     "key": "home.work.14",
+     "label": "AI agents drafting bids and RFP responses from…",
+     "group": "work",
+     "tag": "p",
+     "text": "AI agents drafting bids and RFP responses from past wins. Days of turnaround cut to hours."
+    },
+    {
+     "key": "home.work.15",
+     "label": "Autonomous Agents",
+     "group": "work",
+     "tag": "span",
+     "text": "Autonomous Agents"
+    },
+    {
+     "key": "home.work.img.5",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-pie-3d.png"
+    },
+    {
+     "key": "home.work.img.5.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "home.work.16",
+     "label": "Demand Forecasting",
+     "group": "work",
+     "tag": "h3",
+     "text": "Demand Forecasting"
+    },
+    {
+     "key": "home.work.17",
+     "label": "ML forecasting wired into retail operations — …",
+     "group": "work",
+     "tag": "p",
+     "text": "ML forecasting wired into retail operations — smarter stock decisions every morning."
+    },
+    {
+     "key": "home.work.18",
+     "label": "Machine Learning",
+     "group": "work",
+     "tag": "span",
+     "text": "Machine Learning"
+    },
+    {
+     "key": "home.work.img.6",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-gear-3d.png"
+    },
+    {
+     "key": "home.work.img.6.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "home.work.19",
+     "label": "Back-Office Automation",
+     "group": "work",
+     "tag": "h3",
+     "text": "Back-Office Automation"
+    },
+    {
+     "key": "home.work.20",
+     "label": "AI-driven workflow automation across finance a…",
+     "group": "work",
+     "tag": "p",
+     "text": "AI-driven workflow automation across finance and ops — hours of manual work removed daily."
+    },
+    {
+     "key": "home.work.21",
+     "label": "Automation",
+     "group": "work",
+     "tag": "span",
+     "text": "Automation"
+    },
+    {
+     "key": "home.trusted.1",
+     "label": "Trusted by innovative companies across industr…",
+     "group": "trusted",
+     "tag": "p",
+     "text": "Trusted by innovative companies across industries"
+    },
+    {
+     "key": "home.trusted.2",
+     "label": "E-commerce",
+     "group": "trusted",
+     "tag": "li",
+     "text": "E-commerce"
+    },
+    {
+     "key": "home.trusted.3",
+     "label": "Healthcare",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Healthcare"
+    },
+    {
+     "key": "home.trusted.4",
+     "label": "Faith-Based Organizations",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Faith-Based Organizations"
+    },
+    {
+     "key": "home.trusted.5",
+     "label": "Human Resources",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Human Resources"
+    },
+    {
+     "key": "home.trusted.6",
+     "label": "Education",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Education"
+    },
+    {
+     "key": "home.trusted.7",
+     "label": "Professional Services",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Professional Services"
+    },
+    {
+     "key": "home.trusted.8",
+     "label": "Retail & Commerce",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Retail & Commerce"
+    },
+    {
+     "key": "home.about.1",
+     "label": "About us",
+     "group": "about",
+     "tag": "p",
+     "text": "About us"
+    },
+    {
+     "key": "home.about.2",
+     "label": "Elanster Technologies is an AI research and pr…",
+     "group": "about",
+     "tag": "h2",
+     "text": "Elanster Technologies is an AI research and product engineering company. We build full-stack AI products — from RAG pipelines to autonomous agents — on eight years of solution architecture, user-centered design, and reliable delivery."
+    },
+    {
+     "key": "home.about.3",
+     "label": "0",
+     "group": "about",
+     "tag": "span",
+     "text": "0"
+    },
+    {
+     "key": "home.about.4",
+     "label": "Years of delivery",
+     "group": "about",
+     "tag": "span",
+     "text": "Years of delivery"
+    },
+    {
+     "key": "home.about.5",
+     "label": "Designing, building, and scaling production so…",
+     "group": "about",
+     "tag": "p",
+     "text": "Designing, building, and scaling production software."
+    },
+    {
+     "key": "home.about.6",
+     "label": "0",
+     "group": "about",
+     "tag": "span",
+     "text": "0"
+    },
+    {
+     "key": "home.about.7",
+     "label": "Weeks — average AI MVP",
+     "group": "about",
+     "tag": "span",
+     "text": "Weeks — average AI MVP"
+    },
+    {
+     "key": "home.about.8",
+     "label": "Typical time from kickoff to a production-read…",
+     "group": "about",
+     "tag": "p",
+     "text": "Typical time from kickoff to a production-ready AI MVP."
+    },
+    {
+     "key": "home.about.9",
+     "label": "0",
+     "group": "about",
+     "tag": "span",
+     "text": "0"
+    },
+    {
+     "key": "home.about.10",
+     "label": "Faster than traditional cycles",
+     "group": "about",
+     "tag": "span",
+     "text": "Faster than traditional cycles"
+    },
+    {
+     "key": "home.about.11",
+     "label": "Senior engineers amplified by AI compress 12-m…",
+     "group": "about",
+     "tag": "p",
+     "text": "Senior engineers amplified by AI compress 12-month roadmaps into sprint-length delivery."
+    },
+    {
+     "key": "home.story.1",
+     "label": "How a product ships",
+     "group": "story",
+     "tag": "p",
+     "text": "How a product ships"
+    },
+    {
+     "key": "home.story.2",
+     "label": "First call to go-live",
+     "group": "story",
+     "tag": "span",
+     "text": "First call to go-live"
+    },
+    {
+     "key": "home.story.3",
+     "label": "in six weeks.",
+     "group": "story",
+     "tag": "span",
+     "text": "in six weeks."
+    },
+    {
+     "key": "home.story.4",
+     "label": "1",
+     "group": "story",
+     "tag": "i",
+     "text": "1"
+    },
+    {
+     "key": "home.story.5",
+     "label": "Strategy call",
+     "group": "story",
+     "tag": "b",
+     "text": "Strategy call"
+    },
+    {
+     "key": "home.story.6",
+     "label": "We map your goal, your users and the data you …",
+     "group": "story",
+     "tag": "p",
+     "text": "We map your goal, your users and the data you already have, then agree what to build first."
+    },
+    {
+     "key": "home.story.7",
+     "label": "2",
+     "group": "story",
+     "tag": "i",
+     "text": "2"
+    },
+    {
+     "key": "home.story.8",
+     "label": "Design",
+     "group": "story",
+     "tag": "b",
+     "text": "Design"
+    },
+    {
+     "key": "home.story.9",
+     "label": "Architecture and interface designed with real …",
+     "group": "story",
+     "tag": "p",
+     "text": "Architecture and interface designed with real users in mind, reviewed with you before code starts."
+    },
+    {
+     "key": "home.story.10",
+     "label": "3",
+     "group": "story",
+     "tag": "i",
+     "text": "3"
+    },
+    {
+     "key": "home.story.11",
+     "label": "Build",
+     "group": "story",
+     "tag": "b",
+     "text": "Build"
+    },
+    {
+     "key": "home.story.12",
+     "label": "Short sprints that end in working software you…",
+     "group": "story",
+     "tag": "p",
+     "text": "Short sprints that end in working software you can open, click and test."
+    },
+    {
+     "key": "home.story.13",
+     "label": "4",
+     "group": "story",
+     "tag": "i",
+     "text": "4"
+    },
+    {
+     "key": "home.story.14",
+     "label": "Go live",
+     "group": "story",
+     "tag": "b",
+     "text": "Go live"
+    },
+    {
+     "key": "home.story.15",
+     "label": "A deployed product on real infrastructure, wit…",
+     "group": "story",
+     "tag": "p",
+     "text": "A deployed product on real infrastructure, with support after go-live."
+    },
+    {
+     "key": "home.why.1",
+     "label": "Why Elanster",
+     "group": "why",
+     "tag": "p",
+     "text": "Why Elanster"
+    },
+    {
+     "key": "home.why.2",
+     "label": "Why companies choose Elanster",
+     "group": "why",
+     "tag": "h2",
+     "text": "Why companies choose Elanster"
+    },
+    {
+     "key": "home.why.3",
+     "label": "A small senior team, short sprints and working…",
+     "group": "why",
+     "tag": "p",
+     "text": "A small senior team, short sprints and working software every week."
+    },
+    {
+     "key": "home.why.4",
+     "label": "01",
+     "group": "why",
+     "tag": "span",
+     "text": "01"
+    },
+    {
+     "key": "home.why.5",
+     "label": "Senior Team, Start to Finish",
+     "group": "why",
+     "tag": "h3",
+     "text": "Senior Team, Start to Finish"
+    },
+    {
+     "key": "home.why.6",
+     "label": "The engineers on your first call build and rev…",
+     "group": "why",
+     "tag": "p",
+     "text": "The engineers on your first call build and review your product through launch, so nothing gets lost in a hand-off."
+    },
+    {
+     "key": "home.why.7",
+     "label": "02",
+     "group": "why",
+     "tag": "span",
+     "text": "02"
+    },
+    {
+     "key": "home.why.8",
+     "label": "AI Research",
+     "group": "why",
+     "tag": "h3",
+     "text": "AI Research"
+    },
+    {
+     "key": "home.why.9",
+     "label": "Our human-in-the-loop workflow pairs senior en…",
+     "group": "why",
+     "tag": "p",
+     "text": "Our human-in-the-loop workflow pairs senior engineers with production-grade LLMs. The result: company roadmaps compressed into sprint-length delivery."
+    },
+    {
+     "key": "home.why.10",
+     "label": "03",
+     "group": "why",
+     "tag": "span",
+     "text": "03"
+    },
+    {
+     "key": "home.why.11",
+     "label": "Standards Companies Rely On",
+     "group": "why",
+     "tag": "h3",
+     "text": "Standards Companies Rely On"
+    },
+    {
+     "key": "home.why.12",
+     "label": "Architecture-first delivery across web, mobile…",
+     "group": "why",
+     "tag": "p",
+     "text": "Architecture-first delivery across web, mobile, and cloud. Every AI project inherits the same security protocols and code review standards."
+    },
+    {
+     "key": "home.why.13",
+     "label": "04",
+     "group": "why",
+     "tag": "span",
+     "text": "04"
+    },
+    {
+     "key": "home.why.14",
+     "label": "Weeks, Not Quarters to Launch",
+     "group": "why",
+     "tag": "h3",
+     "text": "Weeks, Not Quarters to Launch"
+    },
+    {
+     "key": "home.why.15",
+     "label": "AI MVPs in 4 to 12 weeks. Full-stack AI produc…",
+     "group": "why",
+     "tag": "p",
+     "text": "AI MVPs in 4 to 12 weeks. Full-stack AI products — from RAG pipelines to autonomous agents — production-ready and deployed, not prototyped."
+    },
+    {
+     "key": "home.why.16",
+     "label": "05",
+     "group": "why",
+     "tag": "span",
+     "text": "05"
+    },
+    {
+     "key": "home.why.17",
+     "label": "Accountable After Launch",
+     "group": "why",
+     "tag": "h3",
+     "text": "Accountable After Launch"
+    },
+    {
+     "key": "home.why.18",
+     "label": "The people who build your product stay with it…",
+     "group": "why",
+     "tag": "p",
+     "text": "The people who build your product stay with it after it ships."
+    },
+    {
+     "key": "home.services.1",
+     "label": "AI delivery for companies",
+     "group": "services",
+     "tag": "p",
+     "text": "AI delivery for companies"
+    },
+    {
+     "key": "home.services.2",
+     "label": "Full-stack AI,",
+     "group": "services",
+     "tag": "h2",
+     "text": "Full-stack AI,"
+    },
+    {
+     "key": "home.services.3",
+     "label": "end to end",
+     "group": "services",
+     "tag": "span",
+     "text": "end to end"
+    },
+    {
+     "key": "home.services.4",
+     "label": "View all services",
+     "group": "services",
+     "tag": "a",
+     "text": "View all services"
+    },
+    {
+     "key": "home.services.4.link",
+     "label": "Link of: View all services",
+     "group": "services",
+     "tag": "link",
+     "text": "services.html"
+    },
+    {
+     "key": "home.services.5",
+     "label": "AI Research",
+     "group": "services",
+     "tag": "h3",
+     "text": "AI Research"
+    },
+    {
+     "key": "home.services.6",
+     "label": "Concept to a production AI product in weeks.",
+     "group": "services",
+     "tag": "p",
+     "text": "Concept to a production AI product in weeks."
+    },
+    {
+     "key": "home.services.7",
+     "label": "AI Integration",
+     "group": "services",
+     "tag": "h3",
+     "text": "AI Integration"
+    },
+    {
+     "key": "home.services.8",
+     "label": "LLMs and RAG inside the products you already r…",
+     "group": "services",
+     "tag": "p",
+     "text": "LLMs and RAG inside the products you already run."
+    },
+    {
+     "key": "home.services.9",
+     "label": "AI Agents & Automation",
+     "group": "services",
+     "tag": "h3",
+     "text": "AI Agents & Automation"
+    },
+    {
+     "key": "home.services.10",
+     "label": "Agents that draft, route and resolve.",
+     "group": "services",
+     "tag": "p",
+     "text": "Agents that draft, route and resolve."
+    },
+    {
+     "key": "home.services.11",
+     "label": "Full-Stack App Development",
+     "group": "services",
+     "tag": "h3",
+     "text": "Full-Stack App Development"
+    },
+    {
+     "key": "home.services.12",
+     "label": "Web, mobile and cloud, built to last.",
+     "group": "services",
+     "tag": "p",
+     "text": "Web, mobile and cloud, built to last."
+    },
+    {
+     "key": "home.services.13",
+     "label": "AI Consulting",
+     "group": "services",
+     "tag": "h3",
+     "text": "AI Consulting"
+    },
+    {
+     "key": "home.services.14",
+     "label": "Find where AI creates real value.",
+     "group": "services",
+     "tag": "p",
+     "text": "Find where AI creates real value."
+    },
+    {
+     "key": "home.manifesto.1",
+     "label": "Ship it. Run it.",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Ship it. Run it."
+    },
+    {
+     "key": "home.manifesto.2",
+     "label": "Ship it. Run it.",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Ship it. Run it."
+    },
+    {
+     "key": "home.manifesto.3",
+     "label": "Ship it. Run it.",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Ship it. Run it."
+    },
+    {
+     "key": "home.manifesto.4",
+     "label": "Ship it. Run it.",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Ship it. Run it."
+    },
+    {
+     "key": "home.manifesto.5",
+     "label": "Own it. Improve it.",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Own it. Improve it."
+    },
+    {
+     "key": "home.manifesto.6",
+     "label": "Own it. Improve it.",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Own it. Improve it."
+    },
+    {
+     "key": "home.manifesto.7",
+     "label": "Own it. Improve it.",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Own it. Improve it."
+    },
+    {
+     "key": "home.manifesto.8",
+     "label": "Own it. Improve it.",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Own it. Improve it."
+    },
+    {
+     "key": "home.manifesto.9",
+     "label": "/ From first call to long after launch",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "/ From first call to long after launch"
+    },
+    {
+     "key": "home.manifesto.10",
+     "label": "Product engineering, end to end",
+     "group": "manifesto",
+     "tag": "span",
+     "text": "Product engineering, end to end"
+    },
+    {
+     "key": "home.tech.1",
+     "label": "Our stack",
+     "group": "tech",
+     "tag": "p",
+     "text": "Our stack"
+    },
+    {
+     "key": "home.tech.2",
+     "label": "Secure, scalable and fast in production.",
+     "group": "tech",
+     "tag": "h2",
+     "text": "Secure, scalable and fast in production."
+    },
+    {
+     "key": "home.tech.3",
+     "label": "The standards behind every product we ship, an…",
+     "group": "tech",
+     "tag": "p",
+     "text": "The standards behind every product we ship, and the tools we trust to deliver them."
+    },
+    {
+     "key": "home.tech.4",
+     "label": "01",
+     "group": "tech",
+     "tag": "b",
+     "text": "01"
+    },
+    {
+     "key": "home.tech.5",
+     "label": "Security",
+     "group": "tech",
+     "tag": "h3",
+     "text": "Security"
+    },
+    {
+     "key": "home.tech.6",
+     "label": "Access control, data protection and security r…",
+     "group": "tech",
+     "tag": "p",
+     "text": "Access control, data protection and security reviews from the first sprint."
+    },
+    {
+     "key": "home.tech.7",
+     "label": "02",
+     "group": "tech",
+     "tag": "b",
+     "text": "02"
+    },
+    {
+     "key": "home.tech.8",
+     "label": "Scalability",
+     "group": "tech",
+     "tag": "h3",
+     "text": "Scalability"
+    },
+    {
+     "key": "home.tech.9",
+     "label": "Architecture that grows with your users, data …",
+     "group": "tech",
+     "tag": "p",
+     "text": "Architecture that grows with your users, data and traffic without a rewrite."
+    },
+    {
+     "key": "home.tech.10",
+     "label": "03",
+     "group": "tech",
+     "tag": "b",
+     "text": "03"
+    },
+    {
+     "key": "home.tech.11",
+     "label": "Stability",
+     "group": "tech",
+     "tag": "h3",
+     "text": "Stability"
+    },
+    {
+     "key": "home.tech.12",
+     "label": "Monitoring, testing and guardrails that keep y…",
+     "group": "tech",
+     "tag": "p",
+     "text": "Monitoring, testing and guardrails that keep your product up and consistent."
+    },
+    {
+     "key": "home.tech.13",
+     "label": "04",
+     "group": "tech",
+     "tag": "b",
+     "text": "04"
+    },
+    {
+     "key": "home.tech.14",
+     "label": "Speed",
+     "group": "tech",
+     "tag": "h3",
+     "text": "Speed"
+    },
+    {
+     "key": "home.tech.15",
+     "label": "Fast responses and efficient infrastructure, t…",
+     "group": "tech",
+     "tag": "p",
+     "text": "Fast responses and efficient infrastructure, tuned for real-world load and cost."
+    },
+    {
+     "key": "home.process.1",
+     "label": "Process",
+     "group": "process",
+     "tag": "p",
+     "text": "Process"
+    },
+    {
+     "key": "home.process.2",
+     "label": "Two meetings a week. Full visibility.",
+     "group": "process",
+     "tag": "h2",
+     "text": "Two meetings a week. Full visibility."
+    },
+    {
+     "key": "home.process.3",
+     "label": "Planned on Monday, demoed on Friday, and built…",
+     "group": "process",
+     "tag": "p",
+     "text": "Planned on Monday, demoed on Friday, and built in your Slack and repos in between."
+    },
+    {
+     "key": "home.process.4",
+     "label": "Strategy call",
+     "group": "process",
+     "tag": "b",
+     "text": "Strategy call"
+    },
+    {
+     "key": "home.process.5",
+     "label": "Start",
+     "group": "process",
+     "tag": "em",
+     "text": "Start"
+    },
+    {
+     "key": "home.process.6",
+     "label": "The right model",
+     "group": "process",
+     "tag": "b",
+     "text": "The right model"
+    },
+    {
+     "key": "home.process.7",
+     "label": "Shape",
+     "group": "process",
+     "tag": "em",
+     "text": "Shape"
+    },
+    {
+     "key": "home.process.8",
+     "label": "Sprint planning",
+     "group": "process",
+     "tag": "b",
+     "text": "Sprint planning"
+    },
+    {
+     "key": "home.process.9",
+     "label": "Every Monday",
+     "group": "process",
+     "tag": "em",
+     "text": "Every Monday"
+    },
+    {
+     "key": "home.process.10",
+     "label": "Development",
+     "group": "process",
+     "tag": "b",
+     "text": "Development"
+    },
+    {
+     "key": "home.process.11",
+     "label": "Weeks 2 – 5",
+     "group": "process",
+     "tag": "em",
+     "text": "Weeks 2 – 5"
+    },
+    {
+     "key": "home.process.12",
+     "label": "Sprint review",
+     "group": "process",
+     "tag": "b",
+     "text": "Sprint review"
+    },
+    {
+     "key": "home.process.13",
+     "label": "Every Friday",
+     "group": "process",
+     "tag": "em",
+     "text": "Every Friday"
+    },
+    {
+     "key": "home.process.14",
+     "label": "In production",
+     "group": "process",
+     "tag": "b",
+     "text": "In production"
+    },
+    {
+     "key": "home.process.15",
+     "label": "4 – 12 weeks",
+     "group": "process",
+     "tag": "em",
+     "text": "4 – 12 weeks"
+    },
+    {
+     "key": "home.culture.1",
+     "label": "The people",
+     "group": "culture",
+     "tag": "p",
+     "text": "The people"
+    },
+    {
+     "key": "home.culture.2",
+     "label": "A culture built for the long run",
+     "group": "culture",
+     "tag": "h2",
+     "text": "A culture built for the long run"
+    },
+    {
+     "key": "home.culture.3",
+     "label": "We’re hiring →",
+     "group": "culture",
+     "tag": "a",
+     "text": "We’re hiring →"
+    },
+    {
+     "key": "home.culture.3.link",
+     "label": "Link of: We’re hiring →",
+     "group": "culture",
+     "tag": "link",
+     "text": "careers.html"
+    },
+    {
+     "key": "home.culture.4",
+     "label": "01",
+     "group": "culture",
+     "tag": "span",
+     "text": "01"
+    },
+    {
+     "key": "home.culture.5",
+     "label": "Excellence",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Excellence"
+    },
+    {
+     "key": "home.culture.6",
+     "label": "We hold our work to a high bar — in code, in d…",
+     "group": "culture",
+     "tag": "p",
+     "text": "We hold our work to a high bar — in code, in design, and in every conversation with a client."
+    },
+    {
+     "key": "home.culture.7",
+     "label": "02",
+     "group": "culture",
+     "tag": "span",
+     "text": "02"
+    },
+    {
+     "key": "home.culture.8",
+     "label": "Integrity",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Integrity"
+    },
+    {
+     "key": "home.culture.9",
+     "label": "We say what we’ll do and do what we say. Hones…",
+     "group": "culture",
+     "tag": "p",
+     "text": "We say what we’ll do and do what we say. Honest estimates, honest trade-offs, honest outcomes."
+    },
+    {
+     "key": "home.culture.10",
+     "label": "03",
+     "group": "culture",
+     "tag": "span",
+     "text": "03"
+    },
+    {
+     "key": "home.culture.11",
+     "label": "Continuous Learning",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Continuous Learning"
+    },
+    {
+     "key": "home.culture.12",
+     "label": "Technology moves fast. So do we — every engine…",
+     "group": "culture",
+     "tag": "p",
+     "text": "Technology moves fast. So do we — every engineer invests in learning as part of the job, not after it."
+    },
+    {
+     "key": "home.culture.13",
+     "label": "04",
+     "group": "culture",
+     "tag": "span",
+     "text": "04"
+    },
+    {
+     "key": "home.culture.14",
+     "label": "Ownership",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Ownership"
+    },
+    {
+     "key": "home.culture.15",
+     "label": "No hand-offs into the void. The people who des…",
+     "group": "culture",
+     "tag": "p",
+     "text": "No hand-offs into the void. The people who design and build your product stay accountable for it."
+    },
+    {
+     "key": "home.culture.16",
+     "label": "05",
+     "group": "culture",
+     "tag": "span",
+     "text": "05"
+    },
+    {
+     "key": "home.culture.17",
+     "label": "Collaboration",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Collaboration"
+    },
+    {
+     "key": "home.culture.18",
+     "label": "We work as an extension of your team — shared …",
+     "group": "culture",
+     "tag": "p",
+     "text": "We work as an extension of your team — shared tools, shared rituals, shared definition of done."
+    },
+    {
+     "key": "home.contact.img.1",
+     "label": "Image: Indzara",
+     "group": "contact",
+     "tag": "image",
+     "text": "assets/products/indzara.jpg"
+    },
+    {
+     "key": "home.contact.img.1.alt",
+     "label": "Alt text: Indzara",
+     "group": "contact",
+     "tag": "alt",
+     "text": "Indzara"
+    },
+    {
+     "key": "home.contact.img.2",
+     "label": "Image: Short Sermons",
+     "group": "contact",
+     "tag": "image",
+     "text": "assets/products/short-sermons.jpg"
+    },
+    {
+     "key": "home.contact.img.2.alt",
+     "label": "Alt text: Short Sermons",
+     "group": "contact",
+     "tag": "alt",
+     "text": "Short Sermons"
+    },
+    {
+     "key": "home.contact.img.3",
+     "label": "Image: Talk Back",
+     "group": "contact",
+     "tag": "image",
+     "text": "assets/products/talk-back.jpg"
+    },
+    {
+     "key": "home.contact.img.3.alt",
+     "label": "Alt text: Talk Back",
+     "group": "contact",
+     "tag": "alt",
+     "text": "Talk Back"
+    },
+    {
+     "key": "home.contact.img.4",
+     "label": "Image: Indzara People",
+     "group": "contact",
+     "tag": "image",
+     "text": "assets/products/indzara-people.jpg"
+    },
+    {
+     "key": "home.contact.img.4.alt",
+     "label": "Alt text: Indzara People",
+     "group": "contact",
+     "tag": "alt",
+     "text": "Indzara People"
+    },
+    {
+     "key": "home.contact.img.5",
+     "label": "Image: Indzara Projects",
+     "group": "contact",
+     "tag": "image",
+     "text": "assets/products/indzara-projects.jpg"
+    },
+    {
+     "key": "home.contact.img.5.alt",
+     "label": "Alt text: Indzara Projects",
+     "group": "contact",
+     "tag": "alt",
+     "text": "Indzara Projects"
+    },
+    {
+     "key": "home.contact.img.6",
+     "label": "Image: Indzara Retail",
+     "group": "contact",
+     "tag": "image",
+     "text": "assets/products/indzara-retail.jpg"
+    },
+    {
+     "key": "home.contact.img.6.alt",
+     "label": "Alt text: Indzara Retail",
+     "group": "contact",
+     "tag": "alt",
+     "text": "Indzara Retail"
+    },
+    {
+     "key": "home.contact.1",
+     "label": "Your next product",
+     "group": "contact",
+     "tag": "p",
+     "text": "Your next product"
+    },
+    {
+     "key": "home.contact.2",
+     "label": "Got a product in mind? Let’s build it.",
+     "group": "contact",
+     "tag": "h2",
+     "text": "Got a product in mind? Let’s build it."
+    },
+    {
+     "key": "home.contact.3",
+     "label": "Tell us what you want to make and who it is fo…",
+     "group": "contact",
+     "tag": "p",
+     "text": "Tell us what you want to make and who it is for. We will shape it into a product plan and show you the quickest way to a first release."
+    },
+    {
+     "key": "home.contact.4",
+     "label": "10",
+     "group": "contact",
+     "tag": "strong",
+     "text": "10"
+    },
+    {
+     "key": "home.contact.5",
+     "label": "Products shipped",
+     "group": "contact",
+     "tag": "span",
+     "text": "Products shipped"
+    },
+    {
+     "key": "home.contact.6",
+     "label": "1:1",
+     "group": "contact",
+     "tag": "strong",
+     "text": "1:1"
+    },
+    {
+     "key": "home.contact.7",
+     "label": "With a senior engineer",
+     "group": "contact",
+     "tag": "span",
+     "text": "With a senior engineer"
+    },
+    {
+     "key": "home.contact.8",
+     "label": "24h",
+     "group": "contact",
+     "tag": "strong",
+     "text": "24h"
+    },
+    {
+     "key": "home.contact.9",
+     "label": "Reply to every enquiry",
+     "group": "contact",
+     "tag": "span",
+     "text": "Reply to every enquiry"
+    },
+    {
+     "key": "home.contact.10",
+     "label": "A clear scope for your first version, not a wi…",
+     "group": "contact",
+     "tag": "li",
+     "text": "A clear scope for your first version, not a wish list."
+    },
+    {
+     "key": "home.contact.11",
+     "label": "Honest trade-offs between speed, quality and b…",
+     "group": "contact",
+     "tag": "li",
+     "text": "Honest trade-offs between speed, quality and budget."
+    },
+    {
+     "key": "home.contact.12",
+     "label": "A first milestone you can see and try within w…",
+     "group": "contact",
+     "tag": "li",
+     "text": "A first milestone you can see and try within weeks."
+    },
+    {
+     "key": "home.contact.13",
+     "label": "Start a Product Conversation",
+     "group": "contact",
+     "tag": "a",
+     "text": "Start a Product Conversation"
+    },
+    {
+     "key": "home.contact.13.link",
+     "label": "Link of: Start a Product Conversation",
+     "group": "contact",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "home.contact.14",
+     "label": "See our products",
+     "group": "contact",
+     "tag": "a",
+     "text": "See our products"
+    },
+    {
+     "key": "home.contact.14.link",
+     "label": "Link of: See our products",
+     "group": "contact",
+     "tag": "link",
+     "text": "work.html"
+    },
+    {
+     "key": "home.insights.1",
+     "label": "Latest updates",
+     "group": "insights",
+     "tag": "p",
+     "text": "Latest updates"
+    },
+    {
+     "key": "home.insights.2",
+     "label": "Insights & News",
+     "group": "insights",
+     "tag": "h2",
+     "text": "Insights & News"
+    },
+    {
+     "key": "home.insights.3",
+     "label": "View all articles →",
+     "group": "insights",
+     "tag": "a",
+     "text": "View all articles →"
+    },
+    {
+     "key": "home.insights.3.link",
+     "label": "Link of: View all articles →",
+     "group": "insights",
+     "tag": "link",
+     "text": "blog.html"
+    },
+    {
+     "key": "home.insights.img.1",
+     "label": "Image: Laptop showing an AI code editor",
+     "group": "insights",
+     "tag": "image",
+     "text": "https://images.unsplash.com/photo-1746286720965-cccf57e56c68?auto=format&fit=crop&w=800&h=480&q=70"
+    },
+    {
+     "key": "home.insights.img.1.alt",
+     "label": "Alt text: Laptop showing an AI code editor",
+     "group": "insights",
+     "tag": "alt",
+     "text": "Laptop showing an AI code editor"
+    },
+    {
+     "key": "home.insights.4",
+     "label": "AI Strategy",
+     "group": "insights",
+     "tag": "span",
+     "text": "AI Strategy"
+    },
+    {
+     "key": "home.insights.5",
+     "label": "Why most AI products fail after launch — and w…",
+     "group": "insights",
+     "tag": "h3",
+     "text": "Why most AI products fail after launch — and what production-ready actually means"
+    },
+    {
+     "key": "home.insights.6",
+     "label": "Most AI projects stall after the demo. Here is…",
+     "group": "insights",
+     "tag": "p",
+     "text": "Most AI projects stall after the demo. Here is what separates the ones that survive production."
+    },
+    {
+     "key": "home.insights.7",
+     "label": "Read article →",
+     "group": "insights",
+     "tag": "span",
+     "text": "Read article →"
+    },
+    {
+     "key": "home.insights.img.2",
+     "label": "Image: Stacks of coins on a table",
+     "group": "insights",
+     "tag": "image",
+     "text": "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?auto=format&fit=crop&w=800&h=480&q=70"
+    },
+    {
+     "key": "home.insights.img.2.alt",
+     "label": "Alt text: Stacks of coins on a table",
+     "group": "insights",
+     "tag": "alt",
+     "text": "Stacks of coins on a table"
+    },
+    {
+     "key": "home.insights.8",
+     "label": "AI Economics",
+     "group": "insights",
+     "tag": "span",
+     "text": "AI Economics"
+    },
+    {
+     "key": "home.insights.9",
+     "label": "How much does it cost to build an AI product? …",
+     "group": "insights",
+     "tag": "h3",
+     "text": "How much does it cost to build an AI product? A real breakdown"
+    },
+    {
+     "key": "home.insights.10",
+     "label": "What actually decides where your build lands, …",
+     "group": "insights",
+     "tag": "p",
+     "text": "What actually decides where your build lands, and where budgets quietly leak."
+    },
+    {
+     "key": "home.insights.11",
+     "label": "Read article →",
+     "group": "insights",
+     "tag": "span",
+     "text": "Read article →"
+    },
+    {
+     "key": "home.insights.img.3",
+     "label": "Image: Laptop screen with code and an orange gl",
+     "group": "insights",
+     "tag": "image",
+     "text": "https://images.unsplash.com/photo-1763568258244-9d5aa9c3ce45?auto=format&fit=crop&w=800&h=480&q=70"
+    },
+    {
+     "key": "home.insights.img.3.alt",
+     "label": "Alt text: Laptop screen with code and an orange gl",
+     "group": "insights",
+     "tag": "alt",
+     "text": "Laptop screen with code and an orange glow"
+    },
+    {
+     "key": "home.insights.12",
+     "label": "AI Engineering",
+     "group": "insights",
+     "tag": "span",
+     "text": "AI Engineering"
+    },
+    {
+     "key": "home.insights.13",
+     "label": "Vibe coding technical debt: what happens to yo…",
+     "group": "insights",
+     "tag": "h3",
+     "text": "Vibe coding technical debt: what happens to your codebase at month six"
+    },
+    {
+     "key": "home.insights.14",
+     "label": "AI-assisted coding ships fast until debugging …",
+     "group": "insights",
+     "tag": "p",
+     "text": "AI-assisted coding ships fast until debugging eats the gains. Here is when to bring in engineers."
+    },
+    {
+     "key": "home.insights.15",
+     "label": "Read article →",
+     "group": "insights",
+     "tag": "span",
+     "text": "Read article →"
+    },
+    {
+     "key": "home.faq.1",
+     "label": "FAQ",
+     "group": "faq",
+     "tag": "p",
+     "text": "FAQ"
+    },
+    {
+     "key": "home.faq.2",
+     "label": "Common questions",
+     "group": "faq",
+     "tag": "h2",
+     "text": "Common questions"
+    },
+    {
+     "key": "home.faq.3",
+     "label": "How fast can you deliver an AI MVP?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How fast can you deliver an AI MVP?"
+    },
+    {
+     "key": "home.faq.4",
+     "label": "Most AI MVPs ship in 4 to 12 weeks from kickof…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we’ll give you an honest estimate on the strategy call."
+    },
+    {
+     "key": "home.faq.5",
+     "label": "What AI research services do you offer?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "What AI research services do you offer?"
+    },
+    {
+     "key": "home.faq.6",
+     "label": "Full-stack AI products end to end: AI research…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Full-stack AI products end to end: AI research, AI integration into existing products, autonomous agents and workflow automation, RAG pipelines, and AI consulting — all backed by web, mobile, and cloud engineering."
+    },
+    {
+     "key": "home.faq.7",
+     "label": "Which industries do you work with?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "Which industries do you work with?"
+    },
+    {
+     "key": "home.faq.8",
+     "label": "We’ve delivered across e-commerce, healthcare,…",
+     "group": "faq",
+     "tag": "p",
+     "text": "We’ve delivered across e-commerce, healthcare, faith-based organizations, human resources, education, professional services, and retail. Strong engineering fundamentals travel well between domains."
+    },
+    {
+     "key": "home.faq.9",
+     "label": "What makes you different from other AI develop…",
+     "group": "faq",
+     "tag": "summary",
+     "text": "What makes you different from other AI development agencies?"
+    },
+    {
+     "key": "home.faq.10",
+     "label": "We’re not an AI shop that learned engineering …",
+     "group": "faq",
+     "tag": "p",
+     "text": "We’re not an AI shop that learned engineering last year — we’re a product engineering company that builds AI properly. Architecture first, humans in the loop, production-ready from day one, and accountable long after launch."
+    },
+    {
+     "key": "home.faq.11",
+     "label": "How do your engagements work?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How do your engagements work?"
+    },
+    {
+     "key": "home.faq.12",
+     "label": "We start with a strategy call to understand yo…",
+     "group": "faq",
+     "tag": "p",
+     "text": "We start with a strategy call to understand your goals, constraints, and timeline. From there we map the right model — a fixed-scope build, an embedded product team, or ongoing partnership — with two meetings a week and full visibility throughout."
+    },
+    {
+     "key": "home.faq.13",
+     "label": "Do you work with larger companies?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "Do you work with larger companies?"
+    },
+    {
+     "key": "home.faq.14",
+     "label": "Yes, and smaller ones too. Company-grade deliv…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Yes, and smaller ones too. Company-grade delivery is our default standard — security protocols, code review discipline, and compliance-aware architecture apply to every project, whatever its size."
+    }
+   ]
+  },
+  {
+   "slug": "products",
+   "file": "work.html",
+   "title": "Products",
+   "fields": [
+    {
+     "key": "products.seo.title",
+     "label": "Page title (Google)",
+     "group": "SEO",
+     "tag": "seo-title",
+     "text": "Products — AI Products Built to Run | Elanster Technologies"
+    },
+    {
+     "key": "products.seo.description",
+     "label": "Meta description (Google)",
+     "group": "SEO",
+     "tag": "seo-description",
+     "text": "See the AI products Elanster builds: document intelligence, support copilots, RAG knowledge search and workflow automation, built to run in production."
+    },
+    {
+     "key": "products.page.1",
+     "label": "Skip to content",
+     "group": "Page",
+     "tag": "a",
+     "text": "Skip to content"
+    },
+    {
+     "key": "products.top.1",
+     "label": "Case studies",
+     "group": "top",
+     "tag": "p",
+     "text": "Case studies"
+    },
+    {
+     "key": "products.top.2",
+     "label": "Our products,",
+     "group": "top",
+     "tag": "span",
+     "text": "Our products,"
+    },
+    {
+     "key": "products.top.3",
+     "label": "built to run.",
+     "group": "top",
+     "tag": "span",
+     "text": "built to run."
+    },
+    {
+     "key": "products.top.4",
+     "label": "Illustrative examples and live products: docum…",
+     "group": "top",
+     "tag": "p",
+     "text": "Illustrative examples and live products: document intelligence, copilots, search, automation and more."
+    },
+    {
+     "key": "products.top.5",
+     "label": "Start a Conversation",
+     "group": "top",
+     "tag": "a",
+     "text": "Start a Conversation"
+    },
+    {
+     "key": "products.top.5.link",
+     "label": "Link of: Start a Conversation",
+     "group": "top",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "products.top.6",
+     "label": "Our services",
+     "group": "top",
+     "tag": "a",
+     "text": "Our services"
+    },
+    {
+     "key": "products.top.6.link",
+     "label": "Link of: Our services",
+     "group": "top",
+     "tag": "link",
+     "text": "services.html"
+    },
+    {
+     "key": "products.projects.1",
+     "label": "Case studies",
+     "group": "projects",
+     "tag": "p",
+     "text": "Case studies"
+    },
+    {
+     "key": "products.projects.2",
+     "label": "Products we have built and run.",
+     "group": "projects",
+     "tag": "h2",
+     "text": "Products we have built and run."
+    },
+    {
+     "key": "products.projects.3",
+     "label": "Want to work with us?",
+     "group": "projects",
+     "tag": "p",
+     "text": "Want to work with us?"
+    },
+    {
+     "key": "products.projects.4",
+     "label": "Tell us about your product and we’ll get back …",
+     "group": "projects",
+     "tag": "p",
+     "text": "Tell us about your product and we’ll get back to you within a day."
+    },
+    {
+     "key": "products.projects.5",
+     "label": "Start a Conversation",
+     "group": "projects",
+     "tag": "a",
+     "text": "Start a Conversation"
+    },
+    {
+     "key": "products.projects.5.link",
+     "label": "Link of: Start a Conversation",
+     "group": "projects",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "products.projects.6",
+     "label": "Indzara",
+     "group": "projects",
+     "tag": "b",
+     "text": "Indzara"
+    },
+    {
+     "key": "products.projects.img.1",
+     "label": "Image: Indzara landing page",
+     "group": "projects",
+     "tag": "image",
+     "text": "assets/products/indzara.jpg"
+    },
+    {
+     "key": "products.projects.img.1.alt",
+     "label": "Alt text: Indzara landing page",
+     "group": "projects",
+     "tag": "alt",
+     "text": "Indzara landing page"
+    },
+    {
+     "key": "products.projects.7",
+     "label": "Indzara",
+     "group": "projects",
+     "tag": "h3",
+     "text": "Indzara"
+    },
+    {
+     "key": "products.projects.8",
+     "label": "150+ Excel, Google Sheets and Power BI templat…",
+     "group": "projects",
+     "tag": "p",
+     "text": "150+ Excel, Google Sheets and Power BI templates, plus apps that replace shared spreadsheets."
+    },
+    {
+     "key": "products.projects.9",
+     "label": "Templates & apps",
+     "group": "projects",
+     "tag": "span",
+     "text": "Templates & apps"
+    },
+    {
+     "key": "products.projects.10",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.11",
+     "label": "— Indzara",
+     "group": "projects",
+     "tag": "span",
+     "text": "— Indzara"
+    },
+    {
+     "key": "products.projects.12",
+     "label": "Indzara People",
+     "group": "projects",
+     "tag": "b",
+     "text": "Indzara People"
+    },
+    {
+     "key": "products.projects.img.2",
+     "label": "Image: Indzara People landing page",
+     "group": "projects",
+     "tag": "image",
+     "text": "assets/products/indzara-people.jpg"
+    },
+    {
+     "key": "products.projects.img.2.alt",
+     "label": "Alt text: Indzara People landing page",
+     "group": "projects",
+     "tag": "alt",
+     "text": "Indzara People landing page"
+    },
+    {
+     "key": "products.projects.13",
+     "label": "Indzara People",
+     "group": "projects",
+     "tag": "h3",
+     "text": "Indzara People"
+    },
+    {
+     "key": "products.projects.14",
+     "label": "Apply for, approve and track leave, balances, …",
+     "group": "projects",
+     "tag": "p",
+     "text": "Apply for, approve and track leave, balances, holidays and half-days in one workspace."
+    },
+    {
+     "key": "products.projects.15",
+     "label": "Leave management",
+     "group": "projects",
+     "tag": "span",
+     "text": "Leave management"
+    },
+    {
+     "key": "products.projects.16",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.17",
+     "label": "— Indzara People",
+     "group": "projects",
+     "tag": "span",
+     "text": "— Indzara People"
+    },
+    {
+     "key": "products.projects.18",
+     "label": "Indzara Projects",
+     "group": "projects",
+     "tag": "b",
+     "text": "Indzara Projects"
+    },
+    {
+     "key": "products.projects.img.3",
+     "label": "Image: Indzara Projects landing page",
+     "group": "projects",
+     "tag": "image",
+     "text": "assets/products/indzara-projects.jpg"
+    },
+    {
+     "key": "products.projects.img.3.alt",
+     "label": "Alt text: Indzara Projects landing page",
+     "group": "projects",
+     "tag": "alt",
+     "text": "Indzara Projects landing page"
+    },
+    {
+     "key": "products.projects.19",
+     "label": "Indzara Projects",
+     "group": "projects",
+     "tag": "h3",
+     "text": "Indzara Projects"
+    },
+    {
+     "key": "products.projects.20",
+     "label": "Set each person’s daily capacity, schedule wor…",
+     "group": "projects",
+     "tag": "p",
+     "text": "Set each person’s daily capacity, schedule work against it and spot overload before the week begins."
+    },
+    {
+     "key": "products.projects.21",
+     "label": "Capacity planning",
+     "group": "projects",
+     "tag": "span",
+     "text": "Capacity planning"
+    },
+    {
+     "key": "products.projects.22",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.23",
+     "label": "— Indzara Projects",
+     "group": "projects",
+     "tag": "span",
+     "text": "— Indzara Projects"
+    },
+    {
+     "key": "products.projects.24",
+     "label": "Indzara Retail",
+     "group": "projects",
+     "tag": "b",
+     "text": "Indzara Retail"
+    },
+    {
+     "key": "products.projects.img.4",
+     "label": "Image: Indzara Retail landing page",
+     "group": "projects",
+     "tag": "image",
+     "text": "assets/products/indzara-retail.jpg"
+    },
+    {
+     "key": "products.projects.img.4.alt",
+     "label": "Alt text: Indzara Retail landing page",
+     "group": "projects",
+     "tag": "alt",
+     "text": "Indzara Retail landing page"
+    },
+    {
+     "key": "products.projects.25",
+     "label": "Indzara Retail",
+     "group": "projects",
+     "tag": "h3",
+     "text": "Indzara Retail"
+    },
+    {
+     "key": "products.projects.26",
+     "label": "Stock tracking, barcode invoicing and purchase…",
+     "group": "projects",
+     "tag": "p",
+     "text": "Stock tracking, barcode invoicing and purchase orders for small retailers."
+    },
+    {
+     "key": "products.projects.27",
+     "label": "Inventory & invoicing",
+     "group": "projects",
+     "tag": "span",
+     "text": "Inventory & invoicing"
+    },
+    {
+     "key": "products.projects.28",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.29",
+     "label": "— Indzara Retail",
+     "group": "projects",
+     "tag": "span",
+     "text": "— Indzara Retail"
+    },
+    {
+     "key": "products.projects.30",
+     "label": "Short Sermons",
+     "group": "projects",
+     "tag": "b",
+     "text": "Short Sermons"
+    },
+    {
+     "key": "products.projects.img.5",
+     "label": "Image: Short Sermons landing page",
+     "group": "projects",
+     "tag": "image",
+     "text": "assets/products/short-sermons.jpg"
+    },
+    {
+     "key": "products.projects.img.5.alt",
+     "label": "Alt text: Short Sermons landing page",
+     "group": "projects",
+     "tag": "alt",
+     "text": "Short Sermons landing page"
+    },
+    {
+     "key": "products.projects.31",
+     "label": "Short Sermons",
+     "group": "projects",
+     "tag": "h3",
+     "text": "Short Sermons"
+    },
+    {
+     "key": "products.projects.32",
+     "label": "Real sermons shortened to 2–3 minute videos, w…",
+     "group": "projects",
+     "tag": "p",
+     "text": "Real sermons shortened to 2–3 minute videos, with series, saved episodes and notes."
+    },
+    {
+     "key": "products.projects.33",
+     "label": "Faith & media",
+     "group": "projects",
+     "tag": "span",
+     "text": "Faith & media"
+    },
+    {
+     "key": "products.projects.34",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.35",
+     "label": "— Short Sermons",
+     "group": "projects",
+     "tag": "span",
+     "text": "— Short Sermons"
+    },
+    {
+     "key": "products.projects.36",
+     "label": "Every Tongue",
+     "group": "projects",
+     "tag": "b",
+     "text": "Every Tongue"
+    },
+    {
+     "key": "products.projects.img.6",
+     "label": "Image: Every Tongue banner",
+     "group": "projects",
+     "tag": "image",
+     "text": "https://everytongue.bckofiz.com/og-image.png"
+    },
+    {
+     "key": "products.projects.img.6.alt",
+     "label": "Alt text: Every Tongue banner",
+     "group": "projects",
+     "tag": "alt",
+     "text": "Every Tongue banner"
+    },
+    {
+     "key": "products.projects.37",
+     "label": "Every Tongue",
+     "group": "projects",
+     "tag": "h3",
+     "text": "Every Tongue"
+    },
+    {
+     "key": "products.projects.38",
+     "label": "Live speech translated into 11 Indian language…",
+     "group": "projects",
+     "tag": "p",
+     "text": "Live speech translated into 11 Indian languages in real time, with under two seconds of delay."
+    },
+    {
+     "key": "products.projects.39",
+     "label": "Live translation",
+     "group": "projects",
+     "tag": "span",
+     "text": "Live translation"
+    },
+    {
+     "key": "products.projects.40",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.41",
+     "label": "— Every Tongue",
+     "group": "projects",
+     "tag": "span",
+     "text": "— Every Tongue"
+    },
+    {
+     "key": "products.projects.42",
+     "label": "Church Circle",
+     "group": "projects",
+     "tag": "b",
+     "text": "Church Circle"
+    },
+    {
+     "key": "products.projects.img.7",
+     "label": "Image: Church Circle banner",
+     "group": "projects",
+     "tag": "image",
+     "text": "https://churchcircle.co/assets/images/og-image.jpg"
+    },
+    {
+     "key": "products.projects.img.7.alt",
+     "label": "Alt text: Church Circle banner",
+     "group": "projects",
+     "tag": "alt",
+     "text": "Church Circle banner"
+    },
+    {
+     "key": "products.projects.43",
+     "label": "Church Circle",
+     "group": "projects",
+     "tag": "h3",
+     "text": "Church Circle"
+    },
+    {
+     "key": "products.projects.44",
+     "label": "Free, open source software for people, events,…",
+     "group": "projects",
+     "tag": "p",
+     "text": "Free, open source software for people, events, small groups, rosters and kids check-in."
+    },
+    {
+     "key": "products.projects.45",
+     "label": "Church management",
+     "group": "projects",
+     "tag": "span",
+     "text": "Church management"
+    },
+    {
+     "key": "products.projects.46",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.47",
+     "label": "— Church Circle",
+     "group": "projects",
+     "tag": "span",
+     "text": "— Church Circle"
+    },
+    {
+     "key": "products.projects.48",
+     "label": "Talk Back",
+     "group": "projects",
+     "tag": "b",
+     "text": "Talk Back"
+    },
+    {
+     "key": "products.projects.img.8",
+     "label": "Image: Talk Back landing page",
+     "group": "projects",
+     "tag": "image",
+     "text": "assets/products/talk-back.jpg"
+    },
+    {
+     "key": "products.projects.img.8.alt",
+     "label": "Alt text: Talk Back landing page",
+     "group": "projects",
+     "tag": "alt",
+     "text": "Talk Back landing page"
+    },
+    {
+     "key": "products.projects.49",
+     "label": "Talk Back",
+     "group": "projects",
+     "tag": "h3",
+     "text": "Talk Back"
+    },
+    {
+     "key": "products.projects.50",
+     "label": "YouTube comment replies drafted by the team an…",
+     "group": "projects",
+     "tag": "p",
+     "text": "YouTube comment replies drafted by the team and approved by an admin before they are posted."
+    },
+    {
+     "key": "products.projects.51",
+     "label": "Team workspace",
+     "group": "projects",
+     "tag": "span",
+     "text": "Team workspace"
+    },
+    {
+     "key": "products.projects.52",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.53",
+     "label": "— Talk Back",
+     "group": "projects",
+     "tag": "span",
+     "text": "— Talk Back"
+    },
+    {
+     "key": "products.projects.54",
+     "label": "OMMC Pune",
+     "group": "projects",
+     "tag": "b",
+     "text": "OMMC Pune"
+    },
+    {
+     "key": "products.projects.img.9",
+     "label": "Image: OMMC Pune landing page",
+     "group": "projects",
+     "tag": "image",
+     "text": "https://image.thum.io/get/width/1200/crop/630/noanimate/https://ommcpune.in/"
+    },
+    {
+     "key": "products.projects.img.9.alt",
+     "label": "Alt text: OMMC Pune landing page",
+     "group": "projects",
+     "tag": "alt",
+     "text": "OMMC Pune landing page"
+    },
+    {
+     "key": "products.projects.55",
+     "label": "OMMC Pune",
+     "group": "projects",
+     "tag": "h3",
+     "text": "OMMC Pune"
+    },
+    {
+     "key": "products.projects.56",
+     "label": "The website for OMMC, Pune.",
+     "group": "projects",
+     "tag": "p",
+     "text": "The website for OMMC, Pune."
+    },
+    {
+     "key": "products.projects.57",
+     "label": "Website",
+     "group": "projects",
+     "tag": "span",
+     "text": "Website"
+    },
+    {
+     "key": "products.projects.58",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.59",
+     "label": "— OMMC Pune",
+     "group": "projects",
+     "tag": "span",
+     "text": "— OMMC Pune"
+    },
+    {
+     "key": "products.projects.60",
+     "label": "ETF India",
+     "group": "projects",
+     "tag": "b",
+     "text": "ETF India"
+    },
+    {
+     "key": "products.projects.img.10",
+     "label": "Image: ETF India landing page",
+     "group": "projects",
+     "tag": "image",
+     "text": "https://image.thum.io/get/width/1200/crop/630/noanimate/https://etfindia.com/"
+    },
+    {
+     "key": "products.projects.img.10.alt",
+     "label": "Alt text: ETF India landing page",
+     "group": "projects",
+     "tag": "alt",
+     "text": "ETF India landing page"
+    },
+    {
+     "key": "products.projects.61",
+     "label": "ETF India",
+     "group": "projects",
+     "tag": "h3",
+     "text": "ETF India"
+    },
+    {
+     "key": "products.projects.62",
+     "label": "Data and tools for India’s ETF investors: a sc…",
+     "group": "projects",
+     "tag": "p",
+     "text": "Data and tools for India’s ETF investors: a screener, fund pages and side-by-side comparisons."
+    },
+    {
+     "key": "products.projects.63",
+     "label": "Investor data & tools",
+     "group": "projects",
+     "tag": "span",
+     "text": "Investor data & tools"
+    },
+    {
+     "key": "products.projects.64",
+     "label": "Visit site",
+     "group": "projects",
+     "tag": "a",
+     "text": "Visit site"
+    },
+    {
+     "key": "products.projects.65",
+     "label": "— ETF India",
+     "group": "projects",
+     "tag": "span",
+     "text": "— ETF India"
+    },
+    {
+     "key": "products.work.1",
+     "label": "Illustrative examples",
+     "group": "work",
+     "tag": "p",
+     "text": "Illustrative examples"
+    },
+    {
+     "key": "products.work.2",
+     "label": "AI products we build for clients",
+     "group": "work",
+     "tag": "h2",
+     "text": "AI products we build for clients"
+    },
+    {
+     "key": "products.work.img.1",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-resume-3d.png"
+    },
+    {
+     "key": "products.work.img.1.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "products.work.3",
+     "label": "Document Intelligence",
+     "group": "work",
+     "tag": "h3",
+     "text": "Document Intelligence"
+    },
+    {
+     "key": "products.work.4",
+     "label": "AI pipeline that classifies, extracts, and rou…",
+     "group": "work",
+     "tag": "p",
+     "text": "AI pipeline that classifies, extracts, and routes business documents. 80% less manual review."
+    },
+    {
+     "key": "products.work.5",
+     "label": "AI Agents",
+     "group": "work",
+     "tag": "span",
+     "text": "AI Agents"
+    },
+    {
+     "key": "products.work.img.2",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-idcard-3d.png"
+    },
+    {
+     "key": "products.work.img.2.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "products.work.6",
+     "label": "Support Copilot",
+     "group": "work",
+     "tag": "h3",
+     "text": "Support Copilot"
+    },
+    {
+     "key": "products.work.7",
+     "label": "LLM-powered assistant resolving customer queri…",
+     "group": "work",
+     "tag": "p",
+     "text": "LLM-powered assistant resolving customer queries end to end. Faster answers, lighter queues."
+    },
+    {
+     "key": "products.work.8",
+     "label": "LLM Apps",
+     "group": "work",
+     "tag": "span",
+     "text": "LLM Apps"
+    },
+    {
+     "key": "products.work.img.3",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-diploma-3d.png"
+    },
+    {
+     "key": "products.work.img.3.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "products.work.9",
+     "label": "Knowledge Search",
+     "group": "work",
+     "tag": "h3",
+     "text": "Knowledge Search"
+    },
+    {
+     "key": "products.work.10",
+     "label": "RAG search across years of internal documents …",
+     "group": "work",
+     "tag": "p",
+     "text": "RAG search across years of internal documents — answers with sources, in seconds."
+    },
+    {
+     "key": "products.work.11",
+     "label": "RAG Pipelines",
+     "group": "work",
+     "tag": "span",
+     "text": "RAG Pipelines"
+    },
+    {
+     "key": "products.work.img.4",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-report-3d.png"
+    },
+    {
+     "key": "products.work.img.4.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "products.work.12",
+     "label": "Proposal Automation",
+     "group": "work",
+     "tag": "h3",
+     "text": "Proposal Automation"
+    },
+    {
+     "key": "products.work.13",
+     "label": "AI agents drafting bids and RFP responses from…",
+     "group": "work",
+     "tag": "p",
+     "text": "AI agents drafting bids and RFP responses from past wins. Days of turnaround cut to hours."
+    },
+    {
+     "key": "products.work.14",
+     "label": "Autonomous Agents",
+     "group": "work",
+     "tag": "span",
+     "text": "Autonomous Agents"
+    },
+    {
+     "key": "products.work.img.5",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-pie-3d.png"
+    },
+    {
+     "key": "products.work.img.5.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "products.work.15",
+     "label": "Demand Forecasting",
+     "group": "work",
+     "tag": "h3",
+     "text": "Demand Forecasting"
+    },
+    {
+     "key": "products.work.16",
+     "label": "ML forecasting wired into retail operations — …",
+     "group": "work",
+     "tag": "p",
+     "text": "ML forecasting wired into retail operations — smarter stock decisions every morning."
+    },
+    {
+     "key": "products.work.17",
+     "label": "Machine Learning",
+     "group": "work",
+     "tag": "span",
+     "text": "Machine Learning"
+    },
+    {
+     "key": "products.work.img.6",
+     "label": "Image: Image",
+     "group": "work",
+     "tag": "image",
+     "text": "assets/img/ic-gear-3d.png"
+    },
+    {
+     "key": "products.work.img.6.alt",
+     "label": "Alt text: Image",
+     "group": "work",
+     "tag": "alt",
+     "text": ""
+    },
+    {
+     "key": "products.work.18",
+     "label": "Back-Office Automation",
+     "group": "work",
+     "tag": "h3",
+     "text": "Back-Office Automation"
+    },
+    {
+     "key": "products.work.19",
+     "label": "AI-driven workflow automation across finance a…",
+     "group": "work",
+     "tag": "p",
+     "text": "AI-driven workflow automation across finance and ops — hours of manual work removed daily."
+    },
+    {
+     "key": "products.work.20",
+     "label": "Automation",
+     "group": "work",
+     "tag": "span",
+     "text": "Automation"
+    },
+    {
+     "key": "products.trusted.1",
+     "label": "Industries we have delivered in",
+     "group": "trusted",
+     "tag": "p",
+     "text": "Industries we have delivered in"
+    },
+    {
+     "key": "products.trusted.2",
+     "label": "E-commerce",
+     "group": "trusted",
+     "tag": "li",
+     "text": "E-commerce"
+    },
+    {
+     "key": "products.trusted.3",
+     "label": "Healthcare",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Healthcare"
+    },
+    {
+     "key": "products.trusted.4",
+     "label": "Faith-Based Organizations",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Faith-Based Organizations"
+    },
+    {
+     "key": "products.trusted.5",
+     "label": "Human Resources",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Human Resources"
+    },
+    {
+     "key": "products.trusted.6",
+     "label": "Education",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Education"
+    },
+    {
+     "key": "products.trusted.7",
+     "label": "Professional Services",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Professional Services"
+    },
+    {
+     "key": "products.trusted.8",
+     "label": "Retail & Commerce",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Retail & Commerce"
+    },
+    {
+     "key": "products.contact.1",
+     "label": "Want to work with us?",
+     "group": "contact",
+     "tag": "p",
+     "text": "Want to work with us?"
+    },
+    {
+     "key": "products.contact.2",
+     "label": "Tell us about your product.",
+     "group": "contact",
+     "tag": "h2",
+     "text": "Tell us about your product."
+    },
+    {
+     "key": "products.contact.3",
+     "label": "We’ll get back to you within a day.",
+     "group": "contact",
+     "tag": "p",
+     "text": "We’ll get back to you within a day."
+    },
+    {
+     "key": "products.contact.4",
+     "label": "Start a Conversation",
+     "group": "contact",
+     "tag": "a",
+     "text": "Start a Conversation"
+    },
+    {
+     "key": "products.contact.4.link",
+     "label": "Link of: Start a Conversation",
+     "group": "contact",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "products.faq.1",
+     "label": "FAQ",
+     "group": "faq",
+     "tag": "p",
+     "text": "FAQ"
+    },
+    {
+     "key": "products.faq.2",
+     "label": "Common questions",
+     "group": "faq",
+     "tag": "h2",
+     "text": "Common questions"
+    },
+    {
+     "key": "products.faq.3",
+     "label": "How fast can you deliver an AI MVP?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How fast can you deliver an AI MVP?"
+    },
+    {
+     "key": "products.faq.4",
+     "label": "Most AI MVPs ship in 4 to 12 weeks from kickof…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we’ll give you an honest estimate on the strategy call."
+    },
+    {
+     "key": "products.faq.5",
+     "label": "Which industries do you work with?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "Which industries do you work with?"
+    },
+    {
+     "key": "products.faq.6",
+     "label": "We’ve delivered across e-commerce, healthcare,…",
+     "group": "faq",
+     "tag": "p",
+     "text": "We’ve delivered across e-commerce, healthcare, faith-based organizations, human resources, education, professional services, and retail. Strong engineering fundamentals travel well between domains."
+    },
+    {
+     "key": "products.faq.7",
+     "label": "How do your engagements work?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How do your engagements work?"
+    },
+    {
+     "key": "products.faq.8",
+     "label": "We start with a strategy call to understand yo…",
+     "group": "faq",
+     "tag": "p",
+     "text": "We start with a strategy call to understand your goals, constraints, and timeline. From there we map the right model — a fixed-scope build, an embedded product team, or ongoing partnership — with two meetings a week and full visibility throughout."
+    }
+   ]
+  },
+  {
+   "slug": "services",
+   "file": "services.html",
+   "title": "Services",
+   "fields": [
+    {
+     "key": "services.seo.title",
+     "label": "Page title (Google)",
+     "group": "SEO",
+     "tag": "seo-title",
+     "text": "Services — AI Research, Integration & Consulting | Elanster"
+    },
+    {
+     "key": "services.seo.description",
+     "label": "Meta description (Google)",
+     "group": "SEO",
+     "tag": "seo-description",
+     "text": "Five ways Elanster ships AI end to end: AI research, AI integration, agents and automation, full-stack apps and AI consulting."
+    },
+    {
+     "key": "services.page.1",
+     "label": "Skip to content",
+     "group": "Page",
+     "tag": "a",
+     "text": "Skip to content"
+    },
+    {
+     "key": "services.top.1",
+     "label": "Services",
+     "group": "top",
+     "tag": "p",
+     "text": "Services"
+    },
+    {
+     "key": "services.top.2",
+     "label": "Five ways we ship AI,",
+     "group": "top",
+     "tag": "span",
+     "text": "Five ways we ship AI,"
+    },
+    {
+     "key": "services.top.3",
+     "label": "end to end.",
+     "group": "top",
+     "tag": "span",
+     "text": "end to end."
+    },
+    {
+     "key": "services.top.4",
+     "label": "From first prototype to production, one senior…",
+     "group": "top",
+     "tag": "p",
+     "text": "From first prototype to production, one senior team covers every layer."
+    },
+    {
+     "key": "services.top.5",
+     "label": "Book a Strategy Call",
+     "group": "top",
+     "tag": "a",
+     "text": "Book a Strategy Call"
+    },
+    {
+     "key": "services.top.5.link",
+     "label": "Link of: Book a Strategy Call",
+     "group": "top",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "services.top.6",
+     "label": "See our products",
+     "group": "top",
+     "tag": "a",
+     "text": "See our products"
+    },
+    {
+     "key": "services.top.6.link",
+     "label": "Link of: See our products",
+     "group": "top",
+     "tag": "link",
+     "text": "work.html"
+    },
+    {
+     "key": "services.pg-cardsec.1",
+     "label": "Where teams start",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Where teams start"
+    },
+    {
+     "key": "services.pg-cardsec.2",
+     "label": "Three ways into a project",
+     "group": "pg cardsec",
+     "tag": "h2",
+     "text": "Three ways into a project"
+    },
+    {
+     "key": "services.pg-cardsec.3",
+     "label": "A product to build",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "A product to build"
+    },
+    {
+     "key": "services.pg-cardsec.4",
+     "label": "You have an idea or a roadmap and need a senio…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "You have an idea or a roadmap and need a senior team to take it to production."
+    },
+    {
+     "key": "services.pg-cardsec.5",
+     "label": "AI to add",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "AI to add"
+    },
+    {
+     "key": "services.pg-cardsec.6",
+     "label": "An existing product or workflow could use LLMs…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "An existing product or workflow could use LLMs, search or automation."
+    },
+    {
+     "key": "services.pg-cardsec.7",
+     "label": "A decision to make",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "A decision to make"
+    },
+    {
+     "key": "services.pg-cardsec.8",
+     "label": "You want an honest view of what AI can and can…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "You want an honest view of what AI can and cannot do for your business."
+    },
+    {
+     "key": "services.culture.1",
+     "label": "What is inside",
+     "group": "culture",
+     "tag": "p",
+     "text": "What is inside"
+    },
+    {
+     "key": "services.culture.2",
+     "label": "What each engagement covers",
+     "group": "culture",
+     "tag": "h2",
+     "text": "What each engagement covers"
+    },
+    {
+     "key": "services.culture.3",
+     "label": "01",
+     "group": "culture",
+     "tag": "span",
+     "text": "01"
+    },
+    {
+     "key": "services.culture.4",
+     "label": "AI Research",
+     "group": "culture",
+     "tag": "h3",
+     "text": "AI Research"
+    },
+    {
+     "key": "services.culture.5",
+     "label": "From concept to production-ready AI product in…",
+     "group": "culture",
+     "tag": "p",
+     "text": "From concept to production-ready AI product in weeks. Validate with real users on real infrastructure — not a prototype that dies after the demo."
+    },
+    {
+     "key": "services.culture.6",
+     "label": "Production-ready, not a demo",
+     "group": "culture",
+     "tag": "li",
+     "text": "Production-ready, not a demo"
+    },
+    {
+     "key": "services.culture.7",
+     "label": "Real infrastructure from day one",
+     "group": "culture",
+     "tag": "li",
+     "text": "Real infrastructure from day one"
+    },
+    {
+     "key": "services.culture.8",
+     "label": "4 to 12 weeks to launch",
+     "group": "culture",
+     "tag": "li",
+     "text": "4 to 12 weeks to launch"
+    },
+    {
+     "key": "services.culture.9",
+     "label": "02",
+     "group": "culture",
+     "tag": "span",
+     "text": "02"
+    },
+    {
+     "key": "services.culture.10",
+     "label": "AI Integration",
+     "group": "culture",
+     "tag": "h3",
+     "text": "AI Integration"
+    },
+    {
+     "key": "services.culture.11",
+     "label": "Bring LLMs, RAG pipelines, and machine learnin…",
+     "group": "culture",
+     "tag": "p",
+     "text": "Bring LLMs, RAG pipelines, and machine learning into the products and workflows you already run — applied where they create measurable value."
+    },
+    {
+     "key": "services.culture.12",
+     "label": "LLM apps & copilots",
+     "group": "culture",
+     "tag": "li",
+     "text": "LLM apps & copilots"
+    },
+    {
+     "key": "services.culture.13",
+     "label": "RAG pipelines",
+     "group": "culture",
+     "tag": "li",
+     "text": "RAG pipelines"
+    },
+    {
+     "key": "services.culture.14",
+     "label": "Machine learning",
+     "group": "culture",
+     "tag": "li",
+     "text": "Machine learning"
+    },
+    {
+     "key": "services.culture.15",
+     "label": "03",
+     "group": "culture",
+     "tag": "span",
+     "text": "03"
+    },
+    {
+     "key": "services.culture.16",
+     "label": "AI Agents & Automation",
+     "group": "culture",
+     "tag": "h3",
+     "text": "AI Agents & Automation"
+    },
+    {
+     "key": "services.culture.17",
+     "label": "Agents that draft, classify, route, and resolv…",
+     "group": "culture",
+     "tag": "p",
+     "text": "Agents that draft, classify, route, and resolve — removing hours of manual work daily, with humans in the loop where it matters."
+    },
+    {
+     "key": "services.culture.18",
+     "label": "Autonomous agents",
+     "group": "culture",
+     "tag": "li",
+     "text": "Autonomous agents"
+    },
+    {
+     "key": "services.culture.19",
+     "label": "Workflow automation",
+     "group": "culture",
+     "tag": "li",
+     "text": "Workflow automation"
+    },
+    {
+     "key": "services.culture.20",
+     "label": "Humans in the loop",
+     "group": "culture",
+     "tag": "li",
+     "text": "Humans in the loop"
+    },
+    {
+     "key": "services.culture.21",
+     "label": "04",
+     "group": "culture",
+     "tag": "span",
+     "text": "04"
+    },
+    {
+     "key": "services.culture.22",
+     "label": "Full-Stack App Development",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Full-Stack App Development"
+    },
+    {
+     "key": "services.culture.23",
+     "label": "Web, mobile, and cloud products built on eight…",
+     "group": "culture",
+     "tag": "p",
+     "text": "Web, mobile, and cloud products built on eight years of engineering craft — the foundation every great AI product still stands on."
+    },
+    {
+     "key": "services.culture.24",
+     "label": "Web & mobile",
+     "group": "culture",
+     "tag": "li",
+     "text": "Web & mobile"
+    },
+    {
+     "key": "services.culture.25",
+     "label": "Cloud architecture",
+     "group": "culture",
+     "tag": "li",
+     "text": "Cloud architecture"
+    },
+    {
+     "key": "services.culture.26",
+     "label": "Eight years of craft",
+     "group": "culture",
+     "tag": "li",
+     "text": "Eight years of craft"
+    },
+    {
+     "key": "services.culture.27",
+     "label": "05",
+     "group": "culture",
+     "tag": "span",
+     "text": "05"
+    },
+    {
+     "key": "services.culture.28",
+     "label": "AI Consulting",
+     "group": "culture",
+     "tag": "h3",
+     "text": "AI Consulting"
+    },
+    {
+     "key": "services.culture.29",
+     "label": "AI readiness reviews, architecture audits, and…",
+     "group": "culture",
+     "tag": "p",
+     "text": "AI readiness reviews, architecture audits, and technology roadmaps that separate the genuine opportunities from the hype."
+    },
+    {
+     "key": "services.culture.30",
+     "label": "AI readiness reviews",
+     "group": "culture",
+     "tag": "li",
+     "text": "AI readiness reviews"
+    },
+    {
+     "key": "services.culture.31",
+     "label": "Architecture audits",
+     "group": "culture",
+     "tag": "li",
+     "text": "Architecture audits"
+    },
+    {
+     "key": "services.culture.32",
+     "label": "Technology roadmaps",
+     "group": "culture",
+     "tag": "li",
+     "text": "Technology roadmaps"
+    },
+    {
+     "key": "services.pg-cardsec.9",
+     "label": "Included every time",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Included every time"
+    },
+    {
+     "key": "services.pg-cardsec.10",
+     "label": "What you get with every project",
+     "group": "pg cardsec",
+     "tag": "h2",
+     "text": "What you get with every project"
+    },
+    {
+     "key": "services.pg-cardsec.11",
+     "label": "Working software, weekly",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Working software, weekly"
+    },
+    {
+     "key": "services.pg-cardsec.12",
+     "label": "A demo you can click through at the end of eve…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "A demo you can click through at the end of every sprint, not a status slide."
+    },
+    {
+     "key": "services.pg-cardsec.13",
+     "label": "Senior engineers",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Senior engineers"
+    },
+    {
+     "key": "services.pg-cardsec.14",
+     "label": "The people on your first call are the people w…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "The people on your first call are the people who build and review your product."
+    },
+    {
+     "key": "services.pg-cardsec.15",
+     "label": "Clear documentation",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Clear documentation"
+    },
+    {
+     "key": "services.pg-cardsec.16",
+     "label": "Architecture notes and handover docs your own …",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Architecture notes and handover docs your own team can pick up and use."
+    },
+    {
+     "key": "services.pg-cardsec.17",
+     "label": "Security and code review",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Security and code review"
+    },
+    {
+     "key": "services.pg-cardsec.18",
+     "label": "Review discipline and security checks apply to…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Review discipline and security checks apply to every project, whatever its size."
+    },
+    {
+     "key": "services.pg-cardsec.19",
+     "label": "Support after launch",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Support after launch"
+    },
+    {
+     "key": "services.pg-cardsec.20",
+     "label": "We stay accountable once you are live and keep…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "We stay accountable once you are live and keep improving the product with you."
+    },
+    {
+     "key": "services.pg-cardsec.21",
+     "label": "Our approach",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Our approach"
+    },
+    {
+     "key": "services.pg-cardsec.22",
+     "label": "Three rules we do not bend",
+     "group": "pg cardsec",
+     "tag": "h2",
+     "text": "Three rules we do not bend"
+    },
+    {
+     "key": "services.pg-cardsec.23",
+     "label": "Architecture first",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Architecture first"
+    },
+    {
+     "key": "services.pg-cardsec.24",
+     "label": "We design the structure before we write featur…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "We design the structure before we write features, so the product can grow without a rewrite."
+    },
+    {
+     "key": "services.pg-cardsec.25",
+     "label": "Humans in the loop",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Humans in the loop"
+    },
+    {
+     "key": "services.pg-cardsec.26",
+     "label": "AI drafts and automates; people review the res…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "AI drafts and automates; people review the results that matter before they reach your users."
+    },
+    {
+     "key": "services.pg-cardsec.27",
+     "label": "Production from day one",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Production from day one"
+    },
+    {
+     "key": "services.pg-cardsec.28",
+     "label": "Every build runs on real infrastructure from t…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Every build runs on real infrastructure from the start, so launch is a switch, not a project."
+    },
+    {
+     "key": "services.trusted.1",
+     "label": "Industries we have delivered in",
+     "group": "trusted",
+     "tag": "p",
+     "text": "Industries we have delivered in"
+    },
+    {
+     "key": "services.trusted.2",
+     "label": "E-commerce",
+     "group": "trusted",
+     "tag": "li",
+     "text": "E-commerce"
+    },
+    {
+     "key": "services.trusted.3",
+     "label": "Healthcare",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Healthcare"
+    },
+    {
+     "key": "services.trusted.4",
+     "label": "Faith-Based Organizations",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Faith-Based Organizations"
+    },
+    {
+     "key": "services.trusted.5",
+     "label": "Human Resources",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Human Resources"
+    },
+    {
+     "key": "services.trusted.6",
+     "label": "Education",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Education"
+    },
+    {
+     "key": "services.trusted.7",
+     "label": "Professional Services",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Professional Services"
+    },
+    {
+     "key": "services.trusted.8",
+     "label": "Retail & Commerce",
+     "group": "trusted",
+     "tag": "li",
+     "text": "Retail & Commerce"
+    },
+    {
+     "key": "services.pg-cardsec.29",
+     "label": "Working with us",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Working with us"
+    },
+    {
+     "key": "services.pg-cardsec.30",
+     "label": "What it is like to build with us",
+     "group": "pg cardsec",
+     "tag": "h2",
+     "text": "What it is like to build with us"
+    },
+    {
+     "key": "services.pg-cardsec.31",
+     "label": "01",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "01"
+    },
+    {
+     "key": "services.pg-cardsec.32",
+     "label": "You own what we build",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "You own what we build"
+    },
+    {
+     "key": "services.pg-cardsec.33",
+     "label": "Code, infrastructure and documentation are han…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Code, infrastructure and documentation are handed over to you, so you are never locked in."
+    },
+    {
+     "key": "services.pg-cardsec.34",
+     "label": "02",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "02"
+    },
+    {
+     "key": "services.pg-cardsec.35",
+     "label": "One senior team",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "One senior team"
+    },
+    {
+     "key": "services.pg-cardsec.36",
+     "label": "The engineers you meet on the first call stay …",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "The engineers you meet on the first call stay with the product through launch and beyond."
+    },
+    {
+     "key": "services.pg-cardsec.37",
+     "label": "03",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "03"
+    },
+    {
+     "key": "services.pg-cardsec.38",
+     "label": "Honest estimates",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Honest estimates"
+    },
+    {
+     "key": "services.pg-cardsec.39",
+     "label": "You get a realistic range on the strategy call…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "You get a realistic range on the strategy call, not an optimistic quote that moves later."
+    },
+    {
+     "key": "services.pg-cardsec.40",
+     "label": "04",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "04"
+    },
+    {
+     "key": "services.pg-cardsec.41",
+     "label": "Built to be maintained",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Built to be maintained"
+    },
+    {
+     "key": "services.pg-cardsec.42",
+     "label": "Reviewed, documented code your own team can ru…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Reviewed, documented code your own team can run, extend and hand on."
+    },
+    {
+     "key": "services.contact.1",
+     "label": "Executive strategy call",
+     "group": "contact",
+     "tag": "p",
+     "text": "Executive strategy call"
+    },
+    {
+     "key": "services.contact.2",
+     "label": "Turn it into shipped software.",
+     "group": "contact",
+     "tag": "h2",
+     "text": "Turn it into shipped software."
+    },
+    {
+     "key": "services.contact.3",
+     "label": "Two meetings a week, a working build every Fri…",
+     "group": "contact",
+     "tag": "p",
+     "text": "Two meetings a week, a working build every Friday. Tell us what you are building."
+    },
+    {
+     "key": "services.contact.4",
+     "label": "Schedule a Discovery Call",
+     "group": "contact",
+     "tag": "a",
+     "text": "Schedule a Discovery Call"
+    },
+    {
+     "key": "services.contact.4.link",
+     "label": "Link of: Schedule a Discovery Call",
+     "group": "contact",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "services.faq.1",
+     "label": "FAQ",
+     "group": "faq",
+     "tag": "p",
+     "text": "FAQ"
+    },
+    {
+     "key": "services.faq.2",
+     "label": "Questions we hear a lot",
+     "group": "faq",
+     "tag": "h2",
+     "text": "Questions we hear a lot"
+    },
+    {
+     "key": "services.faq.3",
+     "label": "How fast can you deliver an AI MVP?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How fast can you deliver an AI MVP?"
+    },
+    {
+     "key": "services.faq.4",
+     "label": "Most AI MVPs ship in 4 to 12 weeks from kickof…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we’ll give you an honest estimate on the strategy call."
+    },
+    {
+     "key": "services.faq.5",
+     "label": "How do your engagements work?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How do your engagements work?"
+    },
+    {
+     "key": "services.faq.6",
+     "label": "We start with a strategy call to understand yo…",
+     "group": "faq",
+     "tag": "p",
+     "text": "We start with a strategy call to understand your goals, constraints, and timeline. From there we map the right model — a fixed-scope build, an embedded product team, or ongoing partnership — with two meetings a week and full visibility throughout."
+    },
+    {
+     "key": "services.faq.7",
+     "label": "Do you work with larger companies?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "Do you work with larger companies?"
+    },
+    {
+     "key": "services.faq.8",
+     "label": "Yes, and smaller ones too. Company-grade deliv…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Yes, and smaller ones too. Company-grade delivery is our default standard — security protocols, code review discipline, and compliance-aware architecture apply to every project, whatever its size."
+    },
+    {
+     "key": "services.faq.9",
+     "label": "What makes you different from other AI develop…",
+     "group": "faq",
+     "tag": "summary",
+     "text": "What makes you different from other AI development agencies?"
+    },
+    {
+     "key": "services.faq.10",
+     "label": "We’re not an AI shop that learned engineering …",
+     "group": "faq",
+     "tag": "p",
+     "text": "We’re not an AI shop that learned engineering last year — we’re an eight-year product engineering company that builds AI properly. Architecture first, humans in the loop, production-ready from day one, and accountable long after launch."
+    }
+   ]
+  },
+  {
+   "slug": "culture",
+   "file": "careers.html",
+   "title": "Culture",
+   "fields": [
+    {
+     "key": "culture.seo.title",
+     "label": "Page title (Google)",
+     "group": "SEO",
+     "tag": "seo-title",
+     "text": "Culture & Careers — Join Our AI Engineering Team | Elanster"
+    },
+    {
+     "key": "culture.seo.description",
+     "label": "Meta description (Google)",
+     "group": "SEO",
+     "tag": "seo-description",
+     "text": "Build production AI with a senior team at Elanster in Chennai. Learn how we work, what we look for, and see open roles for AI and product engineers."
+    },
+    {
+     "key": "culture.page.1",
+     "label": "Skip to content",
+     "group": "Page",
+     "tag": "a",
+     "text": "Skip to content"
+    },
+    {
+     "key": "culture.top.1",
+     "label": "Careers",
+     "group": "top",
+     "tag": "p",
+     "text": "Careers"
+    },
+    {
+     "key": "culture.top.2",
+     "label": "Want to join",
+     "group": "top",
+     "tag": "span",
+     "text": "Want to join"
+    },
+    {
+     "key": "culture.top.3",
+     "label": "our team?",
+     "group": "top",
+     "tag": "span",
+     "text": "our team?"
+    },
+    {
+     "key": "culture.top.4",
+     "label": "Great talent deserves a team that ships. We’re…",
+     "group": "top",
+     "tag": "p",
+     "text": "Great talent deserves a team that ships. We’re an eight-year product engineering company building AI properly."
+    },
+    {
+     "key": "culture.top.5",
+     "label": "See how to join",
+     "group": "top",
+     "tag": "a",
+     "text": "See how to join"
+    },
+    {
+     "key": "culture.top.6",
+     "label": "Our culture",
+     "group": "top",
+     "tag": "a",
+     "text": "Our culture"
+    },
+    {
+     "key": "culture.top.6.link",
+     "label": "Link of: Our culture",
+     "group": "top",
+     "tag": "link",
+     "text": "index.html#culture"
+    },
+    {
+     "key": "culture.top.7",
+     "label": "8",
+     "group": "top",
+     "tag": "b",
+     "text": "8"
+    },
+    {
+     "key": "culture.top.8",
+     "label": "Years of engineering",
+     "group": "top",
+     "tag": "span",
+     "text": "Years of engineering"
+    },
+    {
+     "key": "culture.top.9",
+     "label": "5",
+     "group": "top",
+     "tag": "b",
+     "text": "5"
+    },
+    {
+     "key": "culture.top.10",
+     "label": "Values we hire for",
+     "group": "top",
+     "tag": "span",
+     "text": "Values we hire for"
+    },
+    {
+     "key": "culture.top.11",
+     "label": "Chennai",
+     "group": "top",
+     "tag": "b",
+     "text": "Chennai"
+    },
+    {
+     "key": "culture.top.12",
+     "label": "Serving the world",
+     "group": "top",
+     "tag": "span",
+     "text": "Serving the world"
+    },
+    {
+     "key": "culture.pg-cardsec.1",
+     "label": "Why Elanster",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Why Elanster"
+    },
+    {
+     "key": "culture.pg-cardsec.2",
+     "label": "Where your work actually ships",
+     "group": "pg cardsec",
+     "tag": "h2",
+     "text": "Where your work actually ships"
+    },
+    {
+     "key": "culture.pg-cardsec.3",
+     "label": "01",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "01"
+    },
+    {
+     "key": "culture.pg-cardsec.4",
+     "label": "Real products",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Real products"
+    },
+    {
+     "key": "culture.pg-cardsec.5",
+     "label": "Production AI on real infrastructure, not prot…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Production AI on real infrastructure, not prototypes that die after the demo."
+    },
+    {
+     "key": "culture.pg-cardsec.6",
+     "label": "02",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "02"
+    },
+    {
+     "key": "culture.pg-cardsec.7",
+     "label": "Ownership",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Ownership"
+    },
+    {
+     "key": "culture.pg-cardsec.8",
+     "label": "The people who design and build a product stay…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "The people who design and build a product stay accountable for it."
+    },
+    {
+     "key": "culture.pg-cardsec.9",
+     "label": "03",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "03"
+    },
+    {
+     "key": "culture.pg-cardsec.10",
+     "label": "Room to grow",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Room to grow"
+    },
+    {
+     "key": "culture.pg-cardsec.11",
+     "label": "You keep learning while you ship, as part of t…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "You keep learning while you ship, as part of the job."
+    },
+    {
+     "key": "culture.culture.1",
+     "label": "What we value",
+     "group": "culture",
+     "tag": "p",
+     "text": "What we value"
+    },
+    {
+     "key": "culture.culture.2",
+     "label": "Five values, lived daily",
+     "group": "culture",
+     "tag": "h2",
+     "text": "Five values, lived daily"
+    },
+    {
+     "key": "culture.culture.3",
+     "label": "01",
+     "group": "culture",
+     "tag": "span",
+     "text": "01"
+    },
+    {
+     "key": "culture.culture.4",
+     "label": "Excellence",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Excellence"
+    },
+    {
+     "key": "culture.culture.5",
+     "label": "We hold our work to a high bar — in code, in d…",
+     "group": "culture",
+     "tag": "p",
+     "text": "We hold our work to a high bar — in code, in design, and in every conversation with a client."
+    },
+    {
+     "key": "culture.culture.6",
+     "label": "02",
+     "group": "culture",
+     "tag": "span",
+     "text": "02"
+    },
+    {
+     "key": "culture.culture.7",
+     "label": "Integrity",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Integrity"
+    },
+    {
+     "key": "culture.culture.8",
+     "label": "We say what we’ll do and do what we say. Hones…",
+     "group": "culture",
+     "tag": "p",
+     "text": "We say what we’ll do and do what we say. Honest estimates, honest trade-offs, honest outcomes."
+    },
+    {
+     "key": "culture.culture.9",
+     "label": "03",
+     "group": "culture",
+     "tag": "span",
+     "text": "03"
+    },
+    {
+     "key": "culture.culture.10",
+     "label": "Continuous Learning",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Continuous Learning"
+    },
+    {
+     "key": "culture.culture.11",
+     "label": "Technology moves fast. So do we — every engine…",
+     "group": "culture",
+     "tag": "p",
+     "text": "Technology moves fast. So do we — every engineer invests in learning as part of the job, not after it."
+    },
+    {
+     "key": "culture.culture.12",
+     "label": "04",
+     "group": "culture",
+     "tag": "span",
+     "text": "04"
+    },
+    {
+     "key": "culture.culture.13",
+     "label": "Ownership",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Ownership"
+    },
+    {
+     "key": "culture.culture.14",
+     "label": "No hand-offs into the void. The people who des…",
+     "group": "culture",
+     "tag": "p",
+     "text": "No hand-offs into the void. The people who design and build your product stay accountable for it."
+    },
+    {
+     "key": "culture.culture.15",
+     "label": "05",
+     "group": "culture",
+     "tag": "span",
+     "text": "05"
+    },
+    {
+     "key": "culture.culture.16",
+     "label": "Collaboration",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Collaboration"
+    },
+    {
+     "key": "culture.culture.17",
+     "label": "We work as an extension of your team — shared …",
+     "group": "culture",
+     "tag": "p",
+     "text": "We work as an extension of your team — shared tools, shared rituals, shared definition of done."
+    },
+    {
+     "key": "culture.open.1",
+     "label": "Open roles",
+     "group": "open",
+     "tag": "p",
+     "text": "Open roles"
+    },
+    {
+     "key": "culture.open.2",
+     "label": "Open positions",
+     "group": "open",
+     "tag": "h2",
+     "text": "Open positions"
+    },
+    {
+     "key": "culture.open.3",
+     "label": "We take open applications for any discipline.",
+     "group": "open",
+     "tag": "p",
+     "text": "We take open applications for any discipline."
+    },
+    {
+     "key": "culture.open.4",
+     "label": "Any discipline · Open application",
+     "group": "open",
+     "tag": "span",
+     "text": "Any discipline · Open application"
+    },
+    {
+     "key": "culture.open.5",
+     "label": "Open application",
+     "group": "open",
+     "tag": "h3",
+     "text": "Open application"
+    },
+    {
+     "key": "culture.open.6",
+     "label": "No listings are published here yet. Introduce …",
+     "group": "open",
+     "tag": "p",
+     "text": "No listings are published here yet. Introduce yourself on LinkedIn and tell us what you build."
+    },
+    {
+     "key": "culture.contact.1",
+     "label": "Don’t see the right role?",
+     "group": "contact",
+     "tag": "p",
+     "text": "Don’t see the right role?"
+    },
+    {
+     "key": "culture.contact.2",
+     "label": "We’re always happy to meet people who care abo…",
+     "group": "contact",
+     "tag": "h2",
+     "text": "We’re always happy to meet people who care about craft."
+    },
+    {
+     "key": "culture.contact.3",
+     "label": "Reach out and we’ll talk.",
+     "group": "contact",
+     "tag": "p",
+     "text": "Reach out and we’ll talk."
+    },
+    {
+     "key": "culture.contact.4",
+     "label": "Get in Touch",
+     "group": "contact",
+     "tag": "a",
+     "text": "Get in Touch"
+    },
+    {
+     "key": "culture.contact.4.link",
+     "label": "Link of: Get in Touch",
+     "group": "contact",
+     "tag": "link",
+     "text": "https://www.linkedin.com/company/elanster"
+    },
+    {
+     "key": "culture.faq.1",
+     "label": "FAQ",
+     "group": "faq",
+     "tag": "p",
+     "text": "FAQ"
+    },
+    {
+     "key": "culture.faq.2",
+     "label": "About joining",
+     "group": "faq",
+     "tag": "h2",
+     "text": "About joining"
+    },
+    {
+     "key": "culture.faq.3",
+     "label": "Are there open positions?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "Are there open positions?"
+    },
+    {
+     "key": "culture.faq.4",
+     "label": "Not at the moment, but we welcome open applica…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Not at the moment, but we welcome open applications. Send us a note on LinkedIn."
+    },
+    {
+     "key": "culture.faq.5",
+     "label": "Where is the team based?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "Where is the team based?"
+    },
+    {
+     "key": "culture.faq.6",
+     "label": "In Chennai, working with clients around the wo…",
+     "group": "faq",
+     "tag": "p",
+     "text": "In Chennai, working with clients around the world."
+    },
+    {
+     "key": "culture.faq.7",
+     "label": "What do you look for?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "What do you look for?"
+    },
+    {
+     "key": "culture.faq.8",
+     "label": "People who care about craft. We hire for five …",
+     "group": "faq",
+     "tag": "p",
+     "text": "People who care about craft. We hire for five values: excellence, integrity, continuous learning, ownership and collaboration."
+    }
+   ]
+  },
+  {
+   "slug": "process",
+   "file": "process.html",
+   "title": "Process",
+   "fields": [
+    {
+     "key": "process.seo.title",
+     "label": "Page title (Google)",
+     "group": "SEO",
+     "tag": "seo-title",
+     "text": "Process — How We Ship AI Products in 4–12 Weeks | Elanster"
+    },
+    {
+     "key": "process.seo.description",
+     "label": "Meta description (Google)",
+     "group": "SEO",
+     "tag": "seo-description",
+     "text": "Monday planning, Friday sprint review. See how Elanster goes from a strategy call to a production AI product in 4 to 12 weeks."
+    },
+    {
+     "key": "process.page.1",
+     "label": "Skip to content",
+     "group": "Page",
+     "tag": "a",
+     "text": "Skip to content"
+    },
+    {
+     "key": "process.top.1",
+     "label": "Process",
+     "group": "top",
+     "tag": "p",
+     "text": "Process"
+    },
+    {
+     "key": "process.top.2",
+     "label": "A curated process:",
+     "group": "top",
+     "tag": "span",
+     "text": "A curated process:"
+    },
+    {
+     "key": "process.top.3",
+     "label": "two meetings a week.",
+     "group": "top",
+     "tag": "span",
+     "text": "two meetings a week."
+    },
+    {
+     "key": "process.top.4",
+     "label": "Monday planning. Friday sprint review. Between…",
+     "group": "top",
+     "tag": "p",
+     "text": "Monday planning. Friday sprint review. Between them, we’re in your Slack and repos shipping code, with the same security protocols and code review standards on every project."
+    },
+    {
+     "key": "process.top.5",
+     "label": "Schedule a Discovery Call",
+     "group": "top",
+     "tag": "a",
+     "text": "Schedule a Discovery Call"
+    },
+    {
+     "key": "process.top.5.link",
+     "label": "Link of: Schedule a Discovery Call",
+     "group": "top",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "process.top.6",
+     "label": "View services",
+     "group": "top",
+     "tag": "a",
+     "text": "View services"
+    },
+    {
+     "key": "process.top.6.link",
+     "label": "Link of: View services",
+     "group": "top",
+     "tag": "link",
+     "text": "services.html"
+    },
+    {
+     "key": "process.culture.1",
+     "label": "How we work",
+     "group": "culture",
+     "tag": "p",
+     "text": "How we work"
+    },
+    {
+     "key": "process.culture.2",
+     "label": "From first call to production",
+     "group": "culture",
+     "tag": "h2",
+     "text": "From first call to production"
+    },
+    {
+     "key": "process.culture.3",
+     "label": "01",
+     "group": "culture",
+     "tag": "span",
+     "text": "01"
+    },
+    {
+     "key": "process.culture.4",
+     "label": "Strategy call",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Strategy call"
+    },
+    {
+     "key": "process.culture.5",
+     "label": "Start",
+     "group": "culture",
+     "tag": "small",
+     "text": "Start"
+    },
+    {
+     "key": "process.culture.6",
+     "label": "We learn your goals, constraints, and timeline…",
+     "group": "culture",
+     "tag": "p",
+     "text": "We learn your goals, constraints, and timeline. You leave with a clear read on what’s worth building."
+    },
+    {
+     "key": "process.culture.7",
+     "label": "02",
+     "group": "culture",
+     "tag": "span",
+     "text": "02"
+    },
+    {
+     "key": "process.culture.8",
+     "label": "The right model",
+     "group": "culture",
+     "tag": "h3",
+     "text": "The right model"
+    },
+    {
+     "key": "process.culture.9",
+     "label": "Shape",
+     "group": "culture",
+     "tag": "small",
+     "text": "Shape"
+    },
+    {
+     "key": "process.culture.10",
+     "label": "We map how we’ll work together: a fixed-scope …",
+     "group": "culture",
+     "tag": "p",
+     "text": "We map how we’ll work together: a fixed-scope build, an embedded product team, or an ongoing partnership."
+    },
+    {
+     "key": "process.culture.11",
+     "label": "03",
+     "group": "culture",
+     "tag": "span",
+     "text": "03"
+    },
+    {
+     "key": "process.culture.12",
+     "label": "Sprint planning",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Sprint planning"
+    },
+    {
+     "key": "process.culture.13",
+     "label": "Every Monday",
+     "group": "culture",
+     "tag": "small",
+     "text": "Every Monday"
+    },
+    {
+     "key": "process.culture.14",
+     "label": "We agree what ships this week. Priorities are …",
+     "group": "culture",
+     "tag": "p",
+     "text": "We agree what ships this week. Priorities are explicit, so nothing surprises you on Friday."
+    },
+    {
+     "key": "process.culture.15",
+     "label": "04",
+     "group": "culture",
+     "tag": "span",
+     "text": "04"
+    },
+    {
+     "key": "process.culture.16",
+     "label": "Sprint review",
+     "group": "culture",
+     "tag": "h3",
+     "text": "Sprint review"
+    },
+    {
+     "key": "process.culture.17",
+     "label": "Every Friday",
+     "group": "culture",
+     "tag": "small",
+     "text": "Every Friday"
+    },
+    {
+     "key": "process.culture.18",
+     "label": "You see working software, not slides. We revie…",
+     "group": "culture",
+     "tag": "p",
+     "text": "You see working software, not slides. We review what shipped and set up the week ahead."
+    },
+    {
+     "key": "process.culture.19",
+     "label": "05",
+     "group": "culture",
+     "tag": "span",
+     "text": "05"
+    },
+    {
+     "key": "process.culture.20",
+     "label": "In production",
+     "group": "culture",
+     "tag": "h3",
+     "text": "In production"
+    },
+    {
+     "key": "process.culture.21",
+     "label": "4 – 12 weeks",
+     "group": "culture",
+     "tag": "small",
+     "text": "4 – 12 weeks"
+    },
+    {
+     "key": "process.culture.22",
+     "label": "A deployed AI product on real infrastructure, …",
+     "group": "culture",
+     "tag": "p",
+     "text": "A deployed AI product on real infrastructure, not a prototype, and accountable long after launch."
+    },
+    {
+     "key": "process.pg-cardsec.1",
+     "label": "Engagement models",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Engagement models"
+    },
+    {
+     "key": "process.pg-cardsec.2",
+     "label": "Pick the shape that fits",
+     "group": "pg cardsec",
+     "tag": "h2",
+     "text": "Pick the shape that fits"
+    },
+    {
+     "key": "process.pg-cardsec.3",
+     "label": "01",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "01"
+    },
+    {
+     "key": "process.pg-cardsec.4",
+     "label": "Fixed-scope build",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Fixed-scope build"
+    },
+    {
+     "key": "process.pg-cardsec.5",
+     "label": "A defined product, a defined outcome, shipped …",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "A defined product, a defined outcome, shipped to production."
+    },
+    {
+     "key": "process.pg-cardsec.6",
+     "label": "02",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "02"
+    },
+    {
+     "key": "process.pg-cardsec.7",
+     "label": "Embedded product team",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Embedded product team"
+    },
+    {
+     "key": "process.pg-cardsec.8",
+     "label": "Senior engineers inside your Slack and repos, …",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Senior engineers inside your Slack and repos, working as an extension of your team."
+    },
+    {
+     "key": "process.pg-cardsec.9",
+     "label": "03",
+     "group": "pg cardsec",
+     "tag": "span",
+     "text": "03"
+    },
+    {
+     "key": "process.pg-cardsec.10",
+     "label": "Ongoing partnership",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "Ongoing partnership"
+    },
+    {
+     "key": "process.pg-cardsec.11",
+     "label": "We stay accountable after launch, improving th…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "We stay accountable after launch, improving the product as your needs grow."
+    },
+    {
+     "key": "process.pg-result.1",
+     "label": "The result",
+     "group": "pg result",
+     "tag": "p",
+     "text": "The result"
+    },
+    {
+     "key": "process.pg-result.2",
+     "label": "What you can count on",
+     "group": "pg result",
+     "tag": "h2",
+     "text": "What you can count on"
+    },
+    {
+     "key": "process.pg-result.3",
+     "label": "2",
+     "group": "pg result",
+     "tag": "b",
+     "text": "2"
+    },
+    {
+     "key": "process.pg-result.4",
+     "label": "Meetings a week",
+     "group": "pg result",
+     "tag": "span",
+     "text": "Meetings a week"
+    },
+    {
+     "key": "process.pg-result.5",
+     "label": "4–12",
+     "group": "pg result",
+     "tag": "b",
+     "text": "4–12"
+    },
+    {
+     "key": "process.pg-result.6",
+     "label": "Weeks to production",
+     "group": "pg result",
+     "tag": "span",
+     "text": "Weeks to production"
+    },
+    {
+     "key": "process.pg-result.7",
+     "label": "8",
+     "group": "pg result",
+     "tag": "b",
+     "text": "8"
+    },
+    {
+     "key": "process.pg-result.8",
+     "label": "Years of craft",
+     "group": "pg result",
+     "tag": "span",
+     "text": "Years of craft"
+    },
+    {
+     "key": "process.pg-result.9",
+     "label": "Weekly",
+     "group": "pg result",
+     "tag": "b",
+     "text": "Weekly"
+    },
+    {
+     "key": "process.pg-result.10",
+     "label": "Working builds",
+     "group": "pg result",
+     "tag": "span",
+     "text": "Working builds"
+    },
+    {
+     "key": "process.contact.1",
+     "label": "Ready to start?",
+     "group": "contact",
+     "tag": "p",
+     "text": "Ready to start?"
+    },
+    {
+     "key": "process.contact.2",
+     "label": "Start with a strategy call.",
+     "group": "contact",
+     "tag": "h2",
+     "text": "Start with a strategy call."
+    },
+    {
+     "key": "process.contact.3",
+     "label": "Tell us what you are building and we will map …",
+     "group": "contact",
+     "tag": "p",
+     "text": "Tell us what you are building and we will map the right way to ship it."
+    },
+    {
+     "key": "process.contact.4",
+     "label": "Schedule a Discovery Call",
+     "group": "contact",
+     "tag": "a",
+     "text": "Schedule a Discovery Call"
+    },
+    {
+     "key": "process.contact.4.link",
+     "label": "Link of: Schedule a Discovery Call",
+     "group": "contact",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "process.faq.1",
+     "label": "FAQ",
+     "group": "faq",
+     "tag": "p",
+     "text": "FAQ"
+    },
+    {
+     "key": "process.faq.2",
+     "label": "About how we work",
+     "group": "faq",
+     "tag": "h2",
+     "text": "About how we work"
+    },
+    {
+     "key": "process.faq.3",
+     "label": "How fast can you deliver an AI MVP?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How fast can you deliver an AI MVP?"
+    },
+    {
+     "key": "process.faq.4",
+     "label": "Most AI MVPs ship in 4 to 12 weeks from kickof…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we’ll give you an honest estimate on the strategy call."
+    },
+    {
+     "key": "process.faq.5",
+     "label": "How do your engagements work?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How do your engagements work?"
+    },
+    {
+     "key": "process.faq.6",
+     "label": "We start with a strategy call to understand yo…",
+     "group": "faq",
+     "tag": "p",
+     "text": "We start with a strategy call to understand your goals, constraints, and timeline. From there we map the right model — a fixed-scope build, an embedded product team, or ongoing partnership — with full visibility throughout."
+    },
+    {
+     "key": "process.faq.7",
+     "label": "Do you work with larger companies?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "Do you work with larger companies?"
+    },
+    {
+     "key": "process.faq.8",
+     "label": "Yes, and smaller ones too. Company-grade deliv…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Yes, and smaller ones too. Company-grade delivery is our default standard — security protocols, code review discipline, and compliance-aware architecture apply to every project, whatever its size."
+    }
+   ]
+  },
+  {
+   "slug": "insights",
+   "file": "blog.html",
+   "title": "Insights",
+   "fields": [
+    {
+     "key": "insights.seo.title",
+     "label": "Page title (Google)",
+     "group": "SEO",
+     "tag": "seo-title",
+     "text": "Insights — AI Strategy, Economics & Engineering | Elanster"
+    },
+    {
+     "key": "insights.seo.description",
+     "label": "Meta description (Google)",
+     "group": "SEO",
+     "tag": "seo-description",
+     "text": "Insights from Elanster on AI strategy, AI economics and AI engineering: practical notes on building and shipping AI products properly."
+    },
+    {
+     "key": "insights.page.1",
+     "label": "Skip to content",
+     "group": "Page",
+     "tag": "a",
+     "text": "Skip to content"
+    },
+    {
+     "key": "insights.top.1",
+     "label": "Insights & news",
+     "group": "top",
+     "tag": "p",
+     "text": "Insights & news"
+    },
+    {
+     "key": "insights.top.2",
+     "label": "Notes on shipping",
+     "group": "top",
+     "tag": "span",
+     "text": "Notes on shipping"
+    },
+    {
+     "key": "insights.top.3",
+     "label": "AI properly.",
+     "group": "top",
+     "tag": "span",
+     "text": "AI properly."
+    },
+    {
+     "key": "insights.top.4",
+     "label": "What we are learning about taking AI products …",
+     "group": "top",
+     "tag": "p",
+     "text": "What we are learning about taking AI products from demo to production."
+    },
+    {
+     "key": "insights.top.5",
+     "label": "Start a Conversation",
+     "group": "top",
+     "tag": "a",
+     "text": "Start a Conversation"
+    },
+    {
+     "key": "insights.top.5.link",
+     "label": "Link of: Start a Conversation",
+     "group": "top",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "insights.top.6",
+     "label": "See our products",
+     "group": "top",
+     "tag": "a",
+     "text": "See our products"
+    },
+    {
+     "key": "insights.top.6.link",
+     "label": "Link of: See our products",
+     "group": "top",
+     "tag": "link",
+     "text": "work.html"
+    },
+    {
+     "key": "insights.insights.1",
+     "label": "Latest updates",
+     "group": "insights",
+     "tag": "p",
+     "text": "Latest updates"
+    },
+    {
+     "key": "insights.insights.2",
+     "label": "Insights & News",
+     "group": "insights",
+     "tag": "h2",
+     "text": "Insights & News"
+    },
+    {
+     "key": "insights.pg-cardsec.1",
+     "label": "What we write about",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "What we write about"
+    },
+    {
+     "key": "insights.pg-cardsec.2",
+     "label": "Three topics, one goal",
+     "group": "pg cardsec",
+     "tag": "h2",
+     "text": "Three topics, one goal"
+    },
+    {
+     "key": "insights.pg-cardsec.3",
+     "label": "AI strategy",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "AI strategy"
+    },
+    {
+     "key": "insights.pg-cardsec.4",
+     "label": "Where AI helps a product, where it does not, a…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "Where AI helps a product, where it does not, and how to tell the difference early."
+    },
+    {
+     "key": "insights.pg-cardsec.5",
+     "label": "AI economics",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "AI economics"
+    },
+    {
+     "key": "insights.pg-cardsec.6",
+     "label": "What AI products really cost to build and run,…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "What AI products really cost to build and run, and where budgets quietly leak."
+    },
+    {
+     "key": "insights.pg-cardsec.7",
+     "label": "AI engineering",
+     "group": "pg cardsec",
+     "tag": "h3",
+     "text": "AI engineering"
+    },
+    {
+     "key": "insights.pg-cardsec.8",
+     "label": "How to take an AI product from a demo to somet…",
+     "group": "pg cardsec",
+     "tag": "p",
+     "text": "How to take an AI product from a demo to something that holds up in production."
+    },
+    {
+     "key": "insights.contact.1",
+     "label": "Executive strategy call",
+     "group": "contact",
+     "tag": "p",
+     "text": "Executive strategy call"
+    },
+    {
+     "key": "insights.contact.2",
+     "label": "Turn it into shipped software.",
+     "group": "contact",
+     "tag": "h2",
+     "text": "Turn it into shipped software."
+    },
+    {
+     "key": "insights.contact.3",
+     "label": "Two meetings a week, a working build every Fri…",
+     "group": "contact",
+     "tag": "p",
+     "text": "Two meetings a week, a working build every Friday. Tell us what you are building."
+    },
+    {
+     "key": "insights.contact.4",
+     "label": "Schedule a Discovery Call",
+     "group": "contact",
+     "tag": "a",
+     "text": "Schedule a Discovery Call"
+    },
+    {
+     "key": "insights.contact.4.link",
+     "label": "Link of: Schedule a Discovery Call",
+     "group": "contact",
+     "tag": "link",
+     "text": "https://meete.be"
+    },
+    {
+     "key": "insights.faq.1",
+     "label": "FAQ",
+     "group": "faq",
+     "tag": "p",
+     "text": "FAQ"
+    },
+    {
+     "key": "insights.faq.2",
+     "label": "Common questions",
+     "group": "faq",
+     "tag": "h2",
+     "text": "Common questions"
+    },
+    {
+     "key": "insights.faq.3",
+     "label": "How fast can you deliver an AI MVP?",
+     "group": "faq",
+     "tag": "summary",
+     "text": "How fast can you deliver an AI MVP?"
+    },
+    {
+     "key": "insights.faq.4",
+     "label": "Most AI MVPs ship in 4 to 12 weeks from kickof…",
+     "group": "faq",
+     "tag": "p",
+     "text": "Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we’ll give you an honest estimate on the strategy call."
+    },
+    {
+     "key": "insights.faq.5",
+     "label": "What makes you different from other AI develop…",
+     "group": "faq",
+     "tag": "summary",
+     "text": "What makes you different from other AI development agencies?"
+    },
+    {
+     "key": "insights.faq.6",
+     "label": "We’re not an AI shop that learned engineering …",
+     "group": "faq",
+     "tag": "p",
+     "text": "We’re not an AI shop that learned engineering last year — we’re an eight-year product engineering company that builds AI properly. Architecture first, humans in the loop, production-ready from day one, and accountable long after launch."
+    }
+   ]
+  }
+ ],
+ "global": {
+  "slug": "_global",
+  "file": null,
+  "title": "Header & Footer",
+  "fields": [
+   {
+    "key": "global.nav.1",
+    "label": "Products",
+    "group": "Navigation",
+    "tag": "a",
+    "text": "Products"
+   },
+   {
+    "key": "global.nav.2",
+    "label": "Services",
+    "group": "Navigation",
+    "tag": "a",
+    "text": "Services"
+   },
+   {
+    "key": "global.nav.3",
+    "label": "Culture",
+    "group": "Navigation",
+    "tag": "a",
+    "text": "Culture"
+   },
+   {
+    "key": "global.nav.4",
+    "label": "Insights",
+    "group": "Navigation",
+    "tag": "a",
+    "text": "Insights"
+   },
+   {
+    "key": "global.nav.5",
+    "label": "FAQ",
+    "group": "Navigation",
+    "tag": "a",
+    "text": "FAQ"
+   },
+   {
+    "key": "global.nav.6",
+    "label": "Discovery Call",
+    "group": "Navigation",
+    "tag": "a",
+    "text": "Discovery Call"
+   },
+   {
+    "key": "global.footer.1",
+    "label": "Explore",
+    "group": "Footer",
+    "tag": "h4",
+    "text": "Explore"
+   },
+   {
+    "key": "global.footer.2",
+    "label": "Products",
+    "group": "Footer",
+    "tag": "a",
+    "text": "Products"
+   },
+   {
+    "key": "global.footer.3",
+    "label": "Services",
+    "group": "Footer",
+    "tag": "a",
+    "text": "Services"
+   },
+   {
+    "key": "global.footer.4",
+    "label": "Insights",
+    "group": "Footer",
+    "tag": "a",
+    "text": "Insights"
+   },
+   {
+    "key": "global.footer.5",
+    "label": "FAQ",
+    "group": "Footer",
+    "tag": "a",
+    "text": "FAQ"
+   },
+   {
+    "key": "global.footer.6",
+    "label": "Company",
+    "group": "Footer",
+    "tag": "h4",
+    "text": "Company"
+   },
+   {
+    "key": "global.footer.7",
+    "label": "Culture",
+    "group": "Footer",
+    "tag": "a",
+    "text": "Culture"
+   },
+   {
+    "key": "global.footer.8",
+    "label": "Contact",
+    "group": "Footer",
+    "tag": "a",
+    "text": "Contact"
+   },
+   {
+    "key": "global.footer.9",
+    "label": "Connect",
+    "group": "Footer",
+    "tag": "h4",
+    "text": "Connect"
+   },
+   {
+    "key": "global.footer.10",
+    "label": "LinkedIn",
+    "group": "Footer",
+    "tag": "a",
+    "text": "LinkedIn"
+   },
+   {
+    "key": "global.footer.img.1",
+    "label": "Image: World map highlighting Chennai, India",
+    "group": "Footer",
+    "tag": "image",
+    "text": "assets/img/world-map.svg"
+   },
+   {
+    "key": "global.footer.img.1.alt",
+    "label": "Alt text: World map highlighting Chennai, India",
+    "group": "Footer",
+    "tag": "alt",
+    "text": "World map highlighting Chennai, India"
+   },
+   {
+    "key": "global.footer.11",
+    "label": "Based in Chennai, serving the world.",
+    "group": "Footer",
+    "tag": "p",
+    "text": "Based in Chennai, serving the world."
+   },
+   {
+    "key": "global.footer.12",
+    "label": "Elanster Technologies",
+    "group": "Footer",
+    "tag": "p",
+    "text": "Elanster Technologies"
+   },
+   {
+    "key": "global.footer.13",
+    "label": "AI Research & Product Engineering",
+    "group": "Footer",
+    "tag": "p",
+    "text": "AI Research & Product Engineering"
+   },
+   {
+    "key": "global.footer.14",
+    "label": "© 2026 Elanster Technologies — A unit of ED Cr…",
+    "group": "Footer",
+    "tag": "span",
+    "text": "© 2026 Elanster Technologies — A unit of ED Creative Group"
+   },
+   {
+    "key": "global.footer.15",
+    "label": "Terms of Service",
+    "group": "Footer",
+    "tag": "a",
+    "text": "Terms of Service"
+   },
+   {
+    "key": "global.footer.16",
+    "label": "Privacy Notice",
+    "group": "Footer",
+    "tag": "a",
+    "text": "Privacy Notice"
+   }
+  ]
+ }
+}
