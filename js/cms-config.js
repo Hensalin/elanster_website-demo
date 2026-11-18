@@ -1,5 +1,1 @@
-/* Connects this website to the Elanster CMS.
-   Leave url/key empty and the site shows the text written in its HTML (nothing changes).
-   url: your CMS web address with no slash at the end, e.g. "https://elanster-cms.vercel.app"
-   key: the read-only website key from CMS > Websites > API keys (safe to keep here: it can only read published content) */
-window.ELANSTER_CMS = { url: "", site: "elanster", key: "" };
+window.ELANSTER_CMS = { url: "https://elanster-cms-five.vercel.app", site: "main-elansyer", key: "ek_live_e540fe626b64709502bdae7d145df4eccbc66b4933e5e428" };
