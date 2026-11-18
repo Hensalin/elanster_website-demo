@@ -1,31 +1,192 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<!-- SEO:start -->
-<title>AI Engineering Blog: RAG, Agents &amp; Delivery | Elanster</title>
-<meta name="description" content="Practical notes on shipping AI properly: RAG pipelines, human-in-the-loop agents, architecture, AI readiness and delivery cadence.">
-<link rel="canonical" href="https://www.elanster.com/blog.html">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<meta name="author" content="Elanster Technologies">
-<meta name="theme-color" content="#08080d">
-<meta name="geo.region" content="IN-TN"><meta name="geo.placename" content="Chennai">
-<meta property="og:type" content="website"><meta property="og:site_name" content="Elanster Technologies"><meta property="og:locale" content="en_US">
-<meta property="og:title" content="AI Engineering Blog: RAG, Agents &amp; Delivery | Elanster"><meta property="og:description" content="Practical notes on shipping AI properly: RAG pipelines, human-in-the-loop agents, architecture, AI readiness and delivery cadence."><meta property="og:url" content="https://www.elanster.com/blog.html">
-<meta property="og:image" content="https://www.elanster.com/assets/images/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Elanster: Engineered to last. Designed to lead.">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="AI Engineering Blog: RAG, Agents &amp; Delivery | Elanster"><meta name="twitter:description" content="Practical notes on shipping AI properly: RAG pipelines, human-in-the-loop agents, architecture, AI readiness and delivery cadence."><meta name="twitter:image" content="https://www.elanster.com/assets/images/og-image.png">
-<link rel="apple-touch-icon" href="assets/images/logo-512.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://www.elanster.com/#org","name":"Elanster Technologies","url":"https://www.elanster.com/","logo":{"@type":"ImageObject","url":"https://www.elanster.com/assets/images/logo-512.png","width":512,"height":512},"image":"https://www.elanster.com/assets/images/og-image.png","description":"AI-enabled development and product engineering company.","address":{"@type":"PostalAddress","addressLocality":"Chennai","addressCountry":"IN"},"parentOrganization":{"@type":"Organization","name":"ED Creative Group"},"sameAs":["https://www.linkedin.com/company/elanster"],"areaServed":"Worldwide","knowsAbout":["AI-enabled development","AI integration","RAG pipelines","AI agents","Workflow automation","AI consulting"]},{"@type":"WebSite","@id":"https://www.elanster.com/#site","url":"https://www.elanster.com/","name":"Elanster Technologies","publisher":{"@id":"https://www.elanster.com/#org"},"inLanguage":"en"},{"@type":"CollectionPage","@id":"https://www.elanster.com/blog.html#page","url":"https://www.elanster.com/blog.html","name":"AI Engineering Blog: RAG, Agents & Delivery | Elanster","description":"Practical notes on shipping AI properly: RAG pipelines, human-in-the-loop agents, architecture, AI readiness and delivery cadence.","isPartOf":{"@id":"https://www.elanster.com/#site"},"about":{"@id":"https://www.elanster.com/#org"},"inLanguage":"en"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.elanster.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.elanster.com/blog.html"}]}]}</script>
-<!-- SEO:end -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insights &amp; News | Elanster Technologies</title>
+  <meta name="description" content="Insights and news from Elanster on AI strategy, AI economics and AI engineering.">
+  <link rel="icon" type="image/png" href="assets/img/logo-mark.png">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="css/styles.css?v=71">
+  <link rel="stylesheet" href="css/vectors.css?v=6">
+  <link rel="stylesheet" href="css/footer.css?v=4">
+  <link rel="stylesheet" href="css/pages.css?v=17">
+  <link rel="stylesheet" href="css/rich.css?v=133">
+</head>
+<body class="page page--blog">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a class="nav__brand" href="index.html" aria-label="Elanster Technologies — home">
+        <svg class="nav__mark" viewBox="0 0 235 330" aria-hidden="true" focusable="false">
+          <rect x="0" y="0" width="235" height="68"/>
+          <path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z"/>
+          <path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/>
+        </svg>
+        <span class="nav__wordmark">Elanster<br>Technologies</span>
+      </a>
 
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap">
-<link rel="icon" href="assets/images/favicon.svg?v=2" type="image/svg+xml"><link rel="stylesheet" href="css/pages.css"><link rel="stylesheet" href="css/responsive.css?v=1"><link rel="stylesheet" href="css/subpages.css?v=1"></head><body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="nav"><div class="nw"><a class="brand" href="index.html" aria-label="Elanster home"><svg class="mark" viewBox="0 0 235 330" aria-hidden="true"><rect width="235" height="68"/><path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z"/><path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/></svg><span>Elanster</span></a>
-<nav class="links" id="links" aria-label="Primary"><a href="work.html">Work</a><a href="services.html">Services</a><a href="process.html">Process</a><a href="blog.html" class=on aria-current=page>Blog</a><a href="careers.html">Careers</a><a class="btn" href="https://meete.be" target="_blank" rel="noopener">Discovery Call</a></nav>
-<button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button></div></header>
-<main id="main"><section class="bh" id="top"><div class="w"><h1>Our thoughts</h1></div></section><section class="sec bl"><div class="w"><div class="bar"><div class="filters" data-filter="#postGrid"><button class="on" data-f="all">All</button><button data-f="AI">AI</button><button data-f="Consulting">Consulting</button><button data-f="Engineering">Engineering</button><button data-f="Process">Process</button></div><input id="q" type="search" placeholder="Search..." aria-label="Search posts"></div><div class="pg" id="postGrid"><a class="post rv" href="blog-two-meetings-a-week.html" data-tag="Process"><span class="meta">Process</span><h3>Why we hold just two meetings a week</h3><p>Monday planning, Friday sprint review, and everything in between is shipping.</p></a><a class="post rv" href="blog-ai-mvp-in-weeks.html" data-tag="AI"><span class="meta">AI</span><h3>Production AI in 4 to 12 weeks</h3><p>What it takes to launch a deployed AI product, not a prototype.</p></a><a class="post rv" href="blog-humans-in-the-loop.html" data-tag="Engineering"><span class="meta">Engineering</span><h3>Humans in the loop, by design</h3><p>Why our agents draft and route, and people decide where it matters.</p></a><a class="post rv" href="blog-rag-without-the-hype.html" data-tag="AI"><span class="meta">AI</span><h3>RAG pipelines without the hype</h3><p>Search across years of documents that answers with sources.</p></a><a class="post rv" href="blog-architecture-first.html" data-tag="Engineering"><span class="meta">Engineering</span><h3>Architecture first, then AI</h3><p>Eight years of web, mobile and cloud craft are the foundation.</p></a><a class="post rv" href="blog-ai-readiness.html" data-tag="Consulting"><span class="meta">Consulting</span><h3>What an AI readiness review should tell you</h3><p>Separating genuine opportunities from the hype.</p></a></div><p class="empty" id="empty" hidden>No posts match.</p></div></section></main><section class="talk"><div class="w"><span class="lab">/ Have an idea?</span><h2>Turn it into shipped software</h2><p>Two meetings a week, a working build every Friday. Tell us what you’re building.</p><a class="btn" href="https://meete.be" target="_blank" rel="noopener">Schedule a Discovery Call</a></div></section>
-<footer><div class="fcta"><h2>Ready to ship AI that lasts?</h2><div class="fb2"><a class="btn" href="https://meete.be" target="_blank" rel="noopener">Schedule a Call</a><a class="btn ghost" href="https://www.linkedin.com/company/elanster" target="_blank" rel="noopener">Find us on LinkedIn</a></div></div>
-<div class="fr"><div class="fcols"><div><h4>Explore</h4><ul><li><a href="process.html">Our Process</a></li><li><a href="work.html">Case Studies</a></li><li><a href="blog.html">Blog</a></li></ul></div>
-<div><h4>Services</h4><ul><li><a href="services.html">AI Development</a></li><li><a href="services.html">AI Integration</a></li><li><a href="services.html">AI Consulting</a></li></ul></div>
-<div><h4>Company</h4><ul><li><a href="index.html#about">About</a></li><li><a href="careers.html">Careers</a></li><li><a href="https://meete.be" target="_blank" rel="noopener">Contact</a></li></ul></div></div>
-<div class="ftag"><p>AI-Enabled Development &amp; Product Engineering. Based in Chennai, serving the world.</p><small>© 2026 Elanster Technologies — A unit of ED Creative Group</small></div></div></footer>
-<script src="js/pages.js"></script><script src="js/dynamic.js?v=1" defer></script><script src="js/subpages.js?v=1" defer></script></body></html>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="work.html">Products</a>
+        <a href="services.html">Services</a>
+        <a href="careers.html">Culture</a>
+        <a class="is-active" aria-current="page" href="blog.html">Insights</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="btn btn--primary nav__cta" href="https://meete.be" target="_blank" rel="noopener">Discovery Call</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero pg-hero" id="top">
+      <div class="hero__pattern" aria-hidden="true">
+        <svg viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice">
+          <g class="hero__arcs">
+            <path d="M 0 600 A 600 600 0 0 1 600 0 L 600 160 A 440 440 0 0 0 160 600 Z" fill="var(--navy)"/>
+            <path d="M 240 600 A 360 360 0 0 1 600 240 L 600 360 A 240 240 0 0 0 360 600 Z" fill="var(--blue)"/>
+            <path d="M 440 600 A 160 160 0 0 1 600 440 L 600 600 Z" fill="var(--lime)"/>
+          </g>
+        </svg>
+      </div>
+      <div class="container hero__inner">
+        <p class="eyebrow">Insights &amp; news</p>
+        <h1 class="hero__title">
+          <span class="hero__line"><span class="hero__line-inner">Notes on shipping</span></span>
+          <span class="hero__line"><span class="hero__line-inner hero__line-inner--outline">AI properly.</span></span>
+        </h1>
+        <p class="hero__sub">What we are learning about taking AI products from demo to production.</p>
+        <div class="hero__actions"><a class="btn btn--primary btn--lg" href="https://meete.be" target="_blank" rel="noopener">Start a Conversation</a><a class="btn btn--ghost btn--lg" href="work.html">See our products</a></div>
+      </div>
+      <div class="hero-ribbon" aria-label="What we build"><div class="hero-ribbon__track"><span>AI Agents</span><span>RAG Pipelines</span><span>LLM Apps</span><span>Machine Learning</span><span>Document Intelligence</span><span>Workflow Automation</span><span>AI Integration</span><span>Full-Stack Development</span><span>Cloud Deployment</span><span>AI Consulting</span><span>AI Agents</span><span>RAG Pipelines</span><span>LLM Apps</span><span>Machine Learning</span><span>Document Intelligence</span><span>Workflow Automation</span><span>AI Integration</span><span>Full-Stack Development</span><span>Cloud Deployment</span><span>AI Consulting</span></div></div>
+    </section>
+    <section class="insights pg-ins" id="insights">
+      <div class="container">
+        <p class="eyebrow reveal">Latest updates</p>
+        <h2 class="section-title reveal">Insights &amp; News</h2>
+        <div class="insights__grid">
+          <a class="post reveal" href="https://www.notion.so/edraj/Why-Most-AI-Products-Fail-After-Launch-and-What-Production-Ready-Actually-Means-37d925456b56804f8115e23c33e5e242?source=copy_link" target="_blank" rel="noopener">
+            <img class="post__photo" src="https://images.unsplash.com/photo-1746286720965-cccf57e56c68?auto=format&fit=crop&w=800&h=480&q=70" alt="Laptop showing an AI code editor" loading="lazy" width="800" height="480">
+            <span class="post__tag post__tag--orange">AI Strategy</span>
+            <h3>Why most AI products fail after launch — and what production-ready actually means</h3>
+            <p>Most AI projects stall after the demo. Here is what separates the ones that survive production.</p>
+            <span class="post__link">Read article &rarr;</span>
+          </a>
+          <article class="post reveal">
+            <img class="post__photo" src="https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?auto=format&fit=crop&w=800&h=480&q=70" alt="Stacks of coins on a table" loading="lazy" width="800" height="480">
+            <span class="post__tag post__tag--blue">AI Economics</span>
+            <h3>How much does it cost to build an AI product? A real breakdown</h3>
+            <p>What actually decides where your build lands, and where budgets quietly leak.</p>
+            <span class="post__link">Read article &rarr;</span>
+          </article>
+          <article class="post reveal">
+            <img class="post__photo" src="https://images.unsplash.com/photo-1763568258244-9d5aa9c3ce45?auto=format&fit=crop&w=800&h=480&q=70" alt="Laptop screen with code and an orange glow" loading="lazy" width="800" height="480">
+            <span class="post__tag post__tag--lime">AI Engineering</span>
+            <h3>Vibe coding technical debt: what happens to your codebase at month six</h3>
+            <p>AI-assisted coding ships fast until debugging eats the gains. Here is when to bring in engineers.</p>
+            <span class="post__link">Read article &rarr;</span>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="pg-cardsec pg-isec">
+      <div class="container">
+        <p class="eyebrow reveal">What we write about</p>
+        <h2 class="section-title reveal">Three topics, one goal</h2>
+        <div class="pg-icards pg-icards--three pg-icards--plain">
+          <article class="pg-icard pg-icard--navy reveal"><h3>AI strategy</h3><p>Where AI helps a product, where it does not, and how to tell the difference early.</p></article>
+          <article class="pg-icard pg-icard--lime reveal"><h3>AI economics</h3><p>What AI products really cost to build and run, and where budgets quietly leak.</p></article>
+          <article class="pg-icard pg-icard--orange reveal"><h3>AI engineering</h3><p>How to take an AI product from a demo to something that holds up in production.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="cta" id="contact">
+      <div class="cta__pattern" aria-hidden="true">
+        <svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+          <path d="M 0 400 A 400 400 0 0 1 400 0 L 400 110 A 290 290 0 0 0 110 400 Z" fill="var(--blue)" opacity="0.35"/>
+          <path d="M 170 400 A 230 230 0 0 1 400 170 L 400 260 A 140 140 0 0 0 260 400 Z" fill="var(--lime)" opacity="0.5"/>
+        </svg>
+      </div>
+      <div class="container cta__inner">
+        <div class="cta__copy">
+          <p class="eyebrow eyebrow--light reveal">Executive strategy call</p>
+          <h2 class="cta__title reveal">Turn it into shipped software.</h2>
+          <p class="cta__sub reveal">Two meetings a week, a working build every Friday. Tell us what you are building.</p>
+          <div class="cta__actions reveal"><a class="btn btn--invert btn--lg" href="https://meete.be" target="_blank" rel="noopener">Schedule a Discovery Call</a></div>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="container faq__inner">
+        <div class="faq__head">
+          <p class="eyebrow reveal">FAQ</p>
+          <h2 class="section-title reveal">Common questions</h2>
+        </div>
+        <div class="faq__list">
+          <details class="faq__item reveal">
+            <summary>How fast can you deliver an AI MVP?</summary>
+            <p>Most AI MVPs ship in 4 to 12 weeks from kickoff to production — not a prototype, but a deployed product on real infrastructure. Timelines depend on scope; we’ll give you an honest estimate on the strategy call.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>What makes you different from other AI development agencies?</summary>
+            <p>We’re not an AI shop that learned engineering last year — we’re an eight-year product engineering company that builds AI properly. Architecture first, humans in the loop, production-ready from day one, and accountable long after launch.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__cols">
+        <nav class="footer__col" aria-label="Explore">
+          <h4>Explore</h4>
+          <a href="work.html">Products</a>
+          <a href="services.html">Services</a>
+          <a href="blog.html">Insights</a>
+          <a href="index.html#faq">FAQ</a>
+        </nav>
+        <nav class="footer__col" aria-label="Company">
+          <h4>Company</h4>
+          <a href="careers.html">Culture</a>
+          <a href="https://meete.be" target="_blank" rel="noopener">Contact</a>
+        </nav>
+        <nav class="footer__col" aria-label="Connect">
+          <h4>Connect</h4>
+          <a href="https://www.linkedin.com/company/elanster" target="_blank" rel="noopener">LinkedIn</a>
+        </nav>
+        <div class="footer__col footer__col--location">
+          <img class="footer__map" src="assets/img/world-map.svg" alt="World map highlighting Chennai, India" loading="lazy">
+          <p>Based in Chennai, serving the world.</p>
+        </div>
+      </div>
+      <div class="footer__brand">
+        <svg class="footer__mark" viewBox="0 0 235 330" aria-hidden="true" focusable="false">
+          <rect x="0" y="0" width="235" height="68"/>
+          <path d="M 5 330 A 230 230 0 0 1 235 100 L 235 170 A 160 160 0 0 0 75 330 Z"/>
+          <path d="M 120 330 A 115 115 0 0 1 235 215 L 235 330 Z"/>
+        </svg>
+        <div>
+          <p class="footer__name">Elanster Technologies</p>
+          <p class="footer__tagline">AI-Enabled Development &amp; Product Engineering</p>
+        </div>
+      </div>
+      <img class="footer__float" src="assets/img/chat-3d.png" alt="" aria-hidden="true">
+      <div class="footer__legal">
+        <span>&copy; 2026 Elanster Technologies — A unit of ED Creative Group</span>
+        <span class="footer__legal-links"><a href="#top">Terms of Service</a><a href="#top">Privacy Notice</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/pages.js?v=2"></script>
+  <script src="js/footer.js?v=5"></script>
+  <script src="js/rich.js?v=8"></script>
+</body>
+</html>
