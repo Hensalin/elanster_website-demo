@@ -274,3 +274,6 @@
 /* Work: keep the products inside the same container as every other section */
 .wk__grid.container { max-width: var(--container) !important; }
 .wk__grid { grid-template-columns: minmax(220px, 280px) minmax(0, 1fr) !important; gap: clamp(28px, 3.5vw, 56px) !important; }
+
+/* Products page: single column on tablet and phone (fixes sideways scroll) */
+@media (max-width: 900px) { .wk__grid { grid-template-columns: minmax(0, 1fr) !important; } .wk__side { position: static !important; } }

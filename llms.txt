@@ -1,0 +1,27 @@
+# Elanster Technologies
+
+> Elanster Technologies is an AI research and product engineering company based in Chennai, India, serving clients worldwide. A senior team builds full-stack AI products, agents and RAG pipelines, with a first working build typically in 4 to 12 weeks.
+
+## What we do
+- AI Research
+- AI Integration into existing products
+- AI Agents & Automation
+- Full-Stack App Development (web, mobile, cloud)
+- AI Consulting
+
+## How we work
+- Strategy call, then a fixed-scope build, an embedded product team or an ongoing partnership
+- Two meetings a week: sprint planning on Monday, sprint review on Friday
+- Working software every week; support after launch
+
+## Pages
+- Home: https://www.elanster.com/
+- Products: https://www.elanster.com/work.html
+- Services: https://www.elanster.com/services.html
+- Process: https://www.elanster.com/process.html
+- Culture & Careers: https://www.elanster.com/careers.html
+- Insights: https://www.elanster.com/blog.html
+
+## Contact
+- Discovery call: https://meete.be
+- LinkedIn: https://www.linkedin.com/company/elanster
