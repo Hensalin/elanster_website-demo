@@ -6,7 +6,9 @@
   var cfg = window.ELANSTER_CMS || {};
   var file = (location.pathname.split("/").pop() || "index.html").toLowerCase();
   var MAP = { "index.html": "home", "work.html": "products", "services.html": "services", "careers.html": "culture", "process.html": "process", "blog.html": "insights" };
-  var slug = MAP[file]; if (!slug) return;
+  // Any page works: known files use the map, other pages use the name in their tags (data-cms="privacy.x" → "privacy").
+  var firstTag = document.querySelector('[data-cms]:not([data-cms^="global."])');
+  var slug = MAP[file] || (firstTag ? firstTag.getAttribute("data-cms").split(".")[0] : ""); if (!slug) return;
   var edit = /[?&]cms-edit=1/.test(location.search) && window.parent !== window;
   var norm = function (s) { return String(s).replace(/\s+/g, " ").trim(); };
 

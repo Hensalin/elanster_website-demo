@@ -76,12 +76,33 @@
     });
   }
 
+  // Article SEO: title, canonical, social cards and Article structured data, filled from the CMS article.
+  var SITE_URL = "https://www.elanster.com";
+  var setMeta = function (attr, name, val) {
+    if (!val) return; var m = document.head.querySelector("meta[" + attr + '="' + name + '"]');
+    if (!m) { m = document.createElement("meta"); m.setAttribute(attr, name); document.head.appendChild(m); } m.setAttribute("content", val);
+  };
+  var setSeo = function (a) {
+    var title = ((a.seo && a.seo.title) || a.title) + " | Elanster", desc = (a.seo && a.seo.description) || a.excerpt || "";
+    var url = SITE_URL + "/article.html?slug=" + encodeURIComponent(a.slug);
+    var img = a.image ? (/^https?:/.test(a.image) ? a.image : SITE_URL + "/" + a.image.replace(/^\//, "")) : SITE_URL + "/assets/img/og-image.png";
+    var link = document.head.querySelector('link[rel="canonical"]'); if (!link) { link = document.createElement("link"); link.rel = "canonical"; document.head.appendChild(link); } link.href = url;
+    [["property", "og:type", "article"], ["property", "og:site_name", "Elanster Technologies"], ["property", "og:title", title], ["property", "og:description", desc],
+     ["property", "og:url", url], ["property", "og:image", img], ["name", "twitter:card", "summary_large_image"], ["name", "twitter:title", title],
+     ["name", "twitter:description", desc], ["name", "twitter:image", img]].forEach(function (x) { setMeta(x[0], x[1], x[2]); });
+    var ld = document.getElementById("article-ld"); if (!ld) { ld = document.createElement("script"); ld.type = "application/ld+json"; ld.id = "article-ld"; document.head.appendChild(ld); }
+    ld.textContent = JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: a.title, description: desc, image: [img], url: url,
+      datePublished: a.date || undefined, author: a.author ? { "@type": "Person", name: a.author } : { "@type": "Organization", name: "Elanster Technologies" },
+      publisher: { "@type": "Organization", name: "Elanster Technologies", logo: { "@type": "ImageObject", url: SITE_URL + "/assets/img/logo-mark.png" } }, articleSection: a.category && a.category.name });
+  };
+
   function showArticle(root, a, all) {
     all.forEach(function (p) { if (cats.indexOf(p.category.slug) < 0) cats.push(p.category.slug); });
     if (!a) { root.innerHTML = '<a class="art__back" href="blog.html">&larr; All articles</a><h1>Article not found</h1><p class="art__lede">It may have been unpublished or moved.</p>'; return; }
     if (cats.indexOf(a.category.slug) < 0) cats.push(a.category.slug);
     document.title = ((a.seo && a.seo.title) || a.title) + " | Elanster";
     var md = document.querySelector('meta[name="description"]'); if (md) md.content = (a.seo && a.seo.description) || a.excerpt;
+    setSeo(a);
     var body = a.content ? a.content : '<p class="art__note">The full article is being prepared and will be published here soon.</p>';
     var more = all.filter(function (p) { return p.slug !== a.slug; }).slice(0, 3);
     root.innerHTML = '<a class="art__back" href="blog.html">&larr; All articles</a>' + badge(a) + "<h1>" + esc(a.title) + "</h1>" +
