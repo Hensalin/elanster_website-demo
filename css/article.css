@@ -1,0 +1,26 @@
+/* Article pages (blog/<name>.html) and the date line on article cards. Colours and fonts come from styles.css. */
+.post__meta{font-size:13px;color:rgba(25,25,25,.55);margin-top:-4px}
+.page--article .art-hero{padding:150px 0 24px}
+.art-hero__in{max-width:860px;margin:0 auto}
+.art-back{display:table;margin-bottom:18px;font-size:14px;font-weight:600;color:var(--orange);text-decoration:none}
+.art-back:hover{text-decoration:underline}
+.art-hero .post__tag{display:inline-block;margin-bottom:16px}
+.art-hero__title{font-size:clamp(32px,4.4vw,54px);line-height:1.08;letter-spacing:-.02em;font-weight:600;margin:0 0 16px}
+.art-hero__meta{font-size:15px;color:rgba(25,25,25,.6);margin:0 0 30px}
+.art-cover{margin:0}
+.art-cover img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:22px;background:#e6e8f5}
+.art-main{padding:16px 0 72px}
+.art-body{max-width:860px;margin:0 auto;font-size:18px;line-height:1.75;color:rgba(25,25,25,.86)}
+.art-body>*+*{margin-top:1.1em}
+.art-body h2{font-size:28px;line-height:1.25;margin-top:1.8em;color:var(--navy,#191919)}
+.art-body h3{font-size:22px;line-height:1.3;margin-top:1.6em}
+.art-body ul,.art-body ol{padding-left:1.4em}
+.art-body li+li{margin-top:.4em}
+.art-body a{color:var(--orange);text-decoration:underline}
+.art-body img{max-width:100%;height:auto;border-radius:16px}
+.art-body blockquote{margin:1.6em 0;padding:4px 0 4px 20px;border-left:3px solid var(--orange);font-style:italic}
+.art-body table{width:100%;border-collapse:collapse;font-size:16px}
+.art-body th,.art-body td{border-bottom:1px solid rgba(25,25,25,.12);padding:10px 8px;text-align:left}
+.art-more{padding-top:24px}
+.art-more .insights__grid>.post:nth-child(n+4){display:none}   /* show three "keep reading" cards */
+@media (max-width:760px){.page--article .art-hero{padding:118px 0 16px}.art-body{font-size:17px}.art-cover img{border-radius:16px}}
